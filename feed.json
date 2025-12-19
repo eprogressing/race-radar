@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "updatedAt": "2025-12-19T10:00:00Z",
+  "items": [
+    {
+      "id": "demo_001",
+      "title": "全国大学生创新创业大赛（示例）",
+      "bonusAmount": 50000,
+      "bonusText": "总奖金 5 万元",
+      "deadline": "2026-01-10",
+      "category": ["创新创业"],
+      "tags": ["本科生", "团队赛"],
+      "cover": "https://picsum.photos/200/200",
+      "sourceName": "官方通知（示例）",
+      "sourceUrl": "https://example.com",
+      "summary": "这是示例数据：后面你会用真实抓取数据替换。"
+    },
+    {
+      "id": "demo_002",
+      "title": "高校数学建模竞赛（示例）",
+      "bonusAmount": 10000,
+      "bonusText": "一等奖 1 万元",
+      "deadline": "2026-01-05",
+      "category": ["学术竞赛"],
+      "tags": ["数学建模", "团队"],
+      "cover": "https://picsum.photos/200/201",
+      "sourceName": "竞赛官网（示例）",
+      "sourceUrl": "https://example.com",
+      "summary": "示例数据：框架跑通后再接入自动捕捉。"
+    }
+  ]
+}
