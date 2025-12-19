@@ -1,0 +1,22 @@
+version: 1
+sources:
+  - name: codeforces
+    enabled: true
+    type: codeforces
+    url: https://codeforces.com/api/contest.list?gym=false
+  - name: atcoder
+    enabled: true
+    type: atcoder
+    url: https://kenkoooo.com/atcoder/resources/contests.json
+  - name: drivendata
+    enabled: true
+    type: drivendata
+    url: https://www.drivendata.org/competitions/
+  - name: cumcm
+    enabled: true
+    type: cumcm
+    url: https://www.mcm.edu.cn/
+  - name: challengecup
+    enabled: true
+    type: challengecup
+    url: https://2025.tiaozhanbei.net/

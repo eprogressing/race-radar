@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2025-12-19T10:00:00Z",
+  "updatedAt": "2025-12-19T17:59:34Z",
   "items": [
     {
       "id": "demo_001",
@@ -8,8 +8,13 @@
       "bonusAmount": 50000,
       "bonusText": "总奖金 5 万元",
       "deadline": "2026-01-10",
-      "category": ["创新创业"],
-      "tags": ["本科生", "团队赛"],
+      "category": [
+        "创新创业"
+      ],
+      "tags": [
+        "本科生",
+        "团队赛"
+      ],
       "cover": "https://picsum.photos/200/200",
       "sourceName": "官方通知（示例）",
       "sourceUrl": "https://example.com",
@@ -21,12 +26,827 @@
       "bonusAmount": 10000,
       "bonusText": "一等奖 1 万元",
       "deadline": "2026-01-05",
-      "category": ["学术竞赛"],
-      "tags": ["数学建模", "团队"],
+      "category": [
+        "学术竞赛"
+      ],
+      "tags": [
+        "数学建模",
+        "团队"
+      ],
       "cover": "https://picsum.photos/200/201",
       "sourceName": "竞赛官网（示例）",
       "sourceUrl": "https://example.com",
       "summary": "示例数据：框架跑通后再接入自动捕捉。"
+    },
+    {
+      "id": "codeforces_2182",
+      "title": "Educational Codeforces Round 186 (Rated for Div. 2)",
+      "deadline": "2025-12-29",
+      "category": [
+        "编程竞赛"
+      ],
+      "tags": [
+        "Codeforces"
+      ],
+      "sourceName": "Codeforces",
+      "sourceUrl": "https://codeforces.com/contests/2182",
+      "summary": "Codeforces contest"
+    },
+    {
+      "id": "codeforces_2178",
+      "title": "Good Bye 2025",
+      "deadline": "2025-12-27",
+      "category": [
+        "编程竞赛"
+      ],
+      "tags": [
+        "Codeforces"
+      ],
+      "sourceName": "Codeforces",
+      "sourceUrl": "https://codeforces.com/contests/2178",
+      "summary": "Codeforces contest"
+    },
+    {
+      "id": "codeforces_2177",
+      "title": "ICPC 2025 Online Winter Challenge powered by Huawei",
+      "deadline": "2025-12-26",
+      "category": [
+        "编程竞赛"
+      ],
+      "tags": [
+        "Codeforces"
+      ],
+      "sourceName": "Codeforces",
+      "sourceUrl": "https://codeforces.com/contests/2177",
+      "summary": "Codeforces contest"
+    },
+    {
+      "id": "codeforces_2179",
+      "title": "Codeforces Round (Div. 3)",
+      "deadline": "2025-12-23",
+      "category": [
+        "编程竞赛"
+      ],
+      "tags": [
+        "Codeforces"
+      ],
+      "sourceName": "Codeforces",
+      "sourceUrl": "https://codeforces.com/contests/2179",
+      "summary": "Codeforces contest"
+    },
+    {
+      "id": "drivendata_competitions",
+      "title": "Join a competition",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_search",
+      "title": "Explore all competitions",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_305",
+      "title": "Poverty Prediction Challenge",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/305/competition-worldbank-poverty/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_66",
+      "title": "Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/66/flu-shot-learning/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_7",
+      "title": "Pump it Up: Data Mining the Water Table",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_44",
+      "title": "DengAI: Predicting Disease Spread",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_57",
+      "title": "Richter's Predictor: Modeling Earthquake Damage",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/57/nepal-earthquake/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_87",
+      "title": "Conser-vision Practice Area: Image Classification",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_297",
+      "title": "What's Up, Docs? Document Summarization with LLMs",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/297/whats-up-docs/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_group",
+      "title": "Hateful Memes",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/hateful-memes/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_298",
+      "title": "Goodnight Moon, Hello Early Literacy Screening",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/298/literacy-screening/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_258",
+      "title": "SNOMED CT Entity Linking Challenge",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/258/competition-snomed-ct/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_255",
+      "title": "Kelp Wanted: Segmenting Kelp Forests",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/255/kelp-forest-segmentation/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_256",
+      "title": "Pale Blue Dot: Visualization Challenge",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/256/pale-blue-dot/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_217",
+      "title": "Unsupervised Wisdom: Explore Medical Narratives on Older Adult Falls",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/217/cdc-fall-narratives/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_252",
+      "title": "Research Rovers: AI Research Assistants for NASA",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/252/ai-research-assistants/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_148",
+      "title": "VisioMel Challenge: Predicting Melanoma Relapse",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/148/visiomel-melanoma/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_143",
+      "title": "Tick Tick Bloom: Harmful Algal Bloom Detection Challenge",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/143/tick-tick-bloom/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_99",
+      "title": "The BioMassters",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/99/biomass-estimation/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_97",
+      "title": "Mars Spectrometry 2: Gas Chromatography",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/97/nasa-mars-gcms/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_96",
+      "title": "Where's Whale-do?",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/96/beluga-whales/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_93",
+      "title": "Mars Spectrometry: Detect Evidence for Past Habitability",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/93/nasa-mars-spectrometry/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_83",
+      "title": "On Cloud N: Cloud Cover Detection Challenge",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/83/cloud-cover/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_82",
+      "title": "Deep Chimpact: Depth Estimation for Wildlife Conservation",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/82/competition-wildlife-video-depth-estimation/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_81",
+      "title": "STAC Overflow: Map Floodwater from Radar Imagery",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/81/detect-flood-water/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_78",
+      "title": "Overhead Geopose Challenge",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/78/overhead-geopose-challenge/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_73",
+      "title": "MagNet: Model the Geomagnetic Field",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/73/noaa-magnetic-forecasting/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_72",
+      "title": "Wind-dependent Variables: Predict Wind Speeds of Tropical Storms",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/72/predict-wind-speeds/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_67",
+      "title": "TissueNet: Detect Lesions in Cervical Biopsies",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/67/competition-cervical-biopsy/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_63",
+      "title": "Genetic Engineering Attribution Challenge",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/63/genetic-engineering-attribution/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_65",
+      "title": "Clog Loss: Advance Alzheimer’s Research with Stall Catchers",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/65/clog-loss-alzheimers-research/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_60",
+      "title": "Open Cities AI Challenge: Segmenting Buildings for Disaster Resilience",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_59",
+      "title": "Hakuna Ma-data: Identify Wildlife on the Serengeti with AI for Earth",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/59/camera-trap-serengeti/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_58",
+      "title": "Open AI Caribbean Challenge: Mapping Disaster Risk from Aerial Imagery",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/58/disaster-response-roof-type/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_56",
+      "title": "Sustainable Industry: Rinse Over Run",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/56/predict-cleaning-time-series/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_55",
+      "title": "Power Laws: Cold Start Energy Forecasting",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/55/schneider-cold-start/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_53",
+      "title": "Power Laws: Optimizing Demand-side Strategies",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/53/optimize-photovoltaic-battery/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_52",
+      "title": "Power Laws: Detecting Anomalies in Usage",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/52/anomaly-detection-electricity/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_51",
+      "title": "Power Laws: Forecasting Energy Consumption",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/51/electricity-prediction-machine-learning/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_50",
+      "title": "Pover-T Tests: Predicting Poverty",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/50/worldbank-poverty-prediction/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_49",
+      "title": "Pri-matrix Factorization",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/49/deep-learning-camera-trap-animals/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_48",
+      "title": "N+1 fish, N+2 fish",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/48/identify-fish-challenge/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_47",
+      "title": "Random Walk of the Penguins",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/47/penguins/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_43",
+      "title": "America's Next Top (Statistical) Model",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/43/americas-next-top-statistical-model/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_42",
+      "title": "Senior Data Science: Safe Aging with SPHERE",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/42/senior-data-science-safe-aging-with-sphere/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_9",
+      "title": "From Fog Nets to Neural Nets",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/9/from-fog-nets-to-neural-nets/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_8",
+      "title": "Naive Bees Classifier",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/8/naive-bees-classifier/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_5",
+      "title": "Keeping it Fresh: Predict Restaurant Inspections",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/5/keeping-it-fresh-predict-restaurant-inspections/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_6",
+      "title": "Countable Care: Modeling Women's Health Care Decisions",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/6/countable-care-modeling-womens-health-care-decisions/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_4",
+      "title": "Box-Plots for Education",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/4/box-plots-for-education/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_46",
+      "title": "Reboot: Box-Plots for Education",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/46/box-plots-for-education-reboot/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_1",
+      "title": "United Nations Millennium Development Goals",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/1/united-nations-millennium-development-goals/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_71",
+      "title": "America's Next Top (Statistical) Model - 2020",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/71/election-competition-2020/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_54",
+      "title": "Warm Up: Machine Learning with a Heart",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/54/machine-learning-with-a-heart/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "drivendata_2",
+      "title": "Warm Up: Predict Blood Donations",
+      "category": [
+        "数据竞赛"
+      ],
+      "tags": [
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/2/warm-up-predict-blood-donations/",
+      "summary": "DrivenData competition"
+    },
+    {
+      "id": "cumcm_789429093c4291e28c7ccbbb4dd4f04b",
+      "title": "2026年全国大学生数学建模竞赛征题通知暨命题研讨会预通知",
+      "category": [
+        "学术竞赛"
+      ],
+      "tags": [
+        "CUMCM"
+      ],
+      "sourceName": "CUMCM 官网公告",
+      "sourceUrl": "https://www.mcm.edu.cn/html_cn/node/789429093c4291e28c7ccbbb4dd4f04b.html",
+      "summary": "CUMCM notice"
+    },
+    {
+      "id": "cumcm_f0cd9759627fb5d775892c3ce9334737",
+      "title": "2025年全国大学生数学建模竞赛赛题讲评与经验交流会通知",
+      "category": [
+        "学术竞赛"
+      ],
+      "tags": [
+        "CUMCM"
+      ],
+      "sourceName": "CUMCM 官网公告",
+      "sourceUrl": "https://www.mcm.edu.cn/html_cn/node/f0cd9759627fb5d775892c3ce9334737.html",
+      "summary": "CUMCM notice"
+    },
+    {
+      "id": "challengecup_competion_notice",
+      "title": "通知公告",
+      "category": [
+        "学术竞赛"
+      ],
+      "tags": [
+        "挑战杯"
+      ],
+      "sourceName": "挑战杯通知",
+      "sourceUrl": "https://2025.tiaozhanbei.net/d49/competion_notice",
+      "summary": "挑战杯通知公告"
     }
   ]
 }
