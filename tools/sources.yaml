@@ -24,32 +24,53 @@ sources:
     enabled: true
     type: kaggle
     url: https://www.kaggle.com/competitions
-  - name: saikr
+  # Saikr sources with pagination
+  - name: saikr_mcm
     enabled: true
     type: saikr
-    url: https://www.saikr.com/vs?set_web=1
-    pages: 3
-  - name: 52jingsai_ai
-    enabled: true
-    type: 52jingsai
-    url: https://m.52jingsai.com/list-17-10.html
-    category_fixed: AI数据
-    pages: 2
-  - name: 52jingsai_math
-    enabled: true
-    type: 52jingsai
-    url: https://m.52jingsai.com/list-309-5.html
+    url: https://www.saikr.com/vs/mcm
     category_fixed: 数学建模
-    pages: 2
+    pages: 8
+  - name: saikr_acm
+    enabled: true
+    type: saikr
+    url: https://www.saikr.com/vs/acm/0/0
+    category_fixed: 编程
+    pages: 8
+  - name: saikr_ai
+    enabled: true
+    type: saikr
+    url: https://www.saikr.com/vs/ai/6/0?univs=0
+    category_fixed: AI数据
+    pages: 8
+  - name: saikr_bigdata
+    enabled: true
+    type: saikr
+    url: https://www.saikr.com/vs/big_data/1/1
+    category_fixed: AI数据
+    pages: 8
+  - name: saikr_startup
+    enabled: true
+    type: saikr
+    url: https://www.saikr.com/vs/chuangye/5/0
+    category_fixed: 创新创业
+    pages: 8
+  # 52jingsai sources
+  - name: 52jingsai_tech
+    enabled: true
+    type: 52jingsai
+    url: https://m.52jingsai.com/list-15-1.html
+    category_fixed: AI数据
+    pages: 6
+  - name: 52jingsai_innovation
+    enabled: true
+    type: 52jingsai
+    url: https://m.52jingsai.com/list-14-1.html
+    category_fixed: AI数据
+    pages: 6
   - name: 52jingsai_startup
     enabled: true
     type: 52jingsai
     url: https://m.52jingsai.com/list-3-1.html
     category_fixed: 创新创业
-    pages: 2
-  - name: 52jingsai_code
-    enabled: true
-    type: 52jingsai
-    url: https://m.52jingsai.com/list-14-5.html
-    category_fixed: 编程
-    pages: 2
+    pages: 6

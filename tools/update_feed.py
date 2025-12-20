@@ -24,7 +24,8 @@ from tools.normalize import (
     map_category,
     ensure_item_schema,
     parse_deadline,
-    is_recent
+    is_recent,
+    calculate_quality_score
 )
 
 FEED_PATH = ROOT / "feed.json"
@@ -182,7 +183,10 @@ def fetch_52jingsai(config):
         except Exception:
             continue
             
-    for full in list(detail_links)[:30]: # Limit per source config
+    # Sample up to 10 details per page roughly (pages*10)
+    limit = pages * 10
+    
+    for full in list(detail_links)[:limit]: 
         try:
             rr = requests.get(full, timeout=20)
             ss = BeautifulSoup(rr.text, "lxml")
@@ -243,33 +247,54 @@ def fetch_kaggle(config):
     except Exception:
         return []
     soup = BeautifulSoup(r.text, "lxml")
+    
+    items = []
+    
+    # Try next_data JSON first
+    next_data = soup.find("script", id="__NEXT_DATA__")
+    if next_data and next_data.string:
+        try:
+            jd = json.loads(next_data.string)
+            comps = []
+            # Traverse path: props.pageProps.competitions
+            # Structure varies, try best effort traversal
+            # Usually under props -> pageProps -> competitions or similar
+            
+            # Fallback to HTML parsing if JSON structure is complex/unknown
+            pass 
+        except:
+            pass
+            
+    # HTML parsing fallback
     links = set()
     for a in soup.find_all("a"):
         href = a.get("href") or ""
         if href.startswith("/competitions/") and len(href.split("/")) >= 3:
             links.add(href.split("?")[0])
-    items = []
-    for href in list(links)[:30]:
+            
+    for href in list(links)[:20]:
         full = f"https://www.kaggle.com{href}"
         try:
             rr = requests.get(full, timeout=20, headers=headers)
             ss = BeautifulSoup(rr.text, "lxml")
-            title = ss.title.get_text(strip=True) if ss.title else "Kaggle Competition"
+            title = ss.title.get_text(strip=True).replace(" | Kaggle", "") if ss.title else "Kaggle Competition"
             text_all = ss.get_text(" ", strip=True)
             bonus_amt, bonus_txt = extract_bonus(text_all)
-            # try next_data
-            next_data = ss.find("script", id="__NEXT_DATA__")
+            
+            # Deadline from text or script
             deadline = ""
-            if next_data and next_data.string:
+            nd = ss.find("script", id="__NEXT_DATA__")
+            if nd and nd.string:
                 try:
-                    jd = json.loads(next_data.string)
-                    # heuristic
-                    comp = jd.get("props", {}).get("pageProps", {}).get("competition", {})
-                    dl = comp.get("deadline") or comp.get("deadlineDate")
-                    if isinstance(dl, str):
-                        deadline = dl[:10]
-                except Exception:
+                    jd = json.loads(nd.string)
+                    # Heuristic search for deadline string
+                    s = json.dumps(jd)
+                    dm = re.search(r'"deadline"\s*:\s*"(\d{4}-\d{2}-\d{2})', s)
+                    if dm:
+                        deadline = dm.group(1)
+                except:
                     pass
+            
             cat = ["AI数据"]
             item = ensure_item_schema({
                 "id": id_from_url(full),
@@ -293,17 +318,21 @@ def fetch_kaggle(config):
 def fetch_saikr(config):
     base_url = config.get("url")
     pages = config.get("pages", 1)
+    fixed_cat = config.get("category_fixed")
     
     items = []
     detail_links = set()
     
     for p in range(1, pages + 1):
-        u = f"{base_url}&page={p}"
+        u = f"{base_url}?page={p}" if "?" not in base_url else f"{base_url}&page={p}"
         try:
             r = requests.get(u, timeout=20)
             soup = BeautifulSoup(r.text, "lxml")
-            for a in soup.find_all("a"):
-                href = a.get("href") or ""
+            for li in soup.find_all("li"):
+                # Check if it's a competition list item
+                a = li.find("a", href=True)
+                if not a: continue
+                href = a['href']
                 if re.match(r"https?://www\.saikr\.com/vse/\d+", href) or href.startswith("/vse/"):
                     if href.startswith("/"):
                         full = f"https://www.saikr.com{href}"
@@ -313,11 +342,11 @@ def fetch_saikr(config):
         except Exception:
             continue
             
-    for full in list(detail_links)[:40]:
+    for full in list(detail_links):
         try:
             rr = requests.get(full, timeout=20)
             ss = BeautifulSoup(rr.text, "lxml")
-            title = ss.title.get_text(strip=True) if ss.title else "赛氪竞赛"
+            title = ss.title.get_text(strip=True).split("-")[0].strip() if ss.title else "赛氪竞赛"
             text_all = ss.get_text(" ", strip=True)
             
             # Deadline
@@ -327,7 +356,12 @@ def fetch_saikr(config):
             bonus_amt, bonus_txt = extract_bonus(text_all)
             
             # Category
-            cat = map_category(title, "赛氪", text_all[:500])
+            cat = []
+            if fixed_cat:
+                cat = [fixed_cat]
+            else:
+                cat = map_category(title, "赛氪", text_all[:500])
+                
             if not cat:
                 continue
                 
@@ -386,6 +420,9 @@ def merge_items(old_items, new_items):
             # preserve earliest createdAt
             if not existing.get("createdAt"):
                 existing["createdAt"] = i.get("createdAt") or now_iso()
+            # update quality score
+            existing["qualityScore"] = i.get("qualityScore", 0)
+            existing["isHighQuality"] = i.get("isHighQuality", False)
         else:
             added.append(i)
             merged.append(i)
@@ -430,17 +467,36 @@ def main():
     merged_items, added = merge_items(feed.get("items", []), all_new)
     added_count = len(added)
     
+    # Sort by qualityScore desc, then createdAt desc
+    merged_items.sort(key=lambda x: (x.get("qualityScore", 0), x.get("createdAt", "")), reverse=True)
+    
     if args.dry_run:
         preview = {
             "version": feed.get("version", 1),
             "updatedAt": now_iso(),
             "items": merged_items
         }
-        print(json.dumps({"stats": stats, "added": added_count}, ensure_ascii=False, indent=2))
-        print(json.dumps(preview, ensure_ascii=False, indent=2))
+        # Print category stats
+        cat_stats = {"编程":0, "数学建模":0, "AI数据":0, "创新创业":0}
+        for it in merged_items:
+            for c in it.get("category", []):
+                if c in cat_stats: cat_stats[c] += 1
+                
+        print(json.dumps({
+            "stats": stats, 
+            "added": added_count, 
+            "categories": cat_stats,
+            "top10": [{"title": x["title"], "score": x["qualityScore"], "src": x["sourceName"]} for x in merged_items[:10]]
+        }, ensure_ascii=False, indent=2))
+        
+        # Also print preview JSON
+        # print(json.dumps(preview, ensure_ascii=False, indent=2))
         sys.exit(0)
         
     if added_count == 0:
+        # Re-save to update sorting even if no new items
+        feed["items"] = merged_items
+        save_feed(feed)
         sys.exit(0)
         
     feed["items"] = merged_items
