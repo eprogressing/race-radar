@@ -431,13 +431,17 @@ def merge_items(old_items, new_items):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--dry-run", action="store_true", help="Print stats and JSON without saving")
+    ap.add_argument("--ci", action="store_true", help="CI mode: force save, verbose logging, strict validation")
     args = ap.parse_args()
+    
     cfg = load_sources()
     feed = load_feed()
     feed["items"] = rebuild_existing(feed.get("items", []))
     all_new = []
     stats = {}
+    
+    print(f"Starting update... Current items: {len(feed['items'])}")
     
     for s in cfg.get("sources", []):
         if not s.get("enabled"):
@@ -448,19 +452,34 @@ def main():
         if not fn:
             continue
         try:
+            print(f"Fetching {name}...")
             res = fn(s) # pass full config dict
             fetched = len(res)
             # category filter: enforce only 4 classes
             filtered = []
+            drop_reasons = {"category_mismatch": 0}
+            
             for it in res:
                 cats = it.get("category") or []
                 if any(c in ["编程","数学建模","AI数据","创新创业"] for c in cats):
                     filtered.append(it)
+                else:
+                    drop_reasons["category_mismatch"] += 1
+                    
             kept = len(filtered)
             dropped = fetched - kept
-            stats[name] = {"fetched": fetched, "kept": kept, "dropped": dropped}
+            stats[name] = {
+                "fetched": fetched, 
+                "kept": kept, 
+                "dropped": dropped,
+                "reasons": {k:v for k,v in drop_reasons.items() if v > 0}
+            }
+            if dropped > 0:
+                print(f"  Dropped {dropped} items from {name}. Reasons: {stats[name]['reasons']}")
+                
             all_new.extend(filtered)
         except Exception as e:
+            print(f"  Error fetching {name}: {e}")
             stats[name] = {"fetched": 0, "kept": 0, "dropped": 0, "error": str(e)}
             continue
             
@@ -470,38 +489,61 @@ def main():
     # Sort by qualityScore desc, then createdAt desc
     merged_items.sort(key=lambda x: (x.get("qualityScore", 0), x.get("createdAt", "")), reverse=True)
     
+    # Print summary stats
+    cat_stats = {"编程":0, "数学建模":0, "AI数据":0, "创新创业":0}
+    for it in merged_items:
+        for c in it.get("category", []):
+            if c in cat_stats: cat_stats[c] += 1
+    
+    # Top sources stats
+    src_stats = {}
+    for it in merged_items:
+        src = it.get("sourceName", "unknown")
+        src_stats[src] = src_stats.get(src, 0) + 1
+    top_sources = sorted(src_stats.items(), key=lambda x: x[1], reverse=True)[:10]
+    
+    summary = {
+        "total_items": len(merged_items),
+        "added": added_count,
+        "categories": cat_stats,
+        "top_sources": dict(top_sources),
+        "source_details": stats
+    }
+    
+    print("=== Update Summary ===")
+    print(json.dumps(summary, ensure_ascii=False, indent=2))
+    
     if args.dry_run:
-        preview = {
-            "version": feed.get("version", 1),
-            "updatedAt": now_iso(),
-            "items": merged_items
-        }
-        # Print category stats
-        cat_stats = {"编程":0, "数学建模":0, "AI数据":0, "创新创业":0}
-        for it in merged_items:
-            for c in it.get("category", []):
-                if c in cat_stats: cat_stats[c] += 1
-                
-        print(json.dumps({
-            "stats": stats, 
-            "added": added_count, 
-            "categories": cat_stats,
-            "top10": [{"title": x["title"], "score": x["qualityScore"], "src": x["sourceName"]} for x in merged_items[:10]]
-        }, ensure_ascii=False, indent=2))
-        
-        # Also print preview JSON
-        # print(json.dumps(preview, ensure_ascii=False, indent=2))
+        print("Dry-run mode: skipping save.")
+        # preview top 5
+        print("Top 5 items preview:")
+        for x in merged_items[:5]:
+            print(f"  [{x['qualityScore']}] {x['title']} ({x['sourceName']})")
         sys.exit(0)
         
-    if added_count == 0:
-        # Re-save to update sorting even if no new items
-        feed["items"] = merged_items
-        save_feed(feed)
-        sys.exit(0)
-        
+    # CI mode or normal mode: ALWAYS SAVE if we have items
+    # Validation
+    if len(merged_items) == 0:
+        if args.ci:
+            print("Error: No items found after merge. CI failed.")
+            sys.exit(1)
+        else:
+            print("Warning: No items found.")
+    
+    # Update feed
     feed["items"] = merged_items
     feed["updatedAt"] = now_iso()
+    
+    if args.ci:
+        # Strict checks for CI
+        if not feed["updatedAt"]:
+            print("Error: updatedAt is empty")
+            sys.exit(1)
+        if len(feed["items"]) < 5: # sanity check
+             print("Warning: feed items very low (<5)")
+             
     save_feed(feed)
+    print(f"Feed saved. Total items: {len(feed['items'])}. UpdatedAt: {feed['updatedAt']}")
 
 if __name__ == "__main__":
     main()
