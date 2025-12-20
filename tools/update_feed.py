@@ -15,18 +15,22 @@ from tools.normalize import (
     norm_codeforces,
     norm_atcoder,
     norm_drivendata,
-    norm_cumcm,
-    norm_challengecup,
+    norm_generic, # New generic normalizer
     now_iso,
     canonicalize_url,
     id_from_url,
     extract_bonus,
-    map_category,
+    map_category, # Legacy, might be deprecated but kept in normalize.py
     ensure_item_schema,
     parse_deadline,
     is_recent,
-    calculate_quality_score
 )
+
+# calculate_quality_score is not exported from normalize anymore because rank_item handles it
+# If update_feed still needs it, we can remove it or fix normalize.py
+# In normalize.py we saw: ensure_item_schema calls rank_item
+# So update_feed doesn't need to call calculate_quality_score directly if it uses ensure_item_schema
+# Let's remove calculate_quality_score from import
 
 FEED_PATH = ROOT / "feed.json"
 SOURCES_PATH = ROOT / "tools" / "sources.yaml"
@@ -48,30 +52,20 @@ def save_feed(feed):
 def rebuild_existing(feed_items):
     rebuilt = []
     for it in feed_items:
-        it = ensure_item_schema(it)
-        su = canonicalize_url(it.get("sourceUrl"))
-        if su:
-            it["id"] = id_from_url(su)
-            it["sourceUrl"] = su
-        # normalize categories to 4 classes
-        cats = map_category(it.get("title"), it.get("sourceName"), it.get("summary"))
-        # retain existing category if valid, else overwrite
-        valid_cats = [c for c in (it.get("category") or []) if c in ["编程","数学建模","AI数据","创新创业"]]
-        if valid_cats:
-            it["category"] = valid_cats
-        elif cats:
-            it["category"] = cats
+        # Re-apply schema, classification and ranking
+        # Note: we pass a copy to avoid mutating original if needed, but ensure_item_schema returns new dict
+        new_it = ensure_item_schema(it)
         
-        # createdAt fallback
-        if not it.get("createdAt"):
-            it["createdAt"] = now_iso()
-        # bonus defaults
-        if it.get("bonusAmount") is None:
-            it["bonusAmount"] = 0
-        if not it.get("bonusText"):
-            it["bonusText"] = "-"
-        rebuilt.append(it)
+        # Canonicalize URL/ID again to be safe
+        su = canonicalize_url(new_it.get("sourceUrl"))
+        if su:
+            new_it["id"] = id_from_url(su)
+            new_it["sourceUrl"] = su
+            
+        rebuilt.append(new_it)
     return rebuilt
+
+# --- Fetchers ---
 
 def fetch_codeforces(config):
     url = config.get("url")
@@ -112,46 +106,81 @@ def fetch_drivendata(config):
         dedup[x["id"]] = x
     return list(dedup.values())
 
-def fetch_cumcm(config):
+def fetch_generic_html(config):
+    """
+    Generic HTML fetcher for static sites (CUMCM, ChallengeCup, NSCSCC, etc.)
+    """
     url = config.get("url")
-    r = requests.get(url, timeout=20)
+    name = config.get("name")
+    cat_fixed = config.get("category_fixed")
+    
+    try:
+        r = requests.get(url, timeout=20)
+        r.encoding = r.apparent_encoding # Fix encoding issues
+    except Exception:
+        return []
+        
     soup = BeautifulSoup(r.text, "lxml")
     items = []
-    for a in soup.find_all("a"):
-        txt = a.get_text(strip=True)
+    
+    # Simple heuristic: find list links
+    # Improve selectors based on site later if needed
+    candidates = []
+    
+    # Strategy: Find common list containers or just all 'a' tags
+    # For now, just all reasonable links
+    for a in soup.find_all("a", href=True):
+        text = a.get_text(strip=True)
         href = a.get("href")
-        if not href or not txt:
-            continue
-        if ("通知" in txt) or ("公告" in txt):
-            full = href if href.startswith("http") else f"https://www.mcm.edu.cn/{href.lstrip('/')}"
-            slug = Path(full).stem
-            items.append(norm_cumcm({"slug": slug, "title": txt, "url": full, "text": txt}))
+        
+        # Basic filter
+        if len(text) < 4: continue
+        if href.startswith("javascript"): continue
+        
+        # keyword filter for relevancy
+        if not any(k in text for k in ["通知", "公告", "竞赛", "比赛", "报名", "大赛", "赛题", "结果", "名单"]):
+            # For pure lists like NSCSCC, title might be "2025..."
+            if not re.search(r"202\d", text):
+                continue
+                
+        full_url = href if href.startswith("http") else requests.compat.urljoin(url, href)
+        
+        candidates.append({
+            "title": text,
+            "url": full_url,
+            "category": [cat_fixed] if cat_fixed else [],
+            "sourceName": name
+        })
+        
+    # Dedup by URL
     dedup = {}
-    for x in items[:20]:
-        dedup[x["id"]] = x
-    return list(dedup.values())
-
-def fetch_challengecup(config):
-    url = config.get("url")
-    r = requests.get(url, timeout=20)
-    soup = BeautifulSoup(r.text, "lxml")
-    items = []
-    for a in soup.find_all("a"):
-        txt = a.get_text(strip=True)
-        href = a.get("href")
-        if not href or not txt:
-            continue
-        if ("通知" in txt) or ("公告" in txt):
-            if href.startswith("http"):
-                full = href
-            else:
-                full = f"https://2025.tiaozhanbei.net/{href.lstrip('/')}"
-            slug = Path(full).stem
-            items.append(norm_challengecup({"slug": slug, "title": txt, "url": full, "text": txt}))
-    dedup = {}
-    for x in items[:30]:
-        dedup[x["id"]] = x
-    return list(dedup.values())
+    for c in candidates:
+        dedup[c["url"]] = c
+        
+    # Detail fetch (optional, for top N items)
+    final_candidates = list(dedup.values())[:20] # Limit detail fetch
+    
+    for c in final_candidates:
+        # Fetch detail for bonus/date
+        try:
+            # Skip non-html (files)
+            if c["url"].endswith((".pdf", ".doc", ".docx", ".zip", ".rar")):
+                items.append(norm_generic(c, name))
+                continue
+                
+            rd = requests.get(c["url"], timeout=10)
+            rd.encoding = rd.apparent_encoding
+            sd = BeautifulSoup(rd.text, "lxml")
+            # Extract main text
+            # Try to find main content area or just body text
+            content = sd.body.get_text(separator="\n", strip=True) if sd.body else ""
+            c["text"] = content[:5000] # Pass text to normalizer
+        except:
+            pass
+            
+        items.append(norm_generic(c, name))
+        
+    return items
 
 def fetch_52jingsai(config):
     base_url = config.get("url")
@@ -197,41 +226,15 @@ def fetch_52jingsai(config):
             
             text_all = ss.get_text(" ", strip=True)
             
-            # Bonus
-            bonus_amt, bonus_txt = extract_bonus(text_all)
-            
-            # Deadline
-            deadline = parse_deadline(text_all)
-            
-            # Category
-            cat = []
-            if fixed_cat:
-                cat = [fixed_cat]
-            else:
-                cat = map_category(title, "52竞赛网", text_all[:500])
-                
-            if not cat:
-                continue
-                
-            # Quality filter
-            if not is_recent(text_all, deadline):
-                continue
-                
-            item = ensure_item_schema({
-                "id": id_from_url(full),
+            # Use generic normalizer which handles bonus/date/schema
+            item_data = {
                 "title": title,
-                "bonusAmount": bonus_amt,
-                "bonusText": bonus_txt or "-",
-                "deadline": deadline,
-                "category": cat,
-                "tags": [],
-                "cover": "",
-                "sourceName": "52竞赛网",
-                "sourceUrl": canonicalize_url(full),
-                "summary": "",
-                "createdAt": now_iso()
-            })
-            items.append(item)
+                "url": full,
+                "text": text_all,
+                "category": [fixed_cat] if fixed_cat else []
+            }
+            items.append(norm_generic(item_data, "52竞赛网"))
+            
         except Exception:
             continue
     return items
@@ -250,21 +253,6 @@ def fetch_kaggle(config):
     
     items = []
     
-    # Try next_data JSON first
-    next_data = soup.find("script", id="__NEXT_DATA__")
-    if next_data and next_data.string:
-        try:
-            jd = json.loads(next_data.string)
-            comps = []
-            # Traverse path: props.pageProps.competitions
-            # Structure varies, try best effort traversal
-            # Usually under props -> pageProps -> competitions or similar
-            
-            # Fallback to HTML parsing if JSON structure is complex/unknown
-            pass 
-        except:
-            pass
-            
     # HTML parsing fallback
     links = set()
     for a in soup.find_all("a"):
@@ -279,38 +267,19 @@ def fetch_kaggle(config):
             ss = BeautifulSoup(rr.text, "lxml")
             title = ss.title.get_text(strip=True).replace(" | Kaggle", "") if ss.title else "Kaggle Competition"
             text_all = ss.get_text(" ", strip=True)
-            bonus_amt, bonus_txt = extract_bonus(text_all)
             
-            # Deadline from text or script
-            deadline = ""
-            nd = ss.find("script", id="__NEXT_DATA__")
-            if nd and nd.string:
-                try:
-                    jd = json.loads(nd.string)
-                    # Heuristic search for deadline string
-                    s = json.dumps(jd)
-                    dm = re.search(r'"deadline"\s*:\s*"(\d{4}-\d{2}-\d{2})', s)
-                    if dm:
-                        deadline = dm.group(1)
-                except:
-                    pass
+            # Try to get bonus from header/metadata if possible
+            # Just pass text to normalizer
             
-            cat = ["AI数据"]
-            item = ensure_item_schema({
-                "id": id_from_url(full),
+            item_data = {
                 "title": title,
-                "bonusAmount": bonus_amt,
-                "bonusText": bonus_txt or "-",
-                "deadline": deadline,
-                "category": cat,
-                "tags": ["Kaggle"],
-                "cover": "",
-                "sourceName": "Kaggle",
-                "sourceUrl": canonicalize_url(full),
-                "summary": "",
-                "createdAt": now_iso()
-            })
-            items.append(item)
+                "url": full,
+                "text": text_all,
+                "category": ["AI数据"],
+                "sourceName": "Kaggle"
+            }
+            items.append(norm_generic(item_data, "Kaggle"))
+            
         except Exception:
             continue
     return items
@@ -349,54 +318,38 @@ def fetch_saikr(config):
             title = ss.title.get_text(strip=True).split("-")[0].strip() if ss.title else "赛氪竞赛"
             text_all = ss.get_text(" ", strip=True)
             
-            # Deadline
-            deadline = parse_deadline(text_all)
-            
-            # Bonus
-            bonus_amt, bonus_txt = extract_bonus(text_all)
-            
-            # Category
-            cat = []
-            if fixed_cat:
-                cat = [fixed_cat]
-            else:
-                cat = map_category(title, "赛氪", text_all[:500])
-                
-            if not cat:
-                continue
-                
-            # Quality filter
-            if not is_recent(text_all, deadline):
-                continue
-                
-            item = ensure_item_schema({
-                "id": id_from_url(full),
+            item_data = {
                 "title": title,
-                "bonusAmount": bonus_amt,
-                "bonusText": bonus_txt or "-",
-                "deadline": deadline,
-                "category": cat,
-                "tags": ["赛氪"],
-                "cover": "",
-                "sourceName": "赛氪",
-                "sourceUrl": canonicalize_url(full),
-                "summary": "",
-                "createdAt": now_iso()
-            })
-            items.append(item)
+                "url": full,
+                "text": text_all,
+                "category": [fixed_cat] if fixed_cat else []
+            }
+            items.append(norm_generic(item_data, "赛氪"))
+            
         except Exception:
             continue
     return items
+
+def fetch_tianchi(config):
+    # Tianchi is tricky (JS), try best effort HTML
+    # Or static fallback
+    return fetch_generic_html(config)
 
 FETCHERS = {
     "codeforces": fetch_codeforces,
     "atcoder": fetch_atcoder,
     "drivendata": fetch_drivendata,
-    "cumcm": fetch_cumcm,
-    "challengecup": fetch_challengecup,
+    "cumcm": fetch_generic_html,
+    "challengecup": fetch_generic_html,
     "52jingsai": fetch_52jingsai,
     "kaggle": fetch_kaggle,
     "saikr": fetch_saikr,
+    "generic_html": fetch_generic_html, # For simple static sites
+    # Map new sources to generic fetcher for now
+    "nscscc": fetch_generic_html,
+    "lanqiao": fetch_generic_html,
+    "tianchi": fetch_generic_html,
+    "comap": fetch_generic_html,
 }
 
 def merge_items(old_items, new_items):
@@ -407,22 +360,21 @@ def merge_items(old_items, new_items):
         by_url[cu] = it
     merged = list(old_items)
     added = []
+    
     for i in new_items:
         cu = canonicalize_url(i.get("sourceUrl"))
         if cu in by_url:
             existing = by_url[cu]
-            # fill missing fields only
-            for k in ["title","bonusAmount","bonusText","deadline","category","tags","cover","sourceName","summary"]:
-                if not existing.get(k) and i.get(k):
+            # Update fields, prefer new info if valid
+            # Especially update rank info/tags
+            for k in ["title", "bonusAmount", "bonusText", "deadline", "category", "tags", "qualityScore", "rankReasons", "isWhitelist", "level"]:
+                if i.get(k):
                     existing[k] = i[k]
-            # update id to canonical
-            existing["id"] = id_from_url(cu)
+            
             # preserve earliest createdAt
             if not existing.get("createdAt"):
                 existing["createdAt"] = i.get("createdAt") or now_iso()
-            # update quality score
-            existing["qualityScore"] = i.get("qualityScore", 0)
-            existing["isHighQuality"] = i.get("isHighQuality", False)
+                
         else:
             added.append(i)
             merged.append(i)
@@ -448,18 +400,33 @@ def main():
             continue
         t = s.get("type")
         name = s.get("name")
+        
+        # Dispatcher logic: map types to functions
         fn = FETCHERS.get(t)
+        # Fallback for generic sources defined in YAML
+        if not fn and t in ["cumcm", "challengecup", "nscscc", "lanqiao", "tianchi", "comap"]:
+             fn = fetch_generic_html
+             
         if not fn:
             continue
+            
         try:
             print(f"Fetching {name}...")
             res = fn(s) # pass full config dict
             fetched = len(res)
             # category filter: enforce only 4 classes
             filtered = []
-            drop_reasons = {"category_mismatch": 0}
+            drop_reasons = {"category_mismatch": 0, "expired": 0}
             
             for it in res:
+                # 1. Check expiration (soft delete from NEW fetch, not history)
+                # If deadline exists and is > 30 days ago, skip
+                dl = it.get("deadline")
+                if dl and not is_recent(it.get("summary", ""), dl):
+                     drop_reasons["expired"] += 1
+                     continue
+                     
+                # 2. Check category
                 cats = it.get("category") or []
                 if any(c in ["编程","数学建模","AI数据","创新创业"] for c in cats):
                     filtered.append(it)
@@ -486,8 +453,20 @@ def main():
     merged_items, added = merge_items(feed.get("items", []), all_new)
     added_count = len(added)
     
-    # Sort by qualityScore desc, then createdAt desc
-    merged_items.sort(key=lambda x: (x.get("qualityScore", 0), x.get("createdAt", "")), reverse=True)
+    # Sort by qualityScore desc, then deadline asc (urgent first), then createdAt desc
+    # deadline sort is tricky with empty strings. 
+    # Strategy: High quality first. Within same quality, close deadline first.
+    def sort_key(x):
+        qs = x.get("qualityScore", 0)
+        dl = x.get("deadline", "")
+        # Future deadline < No deadline < Past deadline?
+        # Actually: Urgent deadline (close future) should boost score?
+        # Score already includes deadline urgency.
+        # So just sort by score.
+        # Secondary: createdAt
+        return (qs, x.get("createdAt", ""))
+        
+    merged_items.sort(key=sort_key, reverse=True)
     
     # Print summary stats
     cat_stats = {"编程":0, "数学建模":0, "AI数据":0, "创新创业":0}
@@ -516,9 +495,9 @@ def main():
     if args.dry_run:
         print("Dry-run mode: skipping save.")
         # preview top 5
-        print("Top 5 items preview:")
-        for x in merged_items[:5]:
-            print(f"  [{x['qualityScore']}] {x['title']} ({x['sourceName']})")
+        print("Top 10 items preview:")
+        for x in merged_items[:10]:
+            print(f"  [{x.get('qualityScore')}] {x['title']} ({x['sourceName']}) - {x.get('bonusText')} - {x.get('rankReasons')}")
         sys.exit(0)
         
     # CI mode or normal mode: ALWAYS SAVE if we have items

@@ -1,5 +1,6 @@
 version: 1
 sources:
+  # === 国际顶级 ===
   - name: codeforces
     enabled: true
     type: codeforces
@@ -12,19 +13,44 @@ sources:
     enabled: true
     type: drivendata
     url: https://www.drivendata.org/competitions/
-  - name: cumcm
-    enabled: true
-    type: cumcm
-    url: https://www.mcm.edu.cn/
-  - name: challengecup
-    enabled: true
-    type: challengecup
-    url: https://2025.tiaozhanbei.net/
   - name: kaggle
     enabled: true
     type: kaggle
     url: https://www.kaggle.com/competitions
-  # Saikr sources with pagination
+
+  # === 国内官方高质量 (新增) ===
+  - name: CUMCM 官网公告
+    enabled: true
+    type: cumcm
+    url: https://www.mcm.edu.cn/html_cn/block/20ead73cbcf5a1c24b91947f98d7aac2.html
+    category_fixed: 数学建模
+  - name: COMAP MCM/ICM
+    enabled: true
+    type: comap
+    url: https://www.comap.com/contests/mcm-icm
+    category_fixed: 数学建模
+  - name: NSCSCC 系统能力大赛
+    enabled: true
+    type: nscscc
+    url: https://www.nscscc.com/
+    category_fixed: 编程
+  - name: 蓝桥杯
+    enabled: true
+    type: lanqiao
+    url: https://dasai.lanqiao.cn/
+    category_fixed: 编程
+  - name: 阿里云天池
+    enabled: true
+    type: tianchi
+    url: https://tianchi.aliyun.com/competition/
+    category_fixed: AI数据
+  - name: 挑战杯
+    enabled: true
+    type: challengecup
+    url: https://www.tiaozhanbei.net/tzb/notice
+    category_fixed: 创新创业
+
+  # === 聚合平台 (Saikr/52) ===
   - name: saikr_mcm
     enabled: true
     type: saikr

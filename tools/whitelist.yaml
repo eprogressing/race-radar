@@ -1,0 +1,127 @@
+# RaceRadar Whitelist & Ranking Rules
+# 格式：关键词/正则 -> 级别/权重
+
+whitelist:
+  # === 国家级/国际顶级 (Level: National) ===
+  # 数学建模
+  - pattern: "全国大学生数学建模竞赛"
+    level: "National"
+    weight: 60
+  - pattern: "CUMCM"
+    level: "National"
+    weight: 60
+  - pattern: "MCM/ICM"
+    level: "National"
+    weight: 60
+  - pattern: "美赛"
+    level: "National"
+    weight: 60
+  - pattern: "美国大学生数学建模竞赛"
+    level: "National"
+    weight: 60
+  - pattern: "高教社杯"
+    level: "National"
+    weight: 60
+
+  # 编程/计算机
+  - pattern: "ACM-ICPC"
+    level: "National"
+    weight: 60
+  - pattern: "ICPC"
+    level: "National"
+    weight: 60
+  - pattern: "CCPC"
+    level: "National"
+    weight: 60
+  - pattern: "蓝桥杯"
+    level: "National"
+    weight: 60
+  - pattern: "全国大学生计算机系统能力大赛"
+    level: "National"
+    weight: 60
+  - pattern: "NSCSCC"
+    level: "National"
+    weight: 60
+  - pattern: "龙芯杯"
+    level: "National"
+    weight: 60
+  - pattern: "操作系统设计赛"
+    level: "National"
+    weight: 60
+  - pattern: "编译系统设计赛"
+    level: "National"
+    weight: 60
+  - pattern: "Codeforces Round"
+    level: "International"
+    weight: 40
+  - pattern: "AtCoder"
+    level: "International"
+    weight: 40
+
+  # 创新创业
+  - pattern: "挑战杯"
+    level: "National"
+    weight: 60
+  - pattern: "互联网\\+"
+    level: "National"
+    weight: 60
+  - pattern: "创青春"
+    level: "National"
+    weight: 60
+  - pattern: "中国国际大学生创新大赛"
+    level: "National"
+    weight: 60
+
+  # AI数据
+  - pattern: "Kaggle"
+    level: "International"
+    weight: 40
+  - pattern: "DrivenData"
+    level: "International"
+    weight: 40
+  - pattern: "天池"
+    level: "National"
+    weight: 50
+  - pattern: "阿里云"
+    level: "National"
+    weight: 40
+  - pattern: "华为杯"
+    level: "National"
+    weight: 50
+
+  # === 官方/权威机构 ===
+  - pattern: "教育部"
+    level: "Authority"
+    weight: 30
+  - pattern: "工信部"
+    level: "Authority"
+    weight: 30
+  - pattern: "团中央"
+    level: "Authority"
+    weight: 30
+  - pattern: "中国计算机学会"
+    level: "Authority"
+    weight: 30
+  - pattern: "CCF"
+    level: "Authority"
+    weight: 30
+  - pattern: "中国工业与应用数学学会"
+    level: "Authority"
+    weight: 30
+  - pattern: "CSIAM"
+    level: "Authority"
+    weight: 30
+
+official_domains:
+  - ".edu.cn"
+  - ".org.cn"
+  - ".gov.cn"
+  - "comap.com"
+  - "codeforces.com"
+  - "atcoder.jp"
+  - "kaggle.com"
+  - "aliyun.com"
+  - "lanqiao.cn"
+  - "nscscc.com"
+  - "tiaozhanbei.net"
+  - "mcm.edu.cn"

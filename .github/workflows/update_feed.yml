@@ -8,14 +8,16 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-feed
+  cancel-in-progress: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -27,16 +29,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r tools/requirements.txt
 
-      - name: Run updater
+      - name: Run updater (CI mode)
         run: |
-          python tools/update_feed.py
+          python tools/update_feed.py --ci
+          
+      - name: Print Feed Summary
+        run: |
+          python -c "import json; f=json.load(open('feed.json')); print(f'Total: {len(f['items'])} | Updated: {f['updatedAt']}'); print('Top 5:'); [print(f'- [{x.get('qualityScore')}] {x.get('sourceName')}: {x.get('title')} ({x.get('bonusText')})') for x in f['items'][:5]]"
 
-      - name: Commit changes
+      - name: Commit and Push
         run: |
           if git status --porcelain | grep -q "feed.json"; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add feed.json
-            git commit -m "chore: auto update feed.json"
+            git commit -m "chore: auto update feed [skip ci]"
             git push
+          else
+            echo "No changes in feed.json"
           fi

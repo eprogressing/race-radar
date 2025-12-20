@@ -3,6 +3,20 @@ import hashlib
 import re
 from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
 import math
+import sys
+from pathlib import Path
+
+# Fix import path for classify
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.append(str(ROOT))
+try:
+    from tools.classify import classify_item, rank_item
+except ImportError:
+    # Fallback if tools/classify.py not found or path issue
+    def classify_item(item):
+        return [], []
+    def rank_item(item):
+        return {"qualityScore": 0, "rankReasons": [], "isWhitelist": False, "level": "Unknown"}
 
 def iso_dt(ts):
     return datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d")
@@ -29,8 +43,49 @@ def id_from_url(url):
 
 EXCHANGE_USD_TO_RMB = 7.2
 
+def _parse_cn_number(text):
+    # Simple Chinese number parser for common cases
+    cn_map = {
+        '一': 1, '二': 2, '三': 3, '四': 4, '五': 5,
+        '六': 6, '七': 7, '八': 8, '九': 9, '十': 10,
+        '百': 100, '千': 1000, '万': 10000
+    }
+    # Handle "五万", "十万", "3万"
+    if not text: return None
+    
+    # Try pure digit first
+    m = re.search(r"(\d+(\.\d+)?)", text)
+    if m:
+        return float(m.group(1))
+        
+    # Try simple Chinese
+    val = 0
+    curr = 0
+    last_unit = 1
+    for char in text:
+        if char in cn_map:
+            n = cn_map[char]
+            if n >= 10:
+                if curr == 0: curr = 1
+                if n > last_unit:
+                    val = (val + curr) * n
+                    curr = 0
+                    last_unit = n
+                else:
+                    val += curr * n
+                    curr = 0
+                    last_unit = n
+            else:
+                curr = n
+    val += curr
+    return float(val) if val > 0 else None
+
 def _parse_number(text):
     text = text.replace(",", "").replace("，", "").replace(" ", "")
+    # Check for chinese numerals first if no digits
+    if not re.search(r"\d", text):
+        return _parse_cn_number(text)
+        
     m = re.search(r"(\d+(\.\d+)?)", text)
     if not m:
         return None
@@ -43,14 +98,20 @@ def extract_bonus(text):
     if not text:
         return 0, "-"
     t = text
-    # High priority patterns
+    # Enhanced patterns
     patterns = [
-        r"(总奖金|奖池|奖金总额|总奖金池)[^\\n\\d]{0,10}?([\\d,\\.]+)\\s*(万元|万|w|W)",
-        r"(总奖金|奖池|奖金总额|总奖金池)[^\\n\\d]{0,10}?([\\d,\\.]+)\\s*(元|RMB|¥)",
-        r"(最高奖|一等奖|金奖|冠军|最高可得)[^\\n\\d]{0,10}?([\\d,\\.]+)\\s*(万元|万|w|W)",
-        r"(最高奖|一等奖|金奖|冠军|最高可得)[^\\n\\d]{0,10}?([\\d,\\.]+)\\s*(元|RMB|¥)",
+        # Explicit total bonus
+        r"(总奖金|奖池|奖金总额|总奖金池|Total Prize|Prize Pool)[^\\n\\d]{0,10}?([\\d,\\.]+|[一二三四五六七八九十百千万]+)\\s*(万元|万|w|W)",
+        r"(总奖金|奖池|奖金总额|总奖金池|Total Prize|Prize Pool)[^\\n\\d]{0,10}?([\\d,\\.]+|[一二三四五六七八九十百千万]+)\\s*(元|RMB|¥)",
+        # Top prize
+        r"(最高奖|一等奖|金奖|冠军|最高可得|First Prize|Winner|Champion)[^\\n\\d]{0,10}?([\\d,\\.]+|[一二三四五六七八九十百千万]+)\\s*(万元|万|w|W)",
+        r"(最高奖|一等奖|金奖|冠军|最高可得|First Prize|Winner|Champion)[^\\n\\d]{0,10}?([\\d,\\.]+|[一二三四五六七八九十百千万]+)\\s*(元|RMB|¥)",
+        # Value
+        r"(奖品价值|价值)[^\\n\\d]{0,10}?([\\d,\\.]+|[一二三四五六七八九十百千万]+)\\s*(元|RMB|¥)",
+        # Simple list: "一等奖：10000元"
+        r"(一等奖|二等奖|三等奖)[^\\n\\d：:]*?[：:]\\s*([\\d,\\.]+)\\s*(元|RMB|¥)",
+        # USD
         r"(Prize Pool|Total Prize)[^\\n\\d]{0,20}?\\$\\s*([\\d,\\.]+)",
-        r"(First Prize|Winner|Champion)[^\\n\\d]{0,20}?\\$\\s*([\\d,\\.]+)",
         r"(\$|USD)\\s*([\\d,\\.]+)"
     ]
     
@@ -60,13 +121,25 @@ def extract_bonus(text):
     for p in patterns:
         m = re.search(p, t, flags=re.IGNORECASE)
         if m:
-            val_str = m.group(2) if len(m.groups()) >= 2 else ""
-            unit = m.group(3) if len(m.groups()) >= 3 else ""
+            # Group index logic varies by pattern
+            # General strategy: find the number group and unit group
+            groups = m.groups()
+            val_str = ""
+            unit = ""
             
-            # Special case for USD patterns
+            # Identify number and unit based on pattern structure
+            # Most patterns have: (keyword) ... (number) ... (unit)
             if "$" in p or "USD" in p:
-                val_str = m.group(len(m.groups())) # Last group is number
+                val_str = groups[-1]
                 unit = "USD"
+            else:
+                # Find the group that looks like a number
+                for g in groups:
+                    if not g: continue
+                    if re.match(r"^[\\d,\\.]+$", g) or re.match(r"^[一二三四五六七八九十百千万]+$", g):
+                        val_str = g
+                    elif g in ["万元", "万", "w", "W", "元", "RMB", "¥", "USD"]:
+                        unit = g
             
             num = _parse_number(val_str)
             if num is None:
@@ -82,6 +155,8 @@ def extract_bonus(text):
                 amount_rmb = int(round(num))
                 match_text = f"¥{amount_rmb/10000:.1f}万" if amount_rmb >= 10000 else f"¥{amount_rmb}"
             
+            # Prefer higher amounts if multiple matches found (greedy check?)
+            # For now, break on first high-priority match
             break
             
     return amount_rmb, match_text
@@ -109,12 +184,12 @@ def parse_deadline(text):
     return ""
 
 def is_recent(text, deadline):
-    # If deadline exists, check if it is >= today - 7 days
+    # If deadline exists, check if it is >= today - 30 days (keep recent history)
     if deadline:
         try:
             dl_dt = datetime.strptime(deadline, "%Y-%m-%d").replace(tzinfo=timezone.utc)
             now_dt = datetime.now(timezone.utc)
-            if dl_dt >= (now_dt - timedelta(days=7)):
+            if dl_dt >= (now_dt - timedelta(days=30)):
                 return True
         except:
             pass
@@ -125,82 +200,11 @@ def is_recent(text, deadline):
         return True
     return False
 
-def calculate_quality_score(item):
-    score = 0
-    
-    # 1. Bonus amount
-    bonus = item.get("bonusAmount", 0)
-    if bonus > 0:
-        # log(1+bonus) * 80 -> 1万~320, 10万~400, 100万~480
-        score += math.log(1 + bonus) * 15 # slightly tuned down to balance
-        if bonus >= 10000: score += 40
-        if bonus >= 100000: score += 60
-        
-    # 2. Deadline urgency
-    deadline = item.get("deadline")
-    if deadline:
-        try:
-            dl_dt = datetime.strptime(deadline, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-            now_dt = datetime.now(timezone.utc)
-            days_left = (dl_dt - now_dt).days
-            
-            if days_left < 0:
-                score -= 300 # Expired
-            elif days_left <= 7:
-                score += 120 # Very urgent
-            elif days_left <= 30:
-                score += 60 # Urgent
-            elif days_left <= 90:
-                score += 20
-        except:
-            pass
-            
-    # 3. Source weight
-    src = item.get("sourceName", "")
-    if "赛氪" in src: score += 120
-    elif "52竞赛网" in src: score += 100
-    elif "Kaggle" in src: score += 20
-    elif "Codeforces" in src or "AtCoder" in src: score += 80 # High quality coding platforms
-    
-    # 4. Keywords
-    text = (item.get("title", "") + item.get("summary", "")).lower()
-    
-    # Authority keywords
-    if any(k in text for k in ["教育部", "工信部", "团中央", "国赛", "全国", "国际", "顶级", "权威", "官方", "ACM", "ICPC", "CCPC"]):
-        score += 80
-        
-    # Domain keywords
-    if any(k in text for k in ["ai", "人工智能", "大数据", "算法", "建模", "创业", "创新", "robot", "program"]):
-        score += 40
-        
-    return int(score)
-
+# Deprecated but kept for compatibility with old update_feed.py references if any
 def map_category(title, source_name, summary=""):
-    t = (title or "") + " " + (source_name or "") + " " + (summary or "")
-    t = t.lower()
-    cats = []
-    
-    if any(k in t for k in ["codeforces", "atcoder", "icpc", "ccpc", "程序设计", "算法", "软件杯", "蓝桥杯", "编程", "acm", "hackathon", "黑客松", "leetcode"]):
-        cats.append("编程")
-        
-    if any(k in t for k in ["数学建模", "美赛", "mcm", "icm", "建模", "cumcm", "comap", "国赛", "研赛", "mathorcup", "华中杯", "五一建模"]):
-        cats.append("数学建模")
-        
-    if any(k in t for k in ["kaggle", "drivendata", "ai", "人工智能", "机器学习", "深度学习", "数据", "大模型", "算法挑战赛", "开悟", "计算机视觉", "nlp", "cv", "llm"]):
-        cats.append("AI数据")
-        
-    if any(k in t for k in ["挑战杯", "互联网+", "创业", "创新创业", "创青春", "商业计划书", "创业大赛"]):
-        cats.append("创新创业")
-        
-    # Unique strict mapping
-    if cats:
-        # Priority: 编程 > 数学建模 > AI数据 > 创新创业 (heuristic)
-        if "编程" in cats: return ["编程"]
-        if "数学建模" in cats: return ["数学建模"]
-        if "AI数据" in cats: return ["AI数据"]
-        return ["创新创业"]
-        
-    return []
+    item = {"title": title, "sourceName": source_name, "summary": summary}
+    cats, _ = classify_item(item)
+    return cats
 
 def ensure_item_schema(item):
     item = dict(item)
@@ -216,14 +220,29 @@ def ensure_item_schema(item):
     item.setdefault("sourceUrl", "")
     item.setdefault("summary", "")
     item.setdefault("createdAt", now_iso())
+    item.setdefault("status", "active")
     
-    # Calculate scores
-    qs = calculate_quality_score(item)
-    item["qualityScore"] = qs
-    item["isHighQuality"] = qs >= 400
+    # 1. Classify & Tag
+    cats, tags = classify_item(item)
+    
+    # Merge existing categories if any (e.g. fixed from source)
+    existing_cats = item.get("category", [])
+    final_cats = list(set(existing_cats + cats))
+    # Enforce 4 classes
+    valid_cats = [c for c in final_cats if c in ["编程","数学建模","AI数据","创新创业"]]
+    item["category"] = valid_cats
+    
+    # Merge tags
+    existing_tags = item.get("tags", [])
+    item["tags"] = list(set(existing_tags + tags))
+    
+    # 2. Rank
+    rank_info = rank_item(item)
+    item.update(rank_info)
     
     return item
 
+# Legacy support for specific sources
 def norm_codeforces(c):
     title = c.get('name') or ""
     start = c.get('startTimeSeconds')
@@ -290,44 +309,36 @@ def norm_drivendata(item):
     }
     return ensure_item_schema(nd)
 
-def norm_cumcm(item):
+def norm_generic(item, source_name=""):
+    """
+    Generic normalization for sources that provide raw dicts
+    """
     url = item.get('url')
     title = item.get('title') or ""
     cid = id_from_url(url)
-    amount, bonus_text = extract_bonus(item.get('text', "") or "")
+    text = item.get('text', "") or ""
+    
+    amount, bonus_text = extract_bonus(text)
+    deadline = parse_deadline(text)
+    if not deadline:
+        deadline = item.get("deadline", "")
+        
     nd = {
         "id": cid,
         "title": title,
         "bonusAmount": amount,
         "bonusText": bonus_text,
-        "deadline": item.get("deadline", "") or "",
-        "category": ["数学建模"],
-        "tags": ["CUMCM"],
+        "deadline": deadline,
+        "category": item.get("category", []), # Will be augmented by ensure_item_schema
+        "tags": [],
         "cover": "",
-        "sourceName": "CUMCM 官网公告",
+        "sourceName": source_name,
         "sourceUrl": canonicalize_url(url),
-        "summary": item.get('summary', "") or "CUMCM notice",
+        "summary": item.get('summary', "") or title,
         "createdAt": now_iso()
     }
     return ensure_item_schema(nd)
 
-def norm_challengecup(item):
-    url = item.get('url')
-    title = item.get('title') or ""
-    cid = id_from_url(url)
-    amount, bonus_text = extract_bonus(item.get('text', "") or "")
-    nd = {
-        "id": cid,
-        "title": title,
-        "bonusAmount": amount,
-        "bonusText": bonus_text,
-        "deadline": item.get("deadline", "") or "",
-        "category": ["创新创业"],
-        "tags": ["挑战杯"],
-        "cover": "",
-        "sourceName": "挑战杯通知",
-        "sourceUrl": canonicalize_url(url),
-        "summary": item.get('summary', "") or "挑战杯通知公告",
-        "createdAt": now_iso()
-    }
-    return ensure_item_schema(nd)
+# Re-export for compatibility
+norm_cumcm = lambda x: norm_generic(x, "CUMCM 官网公告")
+norm_challengecup = lambda x: norm_generic(x, "挑战杯通知")
