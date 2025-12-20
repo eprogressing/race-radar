@@ -588,7 +588,9 @@ def norm_generic(item, source_name=""):
     cid = id_from_url(url)
     text = item.get('text', "") or ""
     
-    amount, bonus_text = extract_bonus(text)
+    # Use bonus_context if available, else text
+    bonus_src = item.get("bonus_context") or text
+    b_amt, b_txt, p_amt, p_txt = extract_bonus_max(bonus_src)
     
     # deadline parsing is handled in ensure_item_schema if not provided
     # but we can try here to pass it explicitly
@@ -597,8 +599,10 @@ def norm_generic(item, source_name=""):
     nd = {
         "id": cid,
         "title": title,
-        "bonusAmount": amount,
-        "bonusText": bonus_text,
+        "bonusAmount": b_amt,
+        "bonusText": b_txt,
+        "bonusPoolAmount": p_amt,
+        "bonusPoolText": p_txt,
         "deadline": deadline,
         "text": text, # Pass full text for parsing
         "category": item.get("category", []), # Will be augmented by ensure_item_schema

@@ -1,135 +1,142 @@
 version: 1
 sources:
-  # === 国际顶级 ===
-  - name: codeforces
+  # === 国际顶级 (保留但低权重) ===
+  - name: Codeforces
     enabled: true
     type: codeforces
     url: https://codeforces.com/api/contest.list?gym=false
-  - name: atcoder
+    detail: false # API returns enough info
+    
+  - name: AtCoder
     enabled: true
     type: atcoder
     url: https://kenkoooo.com/atcoder/resources/contests.json
-  - name: drivendata
+    detail: false
+    
+  - name: DrivenData
     enabled: true
     type: drivendata
     url: https://www.drivendata.org/competitions/
-  - name: kaggle
-    enabled: true
-    type: kaggle
-    url: https://www.kaggle.com/competitions
+    detail: true
+    detail_selectors:
+      title: "h1"
+      content: "#competition-overview, .markdown-body"
 
-  # === 国内官方高质量 (新增) ===
+  # === 国内官方高质量 (重点) ===
   - name: CUMCM 官网公告
     enabled: true
-    type: cumcm
+    type: generic
     url: https://www.mcm.edu.cn/html_cn/block/20ead73cbcf5a1c24b91947f98d7aac2.html
     category_fixed: 数学建模
+    pagination: false
     detail: true
-    detail_limit: 20
-    detail_selectors:
-      content: ".content, .detail"
-  - name: COMAP MCM/ICM
-    enabled: true
-    type: comap
-    url: https://www.comap.com/contests/mcm-icm
-    category_fixed: 数学建模
-    detail: true
+    detail_limit: 50
+    title_selectors: ["h1", "h2", ".title"]
+    content_selectors: [".content", ".detail", "#article-content", "div[style*='font-size']"]
+
   - name: NSCSCC 系统能力大赛
     enabled: true
-    type: nscscc
+    type: generic
     url: https://www.nscscc.com/
     category_fixed: 编程
+    pagination: false
     detail: true
-    detail_limit: 20
-    detail_selectors:
-      content: ".news-detail, .content"
+    detail_limit: 50
+    title_selectors: ["h1", ".news-title"]
+    content_selectors: [".news-detail", ".content", ".article"]
+
   - name: 蓝桥杯
     enabled: true
-    type: lanqiao
+    type: generic
     url: https://dasai.lanqiao.cn/
     category_fixed: 编程
+    pagination: false
     detail: true
-    detail_limit: 20
+    detail_limit: 50
+    title_selectors: ["h1", ".title"]
+    content_selectors: [".content", ".detail", "article"]
+
   - name: 阿里云天池
     enabled: true
     type: tianchi
-    url: https://tianchi.aliyun.com/competition/
+    url: https://tianchi.aliyun.com/competition/gameList/activeList
     category_fixed: AI数据
+    pagination: false
     detail: true
-    detail_limit: 20
+    detail_limit: 50
+    title_selectors: ["h1", ".title"]
+    content_selectors: [".markdown-body", ".competition-content", "#detail"]
+
   - name: 挑战杯
     enabled: true
-    type: challengecup
+    type: generic
     url: https://www.tiaozhanbei.net/tzb/notice
     category_fixed: 创新创业
+    pagination: true
+    pagination_pattern: "https://www.tiaozhanbei.net/tzb/notice?page={page}"
+    max_pages: 5
     detail: true
-    detail_limit: 20
-    detail_selectors:
-      content: ".notice-content, .article"
+    detail_limit: 50
+    title_selectors: ["h1", ".notice-title"]
+    content_selectors: [".notice-content", ".article", ".content"]
 
-  # === 聚合平台 (Saikr/52) ===
-  - name: saikr_mcm
+  # === 聚合平台 (52竞赛网 - 分页抓取) ===
+  - name: 52竞赛网-计算机
     enabled: true
-    type: saikr
-    url: https://www.saikr.com/vs/mcm
-    category_fixed: 数学建模
-    pages: 8
+    type: generic
+    url: http://www.52jingsai.com/forum.php?mod=forumdisplay&fid=68
+    category_fixed: 编程
+    pagination: true
+    pagination_pattern: "http://www.52jingsai.com/forum.php?mod=forumdisplay&fid=68&page={page}"
+    max_pages: 10
     detail: true
-    detail_limit: 10
-  - name: saikr_acm
+    detail_limit: 100
+    title_selectors: ["#thread_subject", "h1"]
+    content_selectors: [".t_f", ".pcb", "#postlist"]
+
+  - name: 52竞赛网-数学建模
+    enabled: true
+    type: generic
+    url: http://www.52jingsai.com/forum.php?mod=forumdisplay&fid=66
+    category_fixed: 数学建模
+    pagination: true
+    pagination_pattern: "http://www.52jingsai.com/forum.php?mod=forumdisplay&fid=66&page={page}"
+    max_pages: 8
+    detail: true
+    detail_limit: 80
+    title_selectors: ["#thread_subject", "h1"]
+    content_selectors: [".t_f", ".pcb", "#postlist"]
+
+  - name: 52竞赛网-商业创业
+    enabled: true
+    type: generic
+    url: http://www.52jingsai.com/forum.php?mod=forumdisplay&fid=69
+    category_fixed: 创新创业
+    pagination: true
+    pagination_pattern: "http://www.52jingsai.com/forum.php?mod=forumdisplay&fid=69&page={page}"
+    max_pages: 8
+    detail: true
+    detail_limit: 80
+    title_selectors: ["#thread_subject", "h1"]
+    content_selectors: [".t_f", ".pcb", "#postlist"]
+
+  # === 聚合平台 (Saikr - 补充) ===
+  - name: 赛氪-编程
     enabled: true
     type: saikr
     url: https://www.saikr.com/vs/acm/0/0
     category_fixed: 编程
-    pages: 8
+    pages: 5
     detail: true
-    detail_limit: 10
-  - name: saikr_ai
+    detail_limit: 50
+    title_selectors: ["h1", ".title"]
+    content_selectors: [".content", ".event-detail", ".article"]
+
+  - name: 赛氪-建模
     enabled: true
     type: saikr
-    url: https://www.saikr.com/vs/ai/6/0?univs=0
-    category_fixed: AI数据
-    pages: 8
+    url: https://www.saikr.com/vs/mcm
+    category_fixed: 数学建模
+    pages: 5
     detail: true
-    detail_limit: 10
-  - name: saikr_bigdata
-    enabled: true
-    type: saikr
-    url: https://www.saikr.com/vs/big_data/1/1
-    category_fixed: AI数据
-    pages: 8
-    detail: true
-    detail_limit: 10
-  - name: saikr_startup
-    enabled: true
-    type: saikr
-    url: https://www.saikr.com/vs/chuangye/5/0
-    category_fixed: 创新创业
-    pages: 8
-    detail: true
-    detail_limit: 10
-  # 52jingsai sources
-  - name: 52jingsai_tech
-    enabled: true
-    type: 52jingsai
-    url: https://m.52jingsai.com/list-15-1.html
-    category_fixed: AI数据
-    pages: 6
-    detail: true
-    detail_limit: 10
-  - name: 52jingsai_innovation
-    enabled: true
-    type: 52jingsai
-    url: https://m.52jingsai.com/list-14-1.html
-    category_fixed: AI数据
-    pages: 6
-    detail: true
-    detail_limit: 10
-  - name: 52jingsai_startup
-    enabled: true
-    type: 52jingsai
-    url: https://m.52jingsai.com/list-3-1.html
-    category_fixed: 创新创业
-    pages: 6
-    detail: true
-    detail_limit: 10
+    detail_limit: 50
