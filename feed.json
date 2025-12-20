@@ -1,118 +1,132 @@
 {
   "version": 1,
-  "updatedAt": "2025-12-20T05:18:51Z",
+  "updatedAt": "2025-12-20T05:32:37Z",
   "items": [
     {
-      "id": "52f3855a84adf15b",
-      "title": "挑战杯丨2025年度中国青年科技创新“揭榜挂帅”擂台赛第二弹重磅来袭！",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-06-30",
+      "id": "43b4b8527b427fd1",
+      "title": "ICPC 2025 Online Winter Challenge powered by Huawei",
+      "deadline": "2025-12-26",
       "category": [
-        "创新创业"
+        "编程"
       ],
       "tags": [
+        "报名中",
+        "Codeforces",
         "国家级"
       ],
+      "sourceName": "Codeforces",
+      "sourceUrl": "https://codeforces.com/contests/2177",
+      "summary": "Codeforces contest",
+      "bonusAmount": 0,
+      "bonusText": "-",
       "cover": "",
-      "sourceName": "挑战杯",
-      "sourceUrl": "https://www.tiaozhanbei.net/article/15794",
-      "summary": "挑战杯丨2025年度中国青年科技创新“揭榜挂帅”擂台赛第二弹重磅来袭！",
-      "createdAt": "2025-12-20T05:17:52Z",
-      "status": "active",
-      "qualityScore": 85,
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 720,
+      "isHighQuality": false,
+      "status": "open",
       "rankReasons": [
-        "白名单:挑战杯",
-        "官方来源"
+        "白名单:ICPC",
+        "国家级",
+        "进行中/报名中"
       ],
       "isWhitelist": true,
       "level": "National"
     },
     {
-      "id": "62c87ee8eba89b04",
-      "title": "呼唤青年一代敢破“卡脖子”，勇当开拓者——2025年度中国青年科技创新“揭榜挂帅”擂台赛榜单发布",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-05-27",
+      "id": "638a4ed034a99bf0",
+      "title": "Codeforces Round (Div. 3)",
+      "deadline": "2025-12-23",
       "category": [
-        "创新创业"
+        "编程"
       ],
       "tags": [
-        "国家级"
+        "国际级",
+        "报名中",
+        "Codeforces"
       ],
+      "sourceName": "Codeforces",
+      "sourceUrl": "https://codeforces.com/contests/2179",
+      "summary": "Codeforces contest",
+      "bonusAmount": 0,
+      "bonusText": "-",
       "cover": "",
-      "sourceName": "挑战杯",
-      "sourceUrl": "https://www.tiaozhanbei.net/article/15782",
-      "summary": "呼唤青年一代敢破“卡脖子”，勇当开拓者——2025年度中国青年科技创新“揭榜挂帅”擂台赛榜单发布",
-      "createdAt": "2025-12-20T05:17:52Z",
-      "status": "active",
-      "qualityScore": 85,
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 660,
+      "isHighQuality": false,
+      "status": "open",
       "rankReasons": [
-        "白名单:挑战杯",
+        "白名单:Codeforces Round",
+        "进行中/报名中",
+        "即将截止"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "40aaf8bd5b5cc827",
+      "title": "Educational Codeforces Round 186 (Rated for Div. 2)",
+      "deadline": "2025-12-29",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国际级",
+        "报名中",
+        "Codeforces"
+      ],
+      "sourceName": "Codeforces",
+      "sourceUrl": "https://codeforces.com/contests/2182",
+      "summary": "Codeforces contest",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 570,
+      "isHighQuality": false,
+      "status": "open",
+      "rankReasons": [
+        "白名单:Codeforces Round",
+        "进行中/报名中",
         "官方来源"
       ],
       "isWhitelist": true,
-      "level": "National"
+      "level": "International"
     },
     {
-      "id": "aed04e2bb999dd44",
-      "title": "挑战杯丨这张“英雄榜” 等你来揭！2025年度中国青年科技创新“揭榜挂帅”擂台赛重磅来袭！",
+      "id": "6552ad38235144d0",
+      "title": "MAKE AI HAPPEN",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "2025-05-17",
+      "deadline": "",
+      "text": "关于我们\n法务协议\n联系我们\n邮箱: tianchi_bigdata@member.alibaba.com\n了解更多，请关注天池微信",
       "category": [
-        "创新创业"
+        "AI数据"
       ],
       "tags": [
         "国家级"
       ],
       "cover": "",
-      "sourceName": "挑战杯",
-      "sourceUrl": "https://www.tiaozhanbei.net/article/15774",
-      "summary": "挑战杯丨这张“英雄榜” 等你来揭！2025年度中国青年科技创新“揭榜挂帅”擂台赛重磅来袭！",
-      "createdAt": "2025-12-20T05:17:52Z",
-      "status": "active",
-      "qualityScore": 85,
+      "sourceName": "阿里云天池",
+      "sourceUrl": "https://tianchi.aliyun.com",
+      "summary": "MAKE AI HAPPEN",
+      "createdAt": "2025-12-20T05:31:28Z",
+      "status": "unknown",
+      "qualityScore": 480,
       "rankReasons": [
-        "白名单:挑战杯",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "8d7d495b223db9aa",
-      "title": "2025国赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-05-16",
-      "category": [
-        "创新创业",
-        "数学建模"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "挑战杯",
-      "sourceUrl": "https://2025.tiaozhanbei.net",
-      "summary": "2025国赛",
-      "createdAt": "2025-12-20T05:17:51Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:挑战杯",
-        "官方来源"
+        "白名单:天池",
+        "国家级",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "National"
     },
     {
       "id": "083940b968e7c476",
-      "title": "2025年3月21日2025年3月21日",
+      "title": "NSCSCC2025“龙芯杯”开始报名了！",
       "bonusAmount": 0,
       "bonusText": "-",
       "deadline": "",
+      "text": "NSCSCC2025“龙芯杯”开始报名了！\nLeave a Comment\non NSCSCC2025“龙芯杯”开始报名了！\n团体赛报名\n个人赛报名\nPost Navigation\nPrevious Article\n关于公布“第八届全国大学生计算机系统能力培养大赛（龙芯杯）”决赛获奖名单的通知\nNext Article\nNSCSCC2025“龙芯杯”开始报名了！",
       "category": [
         "编程"
       ],
@@ -122,75 +136,25 @@
       "cover": "",
       "sourceName": "NSCSCC 系统能力大赛",
       "sourceUrl": "https://www.nscscc.com?p=678",
-      "summary": "2025年3月21日2025年3月21日",
-      "createdAt": "2025-12-20T05:17:49Z",
-      "status": "active",
-      "qualityScore": 85,
+      "summary": "NSCSCC2025“龙芯杯”开始报名了！",
+      "createdAt": "2025-12-20T05:31:26Z",
+      "status": "unknown",
+      "qualityScore": 480,
       "rankReasons": [
         "白名单:NSCSCC",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "04fcc63a1b769ec3",
-      "title": "京ICP备2021010299号-3",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "NSCSCC 系统能力大赛",
-      "sourceUrl": "https://beian.miit.gov.cn",
-      "summary": "京ICP备2021010299号-3",
-      "createdAt": "2025-12-20T05:17:49Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:NSCSCC",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "5948de1e85ff3427",
-      "title": "2025年3月21日2025年3月25日",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "NSCSCC 系统能力大赛",
-      "sourceUrl": "https://www.nscscc.com?p=701",
-      "summary": "2025年3月21日2025年3月25日",
-      "createdAt": "2025-12-20T05:17:48Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:NSCSCC",
-        "官方来源"
+        "国家级",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "National"
     },
     {
       "id": "b25747f67aaf26b7",
-      "title": "2025年3月21日2025年3月21日",
+      "title": "NSCSCC2025 团体赛 技术方案",
       "bonusAmount": 0,
       "bonusText": "-",
       "deadline": "",
+      "text": "NSCSCC2025 团体赛 技术方案\nLeave a Comment\non NSCSCC2025 团体赛 技术方案\nLoongArch指令集\n第九届“龙芯杯”全国大学生计算机系统能力培养大赛+团体赛技术方案V0.1\nPost Navigation\nPrevious Article\nNSCSCC2025 个人赛 技术方案\nNext Article\nNSCSCC 2025 个人赛发布包",
       "category": [
         "编程"
       ],
@@ -200,13 +164,295 @@
       "cover": "",
       "sourceName": "NSCSCC 系统能力大赛",
       "sourceUrl": "https://www.nscscc.com?p=712",
-      "summary": "2025年3月21日2025年3月21日",
-      "createdAt": "2025-12-20T05:17:47Z",
-      "status": "active",
-      "qualityScore": 85,
+      "summary": "NSCSCC2025 团体赛 技术方案",
+      "createdAt": "2025-12-20T05:31:25Z",
+      "status": "unknown",
+      "qualityScore": 480,
       "rankReasons": [
         "白名单:NSCSCC",
-        "官方来源"
+        "国家级",
+        "权威来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "5948de1e85ff3427",
+      "title": "NSCSCC2025 个人赛 技术方案",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "text": "NSCSCC2025 个人赛 技术方案\nLeave a Comment\non NSCSCC2025 个人赛 技术方案\nLoongArch指令集\n第九届“龙芯杯”全国大学生计算机系统能力培养大赛+个人赛（LoongArch）技术方案V0.1\nMIPS指令集\n第九届“龙芯杯”全国大学生计算机系统能力培养大赛+个人赛（MIPS）技术方案V0.1\nPost Navigation\nPrevious Article\n第九届“龙芯杯”全国大学生计算机系统能力培养大赛章程\nNext Article\nNSCSCC2025 团体赛 技术方案",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=701",
+      "summary": "NSCSCC2025 个人赛 技术方案",
+      "createdAt": "2025-12-20T05:31:25Z",
+      "status": "unknown",
+      "qualityScore": 480,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "国家级",
+        "权威来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "6c5fa2f8184ac39a",
+      "title": "NSCSCC 2025 个人赛发布包",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "text": "NSCSCC 2025 个人赛发布包\nLeave a Comment\non NSCSCC 2025 个人赛发布包\nmips发布包下载地址：\n链接:\nhttps://pan.baidu.com/s/1ZN-V6Cjh4JSvj4-Br6xBGw?pwd=7sj3\n提取码: 7sj3\nloongarch发布包下载地址：\n链接:\nhttps://pan.baidu.com/s/1Q3ZGy9Qs6UJHLGBPi6ThuA?pwd=gk88\n提取码: gk88\n竞赛平台分为两部分：前端实验平台（\nhttp://grs.nscscc.com:18000/\n）与代码托管平台gitlab（\nhttp://grs.nscscc.com:18001/\n）\n用户在前端实验平台进行烧写、交互等操作；在代码托管平台上传代码仓库，通过CI生成比特流作为有效成绩。\ngitab代码托管平台需要用户自行创建账号并在前端实验平台绑定仓库\n使用手册：\n链接:\nhttps://pan.baidu.com/s/1LW7UbHI23bWnYJE0YHr5zg?pwd=b233\n提取码: b233\n模版工程获取：\n链接：\n2025年第九届龙芯杯个人赛模板工程 · LoongsonEdu/remote_fpga_template – Gitee.com\nPost Navigation\nPrevious Article\nNSCSCC2025 团体赛 技术方案\nNext Article\nNSCSCC2025 团体赛初赛发布包",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=743",
+      "summary": "NSCSCC 2025 个人赛发布包",
+      "createdAt": "2025-12-20T05:31:24Z",
+      "status": "unknown",
+      "qualityScore": 480,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "国家级",
+        "权威来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "1fb44397918fc491",
+      "title": "关于公布“第八届全国大学生计算机系统能力培养大赛（龙芯杯）”决赛获奖名单的通知",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "text": "关于公布“第八届全国大学生计算机系统能力培养大赛（龙芯杯）”决赛获奖名单的通知\nLeave a Comment\non 关于公布“第八届全国大学生计算机系统能力培养大赛（龙芯杯）”决赛获奖名单的通知\n关于公布第八届全国大学生计算机系统能力培养大赛（龙芯杯）决赛获奖名单的通知\n下载\n关于公布“第八届全国大学生计算机系统能力培养大赛（龙芯杯）”决赛获奖名单的通知（盖章版）\n下载\nPost Navigation\nPrevious Article\nNSCSCC2024 团体赛决赛提交包\nNext Article\nNSCSCC2025“龙芯杯”开始报名了！",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "高校",
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=619",
+      "summary": "关于公布“第八届全国大学生计算机系统能力培养大赛（龙芯杯）”决赛获奖名单的通知",
+      "createdAt": "2025-12-20T05:31:21Z",
+      "status": "unknown",
+      "qualityScore": 480,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "国家级",
+        "权威来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "1b6b1dcf10cdb681",
+      "title": "NSCSCC2025“龙芯杯”开始报名了！",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "text": "NSCSCC2025“龙芯杯”开始报名了！\nLeave a Comment\non NSCSCC2025“龙芯杯”开始报名了！\n报名地址：\nhttps://www.nscscc.com/?p=678\nQQ群：583344130\n具体报名细节请参阅大赛章程\nPost Navigation\nPrevious Article\nNSCSCC2025“龙芯杯”开始报名了！\nNext Article\n第九届“龙芯杯”全国大学生计算机系统能力培养大赛章程",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=683",
+      "summary": "NSCSCC2025“龙芯杯”开始报名了！",
+      "createdAt": "2025-12-20T05:31:20Z",
+      "status": "unknown",
+      "qualityScore": 480,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "国家级",
+        "权威来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "06d42b6b346fbe64",
+      "title": "“2025全国大学生计算机系统能力大赛CPU设计赛（龙芯杯）”决赛获奖名单公告",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "text": "“2025全国大学生计算机系统能力大赛CPU设计赛（龙芯杯）”决赛获奖名单公告\nLeave a Comment\non “2025全国大学生计算机系统能力大赛CPU设计赛（龙芯杯）”决赛获奖名单公告\n“2025全国大学生计算机系统能力大赛CPU设计赛（龙芯杯）”决赛获奖名单公告\nPost Navigation\nPrevious Article\nnscscc2025 团体赛提交包",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "高校",
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=794",
+      "summary": "“2025全国大学生计算机系统能力大赛CPU设计赛（龙芯杯）”决赛获奖名单公告",
+      "createdAt": "2025-12-20T05:31:19Z",
+      "status": "unknown",
+      "qualityScore": 480,
+      "rankReasons": [
+        "白名单:全国大学生计算机系统能力大赛",
+        "国家级",
+        "权威来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "2a372fc9340e80b7",
+      "title": "NSCSCC2025 团体赛初赛发布包",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "text": "NSCSCC2025 团体赛初赛发布包\nLeave a Comment\non NSCSCC2025 团体赛初赛发布包\n团体赛初赛发布包：\nchiplab: chiplab项目致力于构建基于LoongArch32 Reduced的soc敏捷开发平台\n因包含submodule，需要将submodule的特定commit也一并clone下来，注意不要在中文目录下clone\ngit clone –recurse-submodules -j4 https://gitee.com/loongson-edu/chiplab\n团队赛\n功能测试\n与\n性能测试\n的详细使用方法见仓库内\nnscscc_readme.md · LoongsonEdu/chiplab – 码云 – 开源中国\nPost Navigation\nPrevious Article\nNSCSCC 2025 个人赛发布包\nNext Article\nnscscc2025 团体赛提交包",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=759",
+      "summary": "NSCSCC2025 团体赛初赛发布包",
+      "createdAt": "2025-12-20T05:31:15Z",
+      "status": "unknown",
+      "qualityScore": 480,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "国家级",
+        "权威来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "109dc9c3b2f2b166",
+      "title": "nscscc2025 团体赛提交包",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "text": "nscscc2025 团体赛提交包\nLeave a Comment\non nscscc2025 团体赛提交包\nNSCSCC2025 团体赛提交包：\nNSCSCC2025团体赛初赛提交包 v2025.01 · LoongsonEdu/nscscc-team-la32r-submission – Gitee.com\nQQ交流讨论群：583344130\nPost Navigation\nPrevious Article\nNSCSCC2025 团体赛初赛发布包\nNext Article\n“2025全国大学生计算机系统能力大赛CPU设计赛（龙芯杯）”决赛获奖名单公告",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=771",
+      "summary": "nscscc2025 团体赛提交包",
+      "createdAt": "2025-12-20T05:31:15Z",
+      "status": "unknown",
+      "qualityScore": 480,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "国家级",
+        "权威来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "86219ad4579c485e",
+      "title": "第九届“龙芯杯”全国大学生计算机系统能力培养大赛章程",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "text": "第九届“龙芯杯”全国大学生计算机系统能力培养大赛章程\nLeave a Comment\non 第九届“龙芯杯”全国大学生计算机系统能力培养大赛章程\n2025全国大学生计算机系统能力培养大赛CPU设计赛（龙芯杯）-章程\nPost Navigation\nPrevious Article\nNSCSCC2025“龙芯杯”开始报名了！\nNext Article\nNSCSCC2025 个人赛 技术方案",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "高校",
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=690",
+      "summary": "第九届“龙芯杯”全国大学生计算机系统能力培养大赛章程",
+      "createdAt": "2025-12-20T05:31:14Z",
+      "status": "unknown",
+      "qualityScore": 480,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "国家级",
+        "权威来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "13fa6f51d48a915b",
+      "title": "浙D3-20210002",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "阿里云天池",
+      "sourceUrl": "https://domain.miit.gov.cn/域名注册服务机构/互联网域名/阿里云计算有限公司 ",
+      "summary": "浙D3-20210002",
+      "createdAt": "2025-12-20T05:17:51Z",
+      "status": "unknown",
+      "qualityScore": 480,
+      "rankReasons": [
+        "白名单:天池",
+        "国家级",
+        "权威来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "d26d660c38399df4",
+      "title": "天池大赛",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "阿里云天池",
+      "sourceUrl": "https://tianchi.aliyun.com/competition",
+      "summary": "天池大赛",
+      "createdAt": "2025-12-20T05:17:50Z",
+      "status": "unknown",
+      "qualityScore": 480,
+      "rankReasons": [
+        "白名单:天池",
+        "国家级",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "National"
@@ -229,37 +475,12 @@
       "sourceUrl": "https://www.nscscc.com?p=445",
       "summary": "第七届全国大学生计算机系统能力培养大赛（龙芯杯）决赛获奖名单",
       "createdAt": "2025-12-20T05:17:46Z",
-      "status": "active",
-      "qualityScore": 85,
+      "status": "unknown",
+      "qualityScore": 480,
       "rankReasons": [
         "白名单:NSCSCC",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "6c5fa2f8184ac39a",
-      "title": "2025年7月17日2025年7月21日",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "NSCSCC 系统能力大赛",
-      "sourceUrl": "https://www.nscscc.com?p=743",
-      "summary": "2025年7月17日2025年7月21日",
-      "createdAt": "2025-12-20T05:17:46Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:NSCSCC",
-        "官方来源"
+        "国家级",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "National"
@@ -281,148 +502,19 @@
       "sourceUrl": "https://www.nscscc.com?p=471",
       "summary": "NSCSCC2024“龙芯杯”开始报名了！",
       "createdAt": "2025-12-20T05:17:45Z",
-      "status": "active",
-      "qualityScore": 85,
+      "status": "unknown",
+      "qualityScore": 480,
       "rankReasons": [
         "白名单:NSCSCC",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "1fb44397918fc491",
-      "title": "2024年8月20日2025年3月24日",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "NSCSCC 系统能力大赛",
-      "sourceUrl": "https://www.nscscc.com?p=619",
-      "summary": "2024年8月20日2025年3月24日",
-      "createdAt": "2025-12-20T05:17:43Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:NSCSCC",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "1b6b1dcf10cdb681",
-      "title": "2025年3月21日2025年3月21日",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "NSCSCC 系统能力大赛",
-      "sourceUrl": "https://www.nscscc.com?p=683",
-      "summary": "2025年3月21日2025年3月21日",
-      "createdAt": "2025-12-20T05:17:42Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:NSCSCC",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "06d42b6b346fbe64",
-      "title": "2025年8月29日2025年8月29日",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "NSCSCC 系统能力大赛",
-      "sourceUrl": "https://www.nscscc.com?p=794",
-      "summary": "2025年8月29日2025年8月29日",
-      "createdAt": "2025-12-20T05:17:41Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:NSCSCC",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "636f583eb07b6245",
-      "title": "NSCSCC 2025",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-03-24",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "NSCSCC 系统能力大赛",
-      "sourceUrl": "https://www.nscscc.com",
-      "summary": "NSCSCC 2025",
-      "createdAt": "2025-12-20T05:17:40Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:NSCSCC",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "3ec5e00c09973bad",
-      "title": "NSCSCC2025",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-03-21",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "NSCSCC 系统能力大赛",
-      "sourceUrl": "https://www.nscscc.com?cat=15",
-      "summary": "NSCSCC2025",
-      "createdAt": "2025-12-20T05:17:40Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:NSCSCC",
-        "官方来源"
+        "国家级",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "National"
     },
     {
       "id": "6a91015816c49964",
-      "title": "竞赛平台",
+      "title": "个人赛 竞赛平台",
       "bonusAmount": 0,
       "bonusText": "-",
       "deadline": "",
@@ -437,116 +529,12 @@
       "sourceUrl": "https://www.nscscc.com?p=540",
       "summary": "竞赛平台",
       "createdAt": "2025-12-20T05:17:39Z",
-      "status": "active",
-      "qualityScore": 85,
+      "status": "unknown",
+      "qualityScore": 480,
       "rankReasons": [
         "白名单:NSCSCC",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "109dc9c3b2f2b166",
-      "title": "2025年8月2日2025年8月2日",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "NSCSCC 系统能力大赛",
-      "sourceUrl": "https://www.nscscc.com?p=771",
-      "summary": "2025年8月2日2025年8月2日",
-      "createdAt": "2025-12-20T05:17:38Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:NSCSCC",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "2a372fc9340e80b7",
-      "title": "2025年7月28日2025年7月29日",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "NSCSCC 系统能力大赛",
-      "sourceUrl": "https://www.nscscc.com?p=759",
-      "summary": "2025年7月28日2025年7月29日",
-      "createdAt": "2025-12-20T05:17:37Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:NSCSCC",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "86219ad4579c485e",
-      "title": "2025年3月21日2025年3月28日",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "NSCSCC 系统能力大赛",
-      "sourceUrl": "https://www.nscscc.com?p=690",
-      "summary": "2025年3月21日2025年3月28日",
-      "createdAt": "2025-12-20T05:17:36Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:NSCSCC",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "acf567d174267918",
-      "title": "2025高教社杯全国大学生数学建模竞赛第一次通知",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-04-01",
-      "category": [
-        "数学建模"
-      ],
-      "tags": [
-        "高校",
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "CUMCM 官网公告",
-      "sourceUrl": "https://www.mcm.edu.cn/html_cn/node/26a645851659040725c2892fb1935f95.html",
-      "summary": "2025高教社杯全国大学生数学建模竞赛第一次通知",
-      "createdAt": "2025-12-20T05:17:33Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:全国大学生数学建模竞赛",
-        "官方来源"
+        "国家级",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "National"
@@ -568,11 +556,12 @@
       "sourceUrl": "https://www.mcm.edu.cn/html_cn/section/302f2c2355b1179ada9b99a06d7109f5.html",
       "summary": "竞赛组织",
       "createdAt": "2025-12-20T05:17:32Z",
-      "status": "active",
-      "qualityScore": 85,
+      "status": "unknown",
+      "qualityScore": 480,
       "rankReasons": [
         "白名单:CUMCM",
-        "官方来源"
+        "国家级",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "National"
@@ -594,66 +583,12 @@
       "sourceUrl": "https://www.mcm.edu.cn/html_cn/section/033046c1b33c2ea9c1d6bd4c5a4020fb.html",
       "summary": "赛题与评奖",
       "createdAt": "2025-12-20T05:17:32Z",
-      "status": "active",
-      "qualityScore": 85,
+      "status": "unknown",
+      "qualityScore": 480,
       "rankReasons": [
         "白名单:CUMCM",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "b9647cf2d61ea928",
-      "title": "关于2025年全国大学生数学建模竞赛中部分参赛论文相似度较高的通报",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-11-02",
-      "category": [
-        "数学建模"
-      ],
-      "tags": [
-        "高校",
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "CUMCM 官网公告",
-      "sourceUrl": "https://www.mcm.edu.cn/html_cn/node/270c01b62cdc7c7531065e3a65572054.html",
-      "summary": "关于2025年全国大学生数学建模竞赛中部分参赛论文相似度较高的通报",
-      "createdAt": "2025-12-20T05:17:32Z",
-      "status": "active",
-      "qualityScore": 85,
-      "rankReasons": [
-        "白名单:全国大学生数学建模竞赛",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "43b4b8527b427fd1",
-      "title": "ICPC 2025 Online Winter Challenge powered by Huawei",
-      "deadline": "2025-12-26",
-      "category": [
-        "编程"
-      ],
-      "tags": [
         "国家级",
-        "Codeforces"
-      ],
-      "sourceName": "Codeforces",
-      "sourceUrl": "https://codeforces.com/contests/2177",
-      "summary": "Codeforces contest",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 85,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [
-        "白名单:ICPC",
-        "官方来源"
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "National"
@@ -665,9 +600,9 @@
         "数学建模"
       ],
       "tags": [
+        "CUMCM",
         "高校",
-        "国家级",
-        "CUMCM"
+        "国家级"
       ],
       "sourceName": "CUMCM 官网公告",
       "sourceUrl": "https://www.mcm.edu.cn/html_cn/node/789429093c4291e28c7ccbbb4dd4f04b.html",
@@ -677,232 +612,134 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 85,
+      "qualityScore": 480,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
         "白名单:全国大学生数学建模竞赛",
-        "官方来源"
+        "国家级",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "National"
     },
     {
-      "id": "da1277a32bd5d5ff",
-      "title": "2025年全国大学生数学建模竞赛赛题讲评与经验交流会通知",
+      "id": "3cc56a0fadec091a",
+      "title": "Good Bye 2025",
+      "deadline": "2025-12-27",
       "category": [
-        "数学建模"
+        "编程"
       ],
       "tags": [
+        "报名中",
+        "Codeforces"
+      ],
+      "sourceName": "Codeforces",
+      "sourceUrl": "https://codeforces.com/contests/2178",
+      "summary": "Codeforces contest",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 420,
+      "isHighQuality": false,
+      "status": "open",
+      "rankReasons": [
+        "进行中/报名中",
+        "一周内截止",
+        "官方来源"
+      ],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "327c3fda87ce2868",
+      "title": "全国大学生创新创业大赛（示例）",
+      "bonusAmount": 50000,
+      "bonusText": "总奖金 5 万元",
+      "deadline": "2026-01-10",
+      "category": [
+        "AI数据",
+        "创新创业"
+      ],
+      "tags": [
+        "本科生",
+        "团队赛",
+        "报名中",
         "高校",
-        "国家级"
+        "有奖金"
       ],
-      "sourceName": "CUMCM 官网公告",
-      "sourceUrl": "https://www.mcm.edu.cn/html_cn/node/f0cd9759627fb5d775892c3ce9334737.html",
-      "summary": "CUMCM notice",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-09-02",
-      "cover": "",
+      "cover": "https://picsum.photos/200/200",
+      "sourceName": "官方通知（示例）",
+      "sourceUrl": "https://example.com",
+      "summary": "这是示例数据：后面你会用真实抓取数据替换。",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 85,
+      "qualityScore": 400,
       "isHighQuality": false,
-      "status": "active",
+      "status": "open",
       "rankReasons": [
-        "白名单:全国大学生数学建模竞赛",
-        "官方来源"
+        "进行中/报名中",
+        "高奖金"
       ],
-      "isWhitelist": true,
-      "level": "National"
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "bc82a312e37b0f85",
-      "title": "通知公告",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "国家级",
-        "挑战杯"
-      ],
-      "sourceName": "挑战杯通知",
-      "sourceUrl": "https://2025.tiaozhanbei.net/d49/competion_notice",
-      "summary": "挑战杯通知公告",
+      "id": "c458e503e0d21f89",
+      "title": "【非英语专业笔译组】2025年第十一届中西部外语翻译大赛",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 85,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [
-        "白名单:挑战杯",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "052be9ae3a7493ba",
-      "title": "官网公告",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
+      "deadline": "2026-01-18",
       "category": [
-        "AI数据"
+        "编程"
       ],
       "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "阿里云天池",
-      "sourceUrl": "https://www.aliyun.com/notice",
-      "summary": "官网公告",
-      "createdAt": "2025-12-20T05:17:51Z",
-      "status": "active",
-      "qualityScore": 75,
-      "rankReasons": [
-        "白名单:天池",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "13fa6f51d48a915b",
-      "title": "浙D3-20210002",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "阿里云天池",
-      "sourceUrl": "https://domain.miit.gov.cn/域名注册服务机构/互联网域名/阿里云计算有限公司 ",
-      "summary": "浙D3-20210002",
-      "createdAt": "2025-12-20T05:17:51Z",
-      "status": "active",
-      "qualityScore": 75,
-      "rankReasons": [
-        "白名单:天池",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "d26d660c38399df4",
-      "title": "天池大赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "国家级"
-      ],
-      "cover": "",
-      "sourceName": "阿里云天池",
-      "sourceUrl": "https://tianchi.aliyun.com/competition",
-      "summary": "天池大赛",
-      "createdAt": "2025-12-20T05:17:50Z",
-      "status": "active",
-      "qualityScore": 75,
-      "rankReasons": [
-        "白名单:天池",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "National"
-    },
-    {
-      "id": "79f20ee3d8f70360",
-      "title": "2021阿里巴巴诸神之战&宝马“互联网+汽车”赛道全球挑战赛线上观众",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2021-05-20",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "国家级",
+        "报名中",
         "赛氪"
       ],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/43865",
+      "sourceUrl": "https://www.saikr.com/vse/53791",
       "summary": "",
-      "createdAt": "2025-12-20T04:37:41Z",
-      "qualityScore": 65,
+      "createdAt": "2025-12-20T04:35:42Z",
+      "qualityScore": 400,
       "isHighQuality": false,
-      "status": "active",
+      "status": "open",
       "rankReasons": [
-        "白名单:互联网\\+"
+        "进行中/报名中"
       ],
-      "isWhitelist": true,
-      "level": "National"
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "638a4ed034a99bf0",
-      "title": "Codeforces Round (Div. 3)",
-      "deadline": "2025-12-23",
+      "id": "327c3fda87ce2868",
+      "title": "高校数学建模竞赛（示例）",
+      "bonusAmount": 10000,
+      "bonusText": "一等奖 1 万元",
+      "deadline": "2026-01-05",
       "category": [
-        "编程"
+        "数学建模"
       ],
       "tags": [
-        "Codeforces",
-        "国际级"
+        "报名中",
+        "团队",
+        "高校",
+        "数学建模",
+        "有奖金"
       ],
-      "sourceName": "Codeforces",
-      "sourceUrl": "https://codeforces.com/contests/2179",
-      "summary": "Codeforces contest",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "cover": "",
+      "cover": "https://picsum.photos/200/201",
+      "sourceName": "竞赛官网（示例）",
+      "sourceUrl": "https://example.com",
+      "summary": "示例数据：框架跑通后再接入自动捕捉。",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 65,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "open",
       "rankReasons": [
-        "白名单:Codeforces Round",
-        "官方来源"
+        "进行中/报名中"
       ],
-      "isWhitelist": true,
-      "level": "International"
-    },
-    {
-      "id": "40aaf8bd5b5cc827",
-      "title": "Educational Codeforces Round 186 (Rated for Div. 2)",
-      "deadline": "2025-12-29",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "Codeforces",
-        "国际级"
-      ],
-      "sourceName": "Codeforces",
-      "sourceUrl": "https://codeforces.com/contests/2182",
-      "summary": "Codeforces contest",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 65,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [
-        "白名单:Codeforces Round",
-        "官方来源"
-      ],
-      "isWhitelist": true,
-      "level": "International"
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "adb8c7bb46146a87",
@@ -922,11 +759,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/competition-uva-aiai-challenge",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -949,11 +787,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/meta-video-similarity",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -976,11 +815,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/competition-nasa-airport-pushback",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1003,11 +843,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/image-similarity-challenge",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1030,11 +871,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/competition-nasa-airport-configuration",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1057,11 +899,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/competition-air-quality",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1084,11 +927,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?category=development",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1111,11 +955,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?type=development",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1138,11 +983,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?category=health",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1165,11 +1011,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?type=health",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1192,11 +1039,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?category=disasters",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1219,11 +1067,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?type=disasters",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1246,11 +1095,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?category=climate",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1273,11 +1123,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?type=climate",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1300,11 +1151,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?category=science",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1327,11 +1179,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?type=science",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1354,11 +1207,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?category=education",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1381,11 +1235,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?type=education",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1408,11 +1263,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/nih-nia-alzheimers-adrd-competition",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1435,11 +1291,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/cdc-narratives",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1462,11 +1319,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/reclamation-water-supply-forecast",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1489,11 +1347,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/competition-nasa-spacecraft",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1516,11 +1375,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?category=society",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1543,11 +1403,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?type=society",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1570,11 +1431,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?category=civic",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1597,11 +1459,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?type=civic",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1624,11 +1487,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?category=privacy",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1651,11 +1515,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/uk-federated-learning",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1678,11 +1543,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?type=privacy",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1705,11 +1571,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/nist-federated-learning",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1732,11 +1599,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/competition-reclamation-snow-water",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1759,11 +1627,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/group/competition-differential-privacy-deid2",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1786,11 +1655,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?category=energy",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1813,11 +1683,12 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?type=energy",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1840,11 +1711,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1867,11 +1739,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1894,11 +1767,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1921,11 +1795,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1948,11 +1823,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -1975,11 +1851,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2002,11 +1879,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2029,11 +1907,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2056,11 +1935,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2083,11 +1963,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2110,11 +1991,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2137,11 +2019,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2164,11 +2047,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2191,11 +2075,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2218,11 +2103,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2245,11 +2131,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2272,11 +2159,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2299,11 +2187,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2326,11 +2215,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2353,11 +2243,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2380,11 +2271,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2407,11 +2299,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2434,11 +2327,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2461,11 +2355,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2488,11 +2383,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2515,11 +2411,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2542,11 +2439,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2569,11 +2467,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2596,11 +2495,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2623,11 +2523,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2650,11 +2551,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2677,11 +2579,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2704,11 +2607,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2731,11 +2635,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2758,11 +2663,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2785,11 +2691,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2812,11 +2719,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2839,11 +2747,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2866,11 +2775,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2893,11 +2803,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2920,11 +2831,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2947,11 +2859,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -2974,11 +2887,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -3001,11 +2915,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -3028,11 +2943,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -3055,11 +2971,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -3082,11 +2999,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -3109,11 +3027,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -3136,11 +3055,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -3163,11 +3083,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -3190,11 +3111,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -3217,11 +3139,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -3244,11 +3167,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -3271,11 +3195,12 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
@@ -3298,94 +3223,119 @@
       "deadline": "",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 45,
+      "qualityScore": 380,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
       "rankReasons": [
-        "白名单:DrivenData"
+        "白名单:DrivenData",
+        "权威来源"
       ],
       "isWhitelist": true,
       "level": "International"
     },
     {
-      "id": "3cc56a0fadec091a",
-      "title": "Good Bye 2025",
-      "deadline": "2025-12-27",
+      "id": "9b4a80fa98bbf6ad",
+      "title": "【论文发表+实践证明+中英文项目证书】26寒假桌面研究科研实践项目合集（线上）",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2026-02-01",
       "category": [
         "编程"
       ],
       "tags": [
-        "Codeforces"
+        "证书",
+        "进行中"
       ],
-      "sourceName": "Codeforces",
-      "sourceUrl": "https://codeforces.com/contests/2178",
-      "summary": "Codeforces contest",
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2026/H",
+      "summary": "",
+      "createdAt": "2025-12-20T04:10:43Z",
+      "qualityScore": 370,
+      "isHighQuality": false,
+      "status": "ongoing",
+      "rankReasons": [
+        "进行中/报名中"
+      ],
+      "isWhitelist": false,
+      "level": "Unknown",
+      "startDate": "2025-12-08"
+    },
+    {
+      "id": "06bc58f00b57aaba",
+      "title": "【重要】本科生保送研究生（保研）定位分析（适合大一、大二、大三提前准备规划保研的同学）-大学生竞赛-赛氪",
       "bonusAmount": 0,
       "bonusText": "-",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 25,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [
-        "官方来源"
-      ],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "327c3fda87ce2868",
-      "title": "全国大学生创新创业大赛（示例）",
-      "bonusAmount": 50000,
-      "bonusText": "总奖金 5 万元",
-      "deadline": "2026-01-10",
+      "deadline": "2026-07-31",
       "category": [
-        "创新创业",
-        "AI数据"
+        "AI数据",
+        "创新创业"
       ],
       "tags": [
-        "高校",
-        "有奖金",
         "本科生",
-        "团队赛"
+        "研究生",
+        "报名中",
+        "高校",
+        "赛氪"
       ],
-      "cover": "https://picsum.photos/200/200",
-      "sourceName": "官方通知（示例）",
-      "sourceUrl": "https://example.com",
-      "summary": "这是示例数据：后面你会用真实抓取数据替换。",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 23,
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/46250",
+      "summary": "",
+      "createdAt": "2025-12-20T04:10:42Z",
+      "qualityScore": 370,
       "isHighQuality": false,
-      "status": "active",
+      "status": "open",
       "rankReasons": [
-        "奖金丰厚"
+        "进行中/报名中"
       ],
       "isWhitelist": false,
       "level": "Unknown"
     },
     {
-      "id": "327c3fda87ce2868",
-      "title": "高校数学建模竞赛（示例）",
-      "bonusAmount": 10000,
-      "bonusText": "一等奖 1 万元",
-      "deadline": "2026-01-05",
+      "id": "f3d87269cb4a6ee5",
+      "title": "【明日开考】第二届“中国故事大赛·双语中国”全国大学生英语语法大赛-大学生竞赛-赛氪",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-12-20",
       "category": [
-        "数学建模"
+        "AI数据",
+        "创新创业"
       ],
       "tags": [
-        "团队",
         "高校",
-        "有奖金",
-        "数学建模"
+        "赛氪"
       ],
-      "cover": "https://picsum.photos/200/201",
-      "sourceName": "竞赛官网（示例）",
-      "sourceUrl": "https://example.com",
-      "summary": "示例数据：框架跑通后再接入自动捕捉。",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 17,
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2025/SYZGYF",
+      "summary": "",
+      "createdAt": "2025-12-20T04:10:45Z",
+      "qualityScore": 120,
       "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "9d804563a8027d29",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "text": "èµæ°ª - å¨å½å¤§å­¦çç«èµæ´»å¨å¹³å°ï¼æ±èé«å«ééæ¯èµä¿¡æ¯ï¼æä¾ä¸ä¸æ¥åç³»ç»åèµäºæå¡-èµæ°ª",
+      "category": [
+        "创新创业"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2025JJGL",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:31:38Z",
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3405,8 +3355,8 @@
       "sourceUrl": "https://www.saikr.com/vse/53721",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:39Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3426,8 +3376,8 @@
       "sourceUrl": "https://www.saikr.com/vse/53503",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:30Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3447,8 +3397,8 @@
       "sourceUrl": "https://www.saikr.com/vse/54680",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:30Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3468,8 +3418,8 @@
       "sourceUrl": "https://www.saikr.com/vse/54626",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:29Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3489,8 +3439,8 @@
       "sourceUrl": "https://www.saikr.com/vse/55841",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:29Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3510,8 +3460,8 @@
       "sourceUrl": "https://www.saikr.com/vse/54630",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:28Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3531,8 +3481,8 @@
       "sourceUrl": "https://www.saikr.com/vse/2025WLB/BMKIC",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:28Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3552,8 +3502,8 @@
       "sourceUrl": "https://www.saikr.com/vse/54624",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:27Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3573,8 +3523,8 @@
       "sourceUrl": "https://www.saikr.com/vse/54627",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:27Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3594,8 +3544,8 @@
       "sourceUrl": "https://www.saikr.com/vse/53738",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:24Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3615,8 +3565,8 @@
       "sourceUrl": "https://www.saikr.com/vse/55254",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:24Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3636,8 +3586,8 @@
       "sourceUrl": "https://www.saikr.com/vse/54629",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:23Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3657,8 +3607,8 @@
       "sourceUrl": "https://www.saikr.com/vse/53656",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:22Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3678,8 +3628,8 @@
       "sourceUrl": "https://www.saikr.com/vse/54605",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:22Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3699,8 +3649,8 @@
       "sourceUrl": "https://www.saikr.com/vse/53644",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:20Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3720,8 +3670,8 @@
       "sourceUrl": "https://www.saikr.com/vse/54679",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:19Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3741,8 +3691,8 @@
       "sourceUrl": "https://www.saikr.com/vse/25WLBOFFICE",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:19Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3762,8 +3712,8 @@
       "sourceUrl": "https://www.saikr.com/vse/2025UAV",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:18Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3783,8 +3733,8 @@
       "sourceUrl": "https://www.saikr.com/vse/2025WLB/ALGO",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:18Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3804,8 +3754,8 @@
       "sourceUrl": "https://www.saikr.com/vse/53645",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:17Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3825,8 +3775,8 @@
       "sourceUrl": "https://www.saikr.com/vse/53668",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:16Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3846,8 +3796,8 @@
       "sourceUrl": "https://www.saikr.com/vse/2025WLB/computilit",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:16Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3867,8 +3817,8 @@
       "sourceUrl": "https://www.saikr.com/vse/2025TJKXSF",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:15Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3888,8 +3838,8 @@
       "sourceUrl": "https://www.saikr.com/vse/57361",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:08Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3909,8 +3859,8 @@
       "sourceUrl": "https://www.saikr.com/vse/54718",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:08Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3930,8 +3880,8 @@
       "sourceUrl": "https://www.saikr.com/vse/55321",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:07Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3951,8 +3901,8 @@
       "sourceUrl": "https://www.saikr.com/vse/55849",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:07Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3972,8 +3922,8 @@
       "sourceUrl": "https://www.saikr.com/vse/53797",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:06Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -3993,8 +3943,8 @@
       "sourceUrl": "https://www.saikr.com/vse/55629",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:06Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4014,8 +3964,8 @@
       "sourceUrl": "https://www.saikr.com/vse/202505",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:05Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4035,8 +3985,8 @@
       "sourceUrl": "https://www.saikr.com/vse/55735",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:05Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4056,8 +4006,8 @@
       "sourceUrl": "https://www.saikr.com/vse/53518",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:04Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4077,8 +4027,8 @@
       "sourceUrl": "https://www.saikr.com/vse/2025MCIM",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:04Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4098,8 +4048,8 @@
       "sourceUrl": "https://www.saikr.com/vse/54709",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:03Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4119,8 +4069,8 @@
       "sourceUrl": "https://www.saikr.com/vse/54768",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:03Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4140,8 +4090,8 @@
       "sourceUrl": "https://www.saikr.com/vse/55726",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:03Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4161,8 +4111,8 @@
       "sourceUrl": "https://www.saikr.com/vse/55667",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:02Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4182,8 +4132,8 @@
       "sourceUrl": "https://www.saikr.com/vse/55766",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:01Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4203,8 +4153,8 @@
       "sourceUrl": "https://www.saikr.com/vse/2025LingHangCup1",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:01Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4224,8 +4174,8 @@
       "sourceUrl": "https://www.saikr.com/vse/2025MengQingCup",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:00Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4245,8 +4195,8 @@
       "sourceUrl": "https://www.saikr.com/vse/55834",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:18:00Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4266,8 +4216,8 @@
       "sourceUrl": "https://www.saikr.com/vse/54661",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:17:59Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4287,8 +4237,8 @@
       "sourceUrl": "https://www.saikr.com/vse/2025/autumn",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:17:59Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4308,8 +4258,8 @@
       "sourceUrl": "https://www.saikr.com/vse/2501/CCFCAT",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:17:58Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4329,8 +4279,8 @@
       "sourceUrl": "https://www.saikr.com/vse/53760",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:17:58Z",
-      "status": "active",
-      "qualityScore": 5,
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
@@ -4350,798 +4300,8 @@
       "sourceUrl": "https://www.saikr.com/vse/54967",
       "summary": "èµæ°ª",
       "createdAt": "2025-12-20T05:17:57Z",
-      "status": "active",
-      "qualityScore": 5,
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "55e95ebf78d5eda6",
-      "title": "2020全球农创客大赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2020-10-17",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/39743",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:51Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "c5645ada52f11863",
-      "title": "2020全国高校新能源汽车大数据创新创业大赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2020-12-31",
-      "category": [
-        "创新创业",
-        "AI数据"
-      ],
-      "tags": [
-        "高校",
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/38036",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:48Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "a9c200dd7d084e31",
-      "title": "2024年数字汽车大赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2024-06-28",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/50082",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:47Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "050e058614311c58",
-      "title": "第十一届全国大学生电子商务“创新、创意及创业”挑战赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2021-07-22",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "高校",
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/3chuang/2020",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:46Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "d9b7c1b6d219d1cc",
-      "title": "首届全球气候创变者挑战赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2023-07-25",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/47069",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:44Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "23472a0566a65af1",
-      "title": "全国大学生模拟交易大赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2022-03-25",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "高校",
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/45313",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:43Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "84958bb13087403c",
-      "title": "宁波银行“银行家练习生”首届校园挑战赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2021-05-10",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/43834",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:40Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "036a0fb8cad8e194",
-      "title": "2021全国高校新能源汽车大数据创新创业大赛（“数字汽车”大赛）",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2021-12-31",
-      "category": [
-        "创新创业",
-        "AI数据"
-      ],
-      "tags": [
-        "高校",
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/44287",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:39Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "ca5e208395e41fc4",
-      "title": "宁波银行第二届“银行家练习生”校园挑战赛火热报名中（金融、科技双赛道）",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2022-05-27",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/45629",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:37Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "9ef9c0adb990c9c9",
-      "title": "释放灵感，聚焦成长，2023上汽大通校园营销创意挑战赛全新来袭！",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2023-07-08",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/47108",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:36Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "b11d7cf4aeea64eb",
-      "title": "2022年数字汽车大赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2022-12-31",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/45490",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:35Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "b6e78c1b034db776",
-      "title": "2023年数字汽车大赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2023-09-18",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/47039",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:33Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "785f6a10eec0b2d9",
-      "title": "兰科院第二届数学建模“新晨杯”",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2023-04-10",
-      "category": [
-        "AI数据",
-        "数学建模"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/46300",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:21Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "22bff2d390286516",
-      "title": "2024年全国大数据金融分析与应用技能竞赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2024-03-31",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/48736",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:16Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "735aeb23640fe49c",
-      "title": "2018年中国矿业大学数学建模博学杯",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2018-12-16",
-      "category": [
-        "AI数据",
-        "数学建模"
-      ],
-      "tags": [
-        "高校",
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/36511",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:14Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "bcb3ac20123de0db",
-      "title": "中国矿业大学2019年第六届&amp;quot;行健杯&amp;quot;数学建模竞赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2019-04-08",
-      "category": [
-        "AI数据",
-        "数学建模"
-      ],
-      "tags": [
-        "高校",
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/36923",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:13Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "be3b52915b66d712",
-      "title": "聊城大学东昌学院第一届大学生机械创新设计大赛暨第十一届大学生机械创新设计竞赛校赛初赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2023-11-12",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "高校",
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/47980",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:10Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "f0e914c6c75d2f4f",
-      "title": "宁夏大学2020年“平安杯”数据分析大赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2020-12-05",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "高校",
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/2020pinganbei",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:09Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "b161b06189c6b9fd",
-      "title": "2025年第十五届IT科技节",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-10-31",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/24it-wljs",
-      "summary": "",
-      "createdAt": "2025-12-20T04:36:40Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "4190c36da03d7275",
-      "title": "2025年第十五届IT科技节",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-11-02",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/24it-rgznsf",
-      "summary": "",
-      "createdAt": "2025-12-20T04:36:39Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "8094664cd42d6aaa",
-      "title": "2023年第十三届IT科技节",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-10-09",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/23it-zonghe",
-      "summary": "",
-      "createdAt": "2025-12-20T04:36:37Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "9b3e40606a06d348",
-      "title": "第九届全国大学生集成电路创新创业大赛——职业技能赛项",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-06-15",
-      "category": [
-        "创新创业",
-        "编程"
-      ],
-      "tags": [
-        "高校",
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/54625",
-      "summary": "",
-      "createdAt": "2025-12-20T04:36:13Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "14d6b3436ce172e5",
-      "title": "2023年第十三届IT科技节",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2023-11-15",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/23it-sheji",
-      "summary": "",
-      "createdAt": "2025-12-20T04:36:12Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "4703c001c494036d",
-      "title": "2025年第十五届IT科技节计算机程序设计大赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-10-31",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/50227",
-      "summary": "",
-      "createdAt": "2025-12-20T04:36:10Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "b8a7dff98df10804",
-      "title": "2025年高校学生数学建模能力测评考试【4月场次】",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-04-27",
-      "category": [
-        "数学建模",
-        "编程"
-      ],
-      "tags": [
-        "高校"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/53740",
-      "summary": "",
-      "createdAt": "2025-12-20T04:35:55Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "7f34b7daad1b72be",
-      "title": "2025年第十五届IT科技节",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-10-31",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/24it-wlaq",
-      "summary": "",
-      "createdAt": "2025-12-20T04:35:47Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "c458e503e0d21f89",
-      "title": "【非英语专业笔译组】2025年第十一届中西部外语翻译大赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2026-01-18",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/53791",
-      "summary": "",
-      "createdAt": "2025-12-20T04:35:42Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "6b6f2390cc4e4e63",
-      "title": "2023年第十三届IT科技节",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2023-11-25",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/23it-yingyong",
-      "summary": "",
-      "createdAt": "2025-12-20T04:35:41Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "f786b0f23d163388",
-      "title": "2025年第十五届IT科技节",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-11-02",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/24it-rgzn",
-      "summary": "",
-      "createdAt": "2025-12-20T04:35:39Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "f3d87269cb4a6ee5",
-      "title": "【明日开考】第二届“中国故事大赛·双语中国”全国大学生英语语法大赛-大学生竞赛-赛氪",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2025-12-20",
-      "category": [
-        "创新创业",
-        "AI数据"
-      ],
-      "tags": [
-        "高校",
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/2025/SYZGYF",
-      "summary": "",
-      "createdAt": "2025-12-20T04:10:45Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "9b4a80fa98bbf6ad",
-      "title": "【论文发表+实践证明+中英文项目证书】26寒假桌面研究科研实践项目合集（线上）",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2026-02-01",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "证书"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/2026/H",
-      "summary": "",
-      "createdAt": "2025-12-20T04:10:43Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
-      "rankReasons": [],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "06bc58f00b57aaba",
-      "title": "【重要】本科生保送研究生（保研）定位分析（适合大一、大二、大三提前准备规划保研的同学）-大学生竞赛-赛氪",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2026-07-31",
-      "category": [
-        "创新创业",
-        "AI数据"
-      ],
-      "tags": [
-        "研究生",
-        "高校",
-        "赛氪",
-        "本科生"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/46250",
-      "summary": "",
-      "createdAt": "2025-12-20T04:10:42Z",
-      "qualityScore": 5,
-      "isHighQuality": false,
-      "status": "active",
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
