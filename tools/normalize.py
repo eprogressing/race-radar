@@ -200,19 +200,161 @@ def is_recent(text, deadline):
         return True
     return False
 
-# Deprecated but kept for compatibility with old update_feed.py references if any
-def map_category(title, source_name, summary=""):
-    item = {"title": title, "sourceName": source_name, "summary": summary}
-    cats, _ = classify_item(item)
-    return cats
+def normalize_title(title: str):
+    if not title:
+        return None
+        
+    # 1. Clean whitespace
+    title = re.sub(r'\s+', ' ', title).strip()
+    
+    # 2. Invalid patterns
+    invalid_patterns = [
+        r"(京|ICP)备",
+        r"版权所有",
+        r"联系我们",
+        r"隐私政策",
+        r"网站地图",
+        r"技术支持",
+        r"Power by",
+        r"All Rights Reserved",
+    ]
+    for p in invalid_patterns:
+        if re.search(p, title, re.IGNORECASE):
+            return None
+            
+    # 3. Date-only title check
+    # Matches "2025年3月21日2025年3月25日" or similar
+    if re.match(r"^[\d\s年\.月日:-]+$", title):
+        return None
+        
+    # 4. Length check
+    if len(title) < 4: # Relaxed slightly from 6
+        return None
+        
+    # 5. Pure "Notice" check
+    # If title contains only "Notice/News", drop unless it has contest keywords
+    # Keywords: 大赛, 竞赛, 挑战赛, 杯, 赛, Contest, Challenge, 选拔
+    contest_keywords = [
+        "大赛", "竞赛", "挑战赛", "杯", "赛", "Contest", "Challenge", "选拔", "Olympic", "Hackathon"
+    ]
+    notice_keywords = ["通知", "公告", "新闻", "Notice", "News", "Announcement"]
+    
+    is_notice = any(k in title for k in notice_keywords)
+    has_contest = any(k in title for k in contest_keywords)
+    
+    if is_notice and not has_contest:
+        return None
+        
+    # If it's a valid title, return cleaned version
+    return title
+
+def determine_status(start_date, deadline):
+    """
+    Returns: upcoming, open, ongoing, ended, unknown
+    """
+    now = datetime.now()
+    today_str = now.strftime("%Y-%m-%d")
+    
+    dl_dt = None
+    start_dt = None
+    
+    if deadline:
+        try:
+            dl_dt = datetime.strptime(deadline, "%Y-%m-%d")
+        except:
+            pass
+            
+    if start_date:
+        try:
+            start_dt = datetime.strptime(start_date, "%Y-%m-%d")
+        except:
+            pass
+            
+    # 1. Ended
+    if dl_dt and dl_dt < now:
+        # Check if it's "today" (ended today implies ended usually?)
+        # Let's say deadline is inclusive. So if now > deadline + 1 day?
+        # Standard: deadline is end of day.
+        # Simple: if deadline date < today date -> ended
+        if deadline < today_str:
+            return "ended"
+            
+    # 2. Upcoming
+    if start_dt and start_dt > now:
+        return "upcoming"
+        
+    # 3. Ongoing (Started but not ended)
+    if start_dt and dl_dt:
+        if start_dt <= now <= dl_dt:
+            return "ongoing"
+            
+    # 4. Open (Has deadline, not ended, start unknown or passed)
+    if dl_dt and dl_dt >= now:
+        return "open"
+        
+    # 5. Unknown
+    return "unknown"
+
+def parse_date_range(text):
+    """
+    Extract startDate and deadline from text like "2025年3月21日-2025年3月25日"
+    """
+    if not text:
+        return None, None
+        
+    # Try range pattern
+    # 2025.03.21-2025.03.25
+    # 2025年3月21日-3月25日
+    range_patterns = [
+        r"(\d{4}[.\-年]\d{1,2}[.\-月]\d{1,2})[日\s]*[-~至][\s]*(\d{4}[.\-年]\d{1,2}[.\-月]\d{1,2})",
+        # Simplified second part not fully supported yet for safety, assume full dates usually
+    ]
+    
+    for p in range_patterns:
+        m = re.search(p, text)
+        if m:
+            d1 = m.group(1).replace(".", "-").replace("年", "-").replace("月", "-").replace("日", "")
+            d2 = m.group(2).replace(".", "-").replace("年", "-").replace("月", "-").replace("日", "")
+            
+            # Format to YYYY-MM-DD
+            def fmt(d):
+                parts = d.split("-")
+                if len(parts) == 3:
+                    return f"{parts[0]}-{int(parts[1]):02d}-{int(parts[2]):02d}"
+                return None
+            
+            return fmt(d1), fmt(d2)
+            
+    # Fallback: find single dates
+    dates = re.findall(r"(\d{4}[.\-年]\d{1,2}[.\-月]\d{1,2})", text)
+    valid_dates = []
+    for d in dates:
+        d_clean = d.replace(".", "-").replace("年", "-").replace("月", "-").replace("日", "")
+        parts = d_clean.split("-")
+        if len(parts) == 3:
+            valid_dates.append(f"{parts[0]}-{int(parts[1]):02d}-{int(parts[2]):02d}")
+            
+    if not valid_dates:
+        return None, None
+        
+    # Heuristic: if multiple dates, last one is usually deadline
+    # If context implies "start": not handled deeply here, relying on simple range
+    return None, valid_dates[-1]
 
 def ensure_item_schema(item):
     item = dict(item)
+    
+    # Clean Title First
+    clean_title = normalize_title(item.get("title", ""))
+    if not clean_title:
+        # Mark as invalid for caller to drop
+        item["_invalid"] = True
+        return item
+    item["title"] = clean_title
+    
     item.setdefault("id", "")
-    item.setdefault("title", "")
     item.setdefault("bonusAmount", 0)
     item.setdefault("bonusText", "-")
-    item.setdefault("deadline", "")
     item.setdefault("category", [])
     item.setdefault("tags", [])
     item.setdefault("cover", "")
@@ -220,7 +362,22 @@ def ensure_item_schema(item):
     item.setdefault("sourceUrl", "")
     item.setdefault("summary", "")
     item.setdefault("createdAt", now_iso())
-    item.setdefault("status", "active")
+    
+    # Date & Status Logic
+    text = item.get("text", "") or item.get("summary", "")
+    start, end = parse_date_range(text)
+    
+    # Prefer existing specific fields if source provided them
+    if not item.get("startDate") and start:
+        item["startDate"] = start
+    if not item.get("deadline") and end:
+        item["deadline"] = end
+        
+    # If no deadline yet, try legacy parse
+    if not item.get("deadline"):
+        item["deadline"] = parse_deadline(text)
+        
+    item["status"] = determine_status(item.get("startDate"), item.get("deadline"))
     
     # 1. Classify & Tag
     cats, tags = classify_item(item)
@@ -319,9 +476,10 @@ def norm_generic(item, source_name=""):
     text = item.get('text', "") or ""
     
     amount, bonus_text = extract_bonus(text)
-    deadline = parse_deadline(text)
-    if not deadline:
-        deadline = item.get("deadline", "")
+    
+    # deadline parsing is handled in ensure_item_schema if not provided
+    # but we can try here to pass it explicitly
+    deadline = item.get("deadline", "")
         
     nd = {
         "id": cid,
@@ -329,6 +487,7 @@ def norm_generic(item, source_name=""):
         "bonusAmount": amount,
         "bonusText": bonus_text,
         "deadline": deadline,
+        "text": text, # Pass full text for parsing
         "category": item.get("category", []), # Will be augmented by ensure_item_schema
         "tags": [],
         "cover": "",

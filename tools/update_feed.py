@@ -6,7 +6,7 @@ import time
 import requests
 import yaml
 from bs4 import BeautifulSoup
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,20 +20,18 @@ from tools.normalize import (
     canonicalize_url,
     id_from_url,
     extract_bonus,
-    map_category, # Legacy, might be deprecated but kept in normalize.py
     ensure_item_schema,
     parse_deadline,
     is_recent,
+    normalize_title,
+    determine_status
 )
-
-# calculate_quality_score is not exported from normalize anymore because rank_item handles it
-# If update_feed still needs it, we can remove it or fix normalize.py
-# In normalize.py we saw: ensure_item_schema calls rank_item
-# So update_feed doesn't need to call calculate_quality_score directly if it uses ensure_item_schema
-# Let's remove calculate_quality_score from import
 
 FEED_PATH = ROOT / "feed.json"
 SOURCES_PATH = ROOT / "tools" / "sources.yaml"
+
+MAX_EXPIRED_DAYS_DEFAULT = 7
+MAX_EXPIRED_DAYS_WHITELIST = 30
 
 def load_sources():
     with open(SOURCES_PATH, "r", encoding="utf-8") as f:
@@ -52,10 +50,16 @@ def save_feed(feed):
 def rebuild_existing(feed_items):
     rebuilt = []
     for it in feed_items:
+        # Check invalid title first
+        if not normalize_title(it.get("title", "")):
+            continue
+            
         # Re-apply schema, classification and ranking
         # Note: we pass a copy to avoid mutating original if needed, but ensure_item_schema returns new dict
         new_it = ensure_item_schema(it)
-        
+        if new_it.get("_invalid"):
+            continue
+            
         # Canonicalize URL/ID again to be safe
         su = canonicalize_url(new_it.get("sourceUrl"))
         if su:
@@ -161,24 +165,49 @@ def fetch_generic_html(config):
     final_candidates = list(dedup.values())[:20] # Limit detail fetch
     
     for c in final_candidates:
-        # Fetch detail for bonus/date
+        # Fetch detail for bonus/date/better title
         try:
             # Skip non-html (files)
             if c["url"].endswith((".pdf", ".doc", ".docx", ".zip", ".rar")):
-                items.append(norm_generic(c, name))
+                # Check title normalization for file links too
+                if normalize_title(c["title"]):
+                    items.append(norm_generic(c, name))
                 continue
                 
             rd = requests.get(c["url"], timeout=10)
             rd.encoding = rd.apparent_encoding
             sd = BeautifulSoup(rd.text, "lxml")
+            
             # Extract main text
-            # Try to find main content area or just body text
-            content = sd.body.get_text(separator="\n", strip=True) if sd.body else ""
-            c["text"] = content[:5000] # Pass text to normalizer
+            # Try to find main content area
+            main_content = ""
+            for selector in ["article", "main", ".content", ".detail", ".post", "#content", "#main"]:
+                el = sd.select_one(selector)
+                if el:
+                    main_content = el.get_text(separator="\n", strip=True)
+                    break
+            if not main_content:
+                # Remove footer/nav/script/style from body
+                for tag in sd(["script", "style", "nav", "footer", "header"]):
+                    tag.decompose()
+                main_content = sd.body.get_text(separator="\n", strip=True) if sd.body else ""
+                
+            c["text"] = main_content[:5000] # Pass text to normalizer
+            
+            # Try to extract better title from h1/h2
+            h1 = sd.find("h1")
+            if h1:
+                better_title = h1.get_text(strip=True)
+                if normalize_title(better_title):
+                    c["title"] = better_title
+                    
         except:
             pass
             
-        items.append(norm_generic(c, name))
+        # Normalization and filtering happens in ensure_item_schema called by norm_generic
+        item = norm_generic(c, name)
+        if not item.get("_invalid"):
+            items.append(item)
         
     return items
 
@@ -233,7 +262,9 @@ def fetch_52jingsai(config):
                 "text": text_all,
                 "category": [fixed_cat] if fixed_cat else []
             }
-            items.append(norm_generic(item_data, "52竞赛网"))
+            item = norm_generic(item_data, "52竞赛网")
+            if not item.get("_invalid"):
+                items.append(item)
             
         except Exception:
             continue
@@ -278,7 +309,9 @@ def fetch_kaggle(config):
                 "category": ["AI数据"],
                 "sourceName": "Kaggle"
             }
-            items.append(norm_generic(item_data, "Kaggle"))
+            item = norm_generic(item_data, "Kaggle")
+            if not item.get("_invalid"):
+                items.append(item)
             
         except Exception:
             continue
@@ -324,7 +357,9 @@ def fetch_saikr(config):
                 "text": text_all,
                 "category": [fixed_cat] if fixed_cat else []
             }
-            items.append(norm_generic(item_data, "赛氪"))
+            item = norm_generic(item_data, "赛氪")
+            if not item.get("_invalid"):
+                items.append(item)
             
         except Exception:
             continue
@@ -367,7 +402,7 @@ def merge_items(old_items, new_items):
             existing = by_url[cu]
             # Update fields, prefer new info if valid
             # Especially update rank info/tags
-            for k in ["title", "bonusAmount", "bonusText", "deadline", "category", "tags", "qualityScore", "rankReasons", "isWhitelist", "level"]:
+            for k in ["title", "bonusAmount", "bonusText", "deadline", "startDate", "status", "category", "tags", "qualityScore", "rankReasons", "isWhitelist", "level"]:
                 if i.get(k):
                     existing[k] = i[k]
             
@@ -416,15 +451,30 @@ def main():
             fetched = len(res)
             # category filter: enforce only 4 classes
             filtered = []
-            drop_reasons = {"category_mismatch": 0, "expired": 0}
+            drop_reasons = {"category_mismatch": 0, "expired": 0, "bad_title": 0}
             
             for it in res:
+                # 0. Check invalid title
+                if it.get("_invalid") or not it.get("title"):
+                    drop_reasons["bad_title"] += 1
+                    continue
+                    
                 # 1. Check expiration (soft delete from NEW fetch, not history)
-                # If deadline exists and is > 30 days ago, skip
-                dl = it.get("deadline")
-                if dl and not is_recent(it.get("summary", ""), dl):
-                     drop_reasons["expired"] += 1
-                     continue
+                # Logic: if ended, check if expired too long
+                status = it.get("status", "unknown")
+                deadline = it.get("deadline")
+                is_wl = it.get("isWhitelist", False)
+                max_days = MAX_EXPIRED_DAYS_WHITELIST if is_wl else MAX_EXPIRED_DAYS_DEFAULT
+                
+                if status == "ended" and deadline:
+                    try:
+                        dl_dt = datetime.strptime(deadline, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+                        now_dt = datetime.now(timezone.utc)
+                        if (now_dt - dl_dt).days > max_days:
+                            drop_reasons["expired"] += 1
+                            continue
+                    except:
+                        pass
                      
                 # 2. Check category
                 cats = it.get("category") or []
@@ -453,38 +503,84 @@ def main():
     merged_items, added = merge_items(feed.get("items", []), all_new)
     added_count = len(added)
     
+    # Final filter on merged items (to clean up history)
+    final_items = []
+    dropped_history_count = 0
+    for it in merged_items:
+        # Check title validity again
+        if not normalize_title(it.get("title", "")):
+            dropped_history_count += 1
+            continue
+            
+        # Check expiration again
+        status = it.get("status", "unknown")
+        deadline = it.get("deadline")
+        is_wl = it.get("isWhitelist", False)
+        max_days = MAX_EXPIRED_DAYS_WHITELIST if is_wl else MAX_EXPIRED_DAYS_DEFAULT
+        
+        if status == "ended" and deadline:
+            try:
+                dl_dt = datetime.strptime(deadline, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+                now_dt = datetime.now(timezone.utc)
+                if (now_dt - dl_dt).days > max_days:
+                    dropped_history_count += 1
+                    continue
+            except:
+                pass
+        final_items.append(it)
+        
+    print(f"Dropped {dropped_history_count} items from history due to expiration/bad_title")
+    
     # Sort by qualityScore desc, then deadline asc (urgent first), then createdAt desc
-    # deadline sort is tricky with empty strings. 
-    # Strategy: High quality first. Within same quality, close deadline first.
     def sort_key(x):
         qs = x.get("qualityScore", 0)
-        dl = x.get("deadline", "")
-        # Future deadline < No deadline < Past deadline?
-        # Actually: Urgent deadline (close future) should boost score?
-        # Score already includes deadline urgency.
-        # So just sort by score.
-        # Secondary: createdAt
-        return (qs, x.get("createdAt", ""))
+        dl = x.get("deadline")
         
-    merged_items.sort(key=sort_key, reverse=True)
+        # For deadline sort:
+        # If open/ongoing: urgent (small deadline) is better -> negative deadline?
+        # No, we want ASC deadline for open items.
+        # But we are sorting reverse=True (DESC) overall.
+        # So we need to invert deadline for sorting.
+        # Use timestamp inversion.
+        dl_score = 0
+        if dl:
+            try:
+                ts = datetime.strptime(dl, "%Y-%m-%d").timestamp()
+                # If we want ASC deadline to be higher rank:
+                # Closer deadline (smaller TS) -> Higher Rank
+                # So we want -TS.
+                dl_score = -ts
+            except:
+                dl_score = -9999999999 # Far future
+        else:
+            dl_score = -9999999999
+            
+        return (qs, dl_score, x.get("createdAt", ""))
+        
+    final_items.sort(key=sort_key, reverse=True)
     
     # Print summary stats
     cat_stats = {"编程":0, "数学建模":0, "AI数据":0, "创新创业":0}
-    for it in merged_items:
+    status_stats = {"upcoming":0, "open":0, "ongoing":0, "ended":0, "unknown":0}
+    
+    for it in final_items:
         for c in it.get("category", []):
             if c in cat_stats: cat_stats[c] += 1
+        st = it.get("status", "unknown")
+        if st in status_stats: status_stats[st] += 1
     
     # Top sources stats
     src_stats = {}
-    for it in merged_items:
+    for it in final_items:
         src = it.get("sourceName", "unknown")
         src_stats[src] = src_stats.get(src, 0) + 1
     top_sources = sorted(src_stats.items(), key=lambda x: x[1], reverse=True)[:10]
     
     summary = {
-        "total_items": len(merged_items),
+        "total_items": len(final_items),
         "added": added_count,
         "categories": cat_stats,
+        "statuses": status_stats,
         "top_sources": dict(top_sources),
         "source_details": stats
     }
@@ -492,17 +588,18 @@ def main():
     print("=== Update Summary ===")
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     
+    if args.dry_run or args.ci:
+        print("Top 20 items preview:")
+        for x in final_items[:20]:
+            print(f"  [{x.get('qualityScore')}] {x['title']} ({x.get('status')}|{x.get('deadline')}) - {x.get('rankReasons')}")
+    
     if args.dry_run:
         print("Dry-run mode: skipping save.")
-        # preview top 5
-        print("Top 10 items preview:")
-        for x in merged_items[:10]:
-            print(f"  [{x.get('qualityScore')}] {x['title']} ({x['sourceName']}) - {x.get('bonusText')} - {x.get('rankReasons')}")
         sys.exit(0)
         
     # CI mode or normal mode: ALWAYS SAVE if we have items
     # Validation
-    if len(merged_items) == 0:
+    if len(final_items) == 0:
         if args.ci:
             print("Error: No items found after merge. CI failed.")
             sys.exit(1)
@@ -510,7 +607,7 @@ def main():
             print("Warning: No items found.")
     
     # Update feed
-    feed["items"] = merged_items
+    feed["items"] = final_items
     feed["updatedAt"] = now_iso()
     
     if args.ci:

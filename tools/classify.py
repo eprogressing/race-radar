@@ -1,6 +1,7 @@
 import re
 import yaml
 from pathlib import Path
+from datetime import datetime, timezone, timedelta
 
 ROOT = Path(__file__).resolve().parents[1]
 WHITELIST_PATH = ROOT / "tools" / "whitelist.yaml"
@@ -72,6 +73,8 @@ def classify_item(item):
     if "开源" in text: tags.add("开源")
     if item.get("bonusAmount", 0) > 0: tags.add("有奖金")
     if "证书" in text: tags.add("证书")
+    if item.get("status") == "ongoing": tags.add("进行中")
+    if item.get("status") == "open": tags.add("报名中")
     
     return final_cats, list(tags)
 
@@ -88,45 +91,100 @@ def rank_item(item):
     level = "Unknown"
     is_whitelist = False
     
-    # 1. Whitelist Check
+    # 1. Whitelist Check (Base Weight)
     for rule in wl.get("whitelist", []):
         if re.search(rule["pattern"], text, re.IGNORECASE):
-            w = rule.get("weight", 0)
-            score += w
+            score += 200 # Major boost
             is_whitelist = True
             level = rule.get("level", "Unknown")
             reasons.append(f"白名单:{rule['pattern']}")
-            break # Match once
+            if level == "National":
+                score += 100
+                reasons.append("国家级")
+            break
             
-    # 2. Official Domain Check
+    # 2. Status Weight (Time Criticality)
+    status = item.get("status", "unknown")
+    if status in ["ongoing", "open"]:
+        score += 300
+        reasons.append("进行中/报名中")
+    elif status == "upcoming":
+        # Check if starting soon
+        start = item.get("startDate")
+        if start:
+            try:
+                start_dt = datetime.strptime(start, "%Y-%m-%d")
+                days_to_start = (start_dt - datetime.now()).days
+                if days_to_start <= 14:
+                    score += 260
+                    reasons.append("即将开始")
+                else:
+                    score += 120
+            except:
+                score += 120
+        else:
+            score += 120
+    elif status == "unknown":
+        score += 50
+    elif status == "ended":
+        score -= 500
+        
+    # 3. Deadline Urgency (for open/ongoing)
+    if status in ["open", "ongoing"]:
+        deadline = item.get("deadline")
+        if deadline:
+            try:
+                dl_dt = datetime.strptime(deadline, "%Y-%m-%d")
+                days_left = (dl_dt - datetime.now()).days
+                if 0 <= days_left <= 3:
+                    score += 120
+                    reasons.append("即将截止")
+                elif 0 <= days_left <= 7:
+                    score += 80
+                    reasons.append("一周内截止")
+                elif 0 <= days_left <= 30:
+                    score += 30
+            except:
+                pass
+
+    # 4. Source Authority
+    src_name = item.get("sourceName", "")
+    high_auth_sources = ["CUMCM", "COMAP", "NSCSCC", "蓝桥杯", "挑战杯", "天池", "阿里云", "Kaggle", "DrivenData"]
+    if any(s in src_name for s in high_auth_sources):
+        score += 120
+        reasons.append("权威来源")
+    elif src_name in ["赛氪", "52竞赛网"]:
+        score += 60
+    elif src_name in ["Codeforces", "AtCoder"]:
+        score += 10 # Regular contests
+        
     for domain in wl.get("official_domains", []):
-        if domain in url:
+        if domain in url and "权威来源" not in reasons:
             score += 20
             reasons.append("官方来源")
             break
             
-    # 3. Bonus Weight
+    # 5. Bonus Weight
     bonus = item.get("bonusAmount", 0)
     if bonus >= 100000:
-        score += 25
-        reasons.append("高奖金")
+        score += 80
+        reasons.append("超高奖金")
     elif bonus >= 50000:
-        score += 18
-        reasons.append("奖金丰厚")
+        score += 60
+        reasons.append("高奖金")
     elif bonus >= 10000:
-        score += 12
+        score += 40
     elif bonus >= 5000:
-        score += 7
+        score += 20
         
-    # 4. Deadline Weight (handled dynamically in update_feed, but static part here)
-    # 5. Category Preference
+    # 6. Category Preference
     cats = item.get("category", [])
     if any(c in ["编程", "数学建模", "AI数据", "创新创业"] for c in cats):
-        score += 5
+        score += 10
         
     return {
         "qualityScore": score,
-        "rankReasons": reasons,
+        "rankReasons": reasons[:3], # Keep top 3 reasons
         "isWhitelist": is_whitelist,
         "level": level
     }
