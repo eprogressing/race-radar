@@ -20,10 +20,6 @@ sources:
     enabled: true
     type: challengecup
     url: https://2025.tiaozhanbei.net/
-  - name: 52jingsai
-    enabled: true
-    type: 52jingsai
-    url: https://www.52jingsai.com/
   - name: kaggle
     enabled: true
     type: kaggle
@@ -31,4 +27,29 @@ sources:
   - name: saikr
     enabled: true
     type: saikr
-    url: https://m.saikr.com/vs
+    url: https://www.saikr.com/vs?set_web=1
+    pages: 3
+  - name: 52jingsai_ai
+    enabled: true
+    type: 52jingsai
+    url: https://m.52jingsai.com/list-17-10.html
+    category_fixed: AI数据
+    pages: 2
+  - name: 52jingsai_math
+    enabled: true
+    type: 52jingsai
+    url: https://m.52jingsai.com/list-309-5.html
+    category_fixed: 数学建模
+    pages: 2
+  - name: 52jingsai_startup
+    enabled: true
+    type: 52jingsai
+    url: https://m.52jingsai.com/list-3-1.html
+    category_fixed: 创新创业
+    pages: 2
+  - name: 52jingsai_code
+    enabled: true
+    type: 52jingsai
+    url: https://m.52jingsai.com/list-14-5.html
+    category_fixed: 编程
+    pages: 2

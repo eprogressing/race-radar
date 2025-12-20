@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import hashlib
 import re
 from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
@@ -74,17 +74,60 @@ def extract_bonus(text):
         return 0, "-"
     return amount_rmb, match_text or "-"
 
-def map_category(title, source_name):
-    t = (title or "") + " " + (source_name or "")
-    if any(k in t for k in ["Codeforces", "AtCoder", "编程", "算法", "ACM", "蓝桥", "程序"]):
-        return ["编程"]
-    if any(k in t for k in ["数学建模", "美赛", "MCM", "ICM", "建模", "CUMCM", "COMAP"]):
-        return ["数学建模"]
-    if any(k in t for k in ["Kaggle", "DrivenData", "AI", "机器学习", "数据"]):
-        return ["AI数据"]
-    if any(k in t for k in ["挑战杯", "互联网+", "创业", "创新创业"]):
-        return ["创新创业"]
-    return []
+def parse_deadline(text):
+    if not text:
+        return ""
+    # Try range patterns first: YYYY.MM.DD-YYYY.MM.DD
+    dm = re.findall(r"(\d{4}[.\-]\d{1,2}[.\-]\d{1,2})", text)
+    if dm:
+        # Take the last date as deadline
+        last_date = dm[-1].replace(".", "-")
+        # Ensure YYYY-MM-DD format with zero padding
+        parts = last_date.split("-")
+        if len(parts) == 3:
+            return f"{parts[0]}-{int(parts[1]):02d}-{int(parts[2]):02d}"
+    
+    # Try single date pattern
+    dm = re.search(r"(\d{4})年(\d{1,2})月(\d{1,2})日", text)
+    if dm:
+        return f"{dm.group(1)}-{int(dm.group(2)):02d}-{int(dm.group(3)):02d}"
+        
+    return ""
+
+def is_recent(text, deadline):
+    # If deadline exists, check if it is >= today - 7 days
+    if deadline:
+        try:
+            dl_dt = datetime.strptime(deadline, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+            now_dt = datetime.now(timezone.utc)
+            if dl_dt >= (now_dt - timedelta(days=7)):
+                return True
+        except:
+            pass
+    
+    # If no deadline or invalid, check for current year or last year in text
+    current_year = datetime.now().year
+    if str(current_year) in text or str(current_year + 1) in text:
+        return True
+    return False
+
+def map_category(title, source_name, summary=""):
+    t = (title or "") + " " + (source_name or "") + " " + (summary or "")
+    cats = []
+    
+    if any(k in t.lower() for k in ["codeforces", "atcoder", "icpc", "ccpc", "程序设计", "算法", "软件杯", "蓝桥杯", "编程", "acm"]):
+        cats.append("编程")
+        
+    if any(k in t.lower() for k in ["数学建模", "美赛", "mcm", "icm", "建模", "cumcm", "comap", "国赛", "研赛"]):
+        cats.append("数学建模")
+        
+    if any(k in t.lower() for k in ["kaggle", "drivendata", "ai", "人工智能", "机器学习", "深度学习", "数据", "大模型", "算法挑战赛", "开悟"]):
+        cats.append("AI数据")
+        
+    if any(k in t.lower() for k in ["挑战杯", "互联网+", "创业", "创新创业", "创青春", "商业计划书"]):
+        cats.append("创新创业")
+        
+    return list(set(cats))
 
 def ensure_item_schema(item):
     item = dict(item)

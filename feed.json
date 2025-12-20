@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2025-12-19T18:24:34Z",
+  "updatedAt": "2025-12-20T04:10:46Z",
   "items": [
     {
       "id": "327c3fda87ce2868",
@@ -1767,6 +1767,63 @@
       "sourceUrl": "https://www.drivendata.org/competitions/search?type=energy",
       "summary": "DrivenData competition",
       "createdAt": "2025-12-19T18:24:33Z"
+    },
+    {
+      "id": "06bc58f00b57aaba",
+      "title": "【重要】本科生保送研究生（保研）定位分析（适合大一、大二、大三提前准备规划保研的同学）-大学生竞赛-赛氪",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2026-07-31",
+      "category": [
+        "创新创业",
+        "AI数据"
+      ],
+      "tags": [
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/46250",
+      "summary": "",
+      "createdAt": "2025-12-20T04:10:42Z"
+    },
+    {
+      "id": "9b4a80fa98bbf6ad",
+      "title": "【论文发表+实践证明+中英文项目证书】26寒假桌面研究科研实践项目合集（线上）-大学生竞赛-赛氪",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2026-02-01",
+      "category": [
+        "创新创业",
+        "AI数据"
+      ],
+      "tags": [
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2026/H",
+      "summary": "",
+      "createdAt": "2025-12-20T04:10:43Z"
+    },
+    {
+      "id": "f3d87269cb4a6ee5",
+      "title": "【明日开考】第二届“中国故事大赛·双语中国”全国大学生英语语法大赛-大学生竞赛-赛氪",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-12-20",
+      "category": [
+        "创新创业",
+        "AI数据"
+      ],
+      "tags": [
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2025/SYZGYF",
+      "summary": "",
+      "createdAt": "2025-12-20T04:10:45Z"
     }
   ]
 }
