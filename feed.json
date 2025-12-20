@@ -1,48 +1,3311 @@
 {
   "version": 1,
-  "updatedAt": "2025-12-20T04:50:51Z",
+  "updatedAt": "2025-12-20T05:18:51Z",
   "items": [
     {
-      "id": "327c3fda87ce2868",
-      "title": "全国大学生创新创业大赛（示例）",
-      "bonusAmount": 50000,
-      "bonusText": "总奖金 5 万元",
-      "deadline": "2026-01-10",
+      "id": "52f3855a84adf15b",
+      "title": "挑战杯丨2025年度中国青年科技创新“揭榜挂帅”擂台赛第二弹重磅来袭！",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-06-30",
       "category": [
         "创新创业"
       ],
       "tags": [
-        "本科生",
-        "团队赛"
+        "国家级"
       ],
-      "cover": "https://picsum.photos/200/200",
-      "sourceName": "官方通知（示例）",
-      "sourceUrl": "https://example.com",
-      "summary": "这是示例数据：后面你会用真实抓取数据替换。",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 382,
-      "isHighQuality": false
+      "cover": "",
+      "sourceName": "挑战杯",
+      "sourceUrl": "https://www.tiaozhanbei.net/article/15794",
+      "summary": "挑战杯丨2025年度中国青年科技创新“揭榜挂帅”擂台赛第二弹重磅来袭！",
+      "createdAt": "2025-12-20T05:17:52Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:挑战杯",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
     },
     {
-      "id": "327c3fda87ce2868",
-      "title": "高校数学建模竞赛（示例）",
-      "bonusAmount": 10000,
-      "bonusText": "一等奖 1 万元",
-      "deadline": "2026-01-05",
+      "id": "62c87ee8eba89b04",
+      "title": "呼唤青年一代敢破“卡脖子”，勇当开拓者——2025年度中国青年科技创新“揭榜挂帅”擂台赛榜单发布",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-05-27",
+      "category": [
+        "创新创业"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "挑战杯",
+      "sourceUrl": "https://www.tiaozhanbei.net/article/15782",
+      "summary": "呼唤青年一代敢破“卡脖子”，勇当开拓者——2025年度中国青年科技创新“揭榜挂帅”擂台赛榜单发布",
+      "createdAt": "2025-12-20T05:17:52Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:挑战杯",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "aed04e2bb999dd44",
+      "title": "挑战杯丨这张“英雄榜” 等你来揭！2025年度中国青年科技创新“揭榜挂帅”擂台赛重磅来袭！",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-05-17",
+      "category": [
+        "创新创业"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "挑战杯",
+      "sourceUrl": "https://www.tiaozhanbei.net/article/15774",
+      "summary": "挑战杯丨这张“英雄榜” 等你来揭！2025年度中国青年科技创新“揭榜挂帅”擂台赛重磅来袭！",
+      "createdAt": "2025-12-20T05:17:52Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:挑战杯",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "8d7d495b223db9aa",
+      "title": "2025国赛",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-05-16",
+      "category": [
+        "创新创业",
+        "数学建模"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "挑战杯",
+      "sourceUrl": "https://2025.tiaozhanbei.net",
+      "summary": "2025国赛",
+      "createdAt": "2025-12-20T05:17:51Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:挑战杯",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "083940b968e7c476",
+      "title": "2025年3月21日2025年3月21日",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=678",
+      "summary": "2025年3月21日2025年3月21日",
+      "createdAt": "2025-12-20T05:17:49Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "04fcc63a1b769ec3",
+      "title": "京ICP备2021010299号-3",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://beian.miit.gov.cn",
+      "summary": "京ICP备2021010299号-3",
+      "createdAt": "2025-12-20T05:17:49Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "5948de1e85ff3427",
+      "title": "2025年3月21日2025年3月25日",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=701",
+      "summary": "2025年3月21日2025年3月25日",
+      "createdAt": "2025-12-20T05:17:48Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "b25747f67aaf26b7",
+      "title": "2025年3月21日2025年3月21日",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=712",
+      "summary": "2025年3月21日2025年3月21日",
+      "createdAt": "2025-12-20T05:17:47Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "699e5de303885e2b",
+      "title": "第七届全国大学生计算机系统能力培养大赛（龙芯杯）决赛获奖名单",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "高校",
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=445",
+      "summary": "第七届全国大学生计算机系统能力培养大赛（龙芯杯）决赛获奖名单",
+      "createdAt": "2025-12-20T05:17:46Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "6c5fa2f8184ac39a",
+      "title": "2025年7月17日2025年7月21日",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=743",
+      "summary": "2025年7月17日2025年7月21日",
+      "createdAt": "2025-12-20T05:17:46Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "5839c295a5464151",
+      "title": "NSCSCC2024“龙芯杯”开始报名了！",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=471",
+      "summary": "NSCSCC2024“龙芯杯”开始报名了！",
+      "createdAt": "2025-12-20T05:17:45Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "1fb44397918fc491",
+      "title": "2024年8月20日2025年3月24日",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=619",
+      "summary": "2024年8月20日2025年3月24日",
+      "createdAt": "2025-12-20T05:17:43Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "1b6b1dcf10cdb681",
+      "title": "2025年3月21日2025年3月21日",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=683",
+      "summary": "2025年3月21日2025年3月21日",
+      "createdAt": "2025-12-20T05:17:42Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "06d42b6b346fbe64",
+      "title": "2025年8月29日2025年8月29日",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=794",
+      "summary": "2025年8月29日2025年8月29日",
+      "createdAt": "2025-12-20T05:17:41Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "636f583eb07b6245",
+      "title": "NSCSCC 2025",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-03-24",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com",
+      "summary": "NSCSCC 2025",
+      "createdAt": "2025-12-20T05:17:40Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "3ec5e00c09973bad",
+      "title": "NSCSCC2025",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-03-21",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?cat=15",
+      "summary": "NSCSCC2025",
+      "createdAt": "2025-12-20T05:17:40Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "6a91015816c49964",
+      "title": "竞赛平台",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=540",
+      "summary": "竞赛平台",
+      "createdAt": "2025-12-20T05:17:39Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "109dc9c3b2f2b166",
+      "title": "2025年8月2日2025年8月2日",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=771",
+      "summary": "2025年8月2日2025年8月2日",
+      "createdAt": "2025-12-20T05:17:38Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "2a372fc9340e80b7",
+      "title": "2025年7月28日2025年7月29日",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=759",
+      "summary": "2025年7月28日2025年7月29日",
+      "createdAt": "2025-12-20T05:17:37Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "86219ad4579c485e",
+      "title": "2025年3月21日2025年3月28日",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "NSCSCC 系统能力大赛",
+      "sourceUrl": "https://www.nscscc.com?p=690",
+      "summary": "2025年3月21日2025年3月28日",
+      "createdAt": "2025-12-20T05:17:36Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:NSCSCC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "acf567d174267918",
+      "title": "2025高教社杯全国大学生数学建模竞赛第一次通知",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-04-01",
       "category": [
         "数学建模"
       ],
       "tags": [
-        "数学建模",
-        "团队"
+        "高校",
+        "国家级"
       ],
-      "cover": "https://picsum.photos/200/201",
-      "sourceName": "竞赛官网（示例）",
-      "sourceUrl": "https://example.com",
-      "summary": "示例数据：框架跑通后再接入自动捕捉。",
+      "cover": "",
+      "sourceName": "CUMCM 官网公告",
+      "sourceUrl": "https://www.mcm.edu.cn/html_cn/node/26a645851659040725c2892fb1935f95.html",
+      "summary": "2025高教社杯全国大学生数学建模竞赛第一次通知",
+      "createdAt": "2025-12-20T05:17:33Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:全国大学生数学建模竞赛",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "3bef4b534cdbdf94",
+      "title": "竞赛组织",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "数学建模"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "CUMCM 官网公告",
+      "sourceUrl": "https://www.mcm.edu.cn/html_cn/section/302f2c2355b1179ada9b99a06d7109f5.html",
+      "summary": "竞赛组织",
+      "createdAt": "2025-12-20T05:17:32Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:CUMCM",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "a781ace61a0f62d4",
+      "title": "赛题与评奖",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "数学建模"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "CUMCM 官网公告",
+      "sourceUrl": "https://www.mcm.edu.cn/html_cn/section/033046c1b33c2ea9c1d6bd4c5a4020fb.html",
+      "summary": "赛题与评奖",
+      "createdAt": "2025-12-20T05:17:32Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:CUMCM",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "b9647cf2d61ea928",
+      "title": "关于2025年全国大学生数学建模竞赛中部分参赛论文相似度较高的通报",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-11-02",
+      "category": [
+        "数学建模"
+      ],
+      "tags": [
+        "高校",
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "CUMCM 官网公告",
+      "sourceUrl": "https://www.mcm.edu.cn/html_cn/node/270c01b62cdc7c7531065e3a65572054.html",
+      "summary": "关于2025年全国大学生数学建模竞赛中部分参赛论文相似度较高的通报",
+      "createdAt": "2025-12-20T05:17:32Z",
+      "status": "active",
+      "qualityScore": 85,
+      "rankReasons": [
+        "白名单:全国大学生数学建模竞赛",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "43b4b8527b427fd1",
+      "title": "ICPC 2025 Online Winter Challenge powered by Huawei",
+      "deadline": "2025-12-26",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "国家级",
+        "Codeforces"
+      ],
+      "sourceName": "Codeforces",
+      "sourceUrl": "https://codeforces.com/contests/2177",
+      "summary": "Codeforces contest",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 278,
-      "isHighQuality": false
+      "qualityScore": 85,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:ICPC",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "376a320ce29729a1",
+      "title": "2026年全国大学生数学建模竞赛征题通知暨命题研讨会预通知",
+      "category": [
+        "数学建模"
+      ],
+      "tags": [
+        "高校",
+        "国家级",
+        "CUMCM"
+      ],
+      "sourceName": "CUMCM 官网公告",
+      "sourceUrl": "https://www.mcm.edu.cn/html_cn/node/789429093c4291e28c7ccbbb4dd4f04b.html",
+      "summary": "CUMCM notice",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 85,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:全国大学生数学建模竞赛",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "da1277a32bd5d5ff",
+      "title": "2025年全国大学生数学建模竞赛赛题讲评与经验交流会通知",
+      "category": [
+        "数学建模"
+      ],
+      "tags": [
+        "高校",
+        "国家级"
+      ],
+      "sourceName": "CUMCM 官网公告",
+      "sourceUrl": "https://www.mcm.edu.cn/html_cn/node/f0cd9759627fb5d775892c3ce9334737.html",
+      "summary": "CUMCM notice",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-09-02",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 85,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:全国大学生数学建模竞赛",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "bc82a312e37b0f85",
+      "title": "通知公告",
+      "category": [
+        "创新创业"
+      ],
+      "tags": [
+        "国家级",
+        "挑战杯"
+      ],
+      "sourceName": "挑战杯通知",
+      "sourceUrl": "https://2025.tiaozhanbei.net/d49/competion_notice",
+      "summary": "挑战杯通知公告",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 85,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:挑战杯",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "052be9ae3a7493ba",
+      "title": "官网公告",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "阿里云天池",
+      "sourceUrl": "https://www.aliyun.com/notice",
+      "summary": "官网公告",
+      "createdAt": "2025-12-20T05:17:51Z",
+      "status": "active",
+      "qualityScore": 75,
+      "rankReasons": [
+        "白名单:天池",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "13fa6f51d48a915b",
+      "title": "浙D3-20210002",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "阿里云天池",
+      "sourceUrl": "https://domain.miit.gov.cn/域名注册服务机构/互联网域名/阿里云计算有限公司 ",
+      "summary": "浙D3-20210002",
+      "createdAt": "2025-12-20T05:17:51Z",
+      "status": "active",
+      "qualityScore": 75,
+      "rankReasons": [
+        "白名单:天池",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "d26d660c38399df4",
+      "title": "天池大赛",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国家级"
+      ],
+      "cover": "",
+      "sourceName": "阿里云天池",
+      "sourceUrl": "https://tianchi.aliyun.com/competition",
+      "summary": "天池大赛",
+      "createdAt": "2025-12-20T05:17:50Z",
+      "status": "active",
+      "qualityScore": 75,
+      "rankReasons": [
+        "白名单:天池",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "79f20ee3d8f70360",
+      "title": "2021阿里巴巴诸神之战&宝马“互联网+汽车”赛道全球挑战赛线上观众",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2021-05-20",
+      "category": [
+        "创新创业"
+      ],
+      "tags": [
+        "国家级",
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/43865",
+      "summary": "",
+      "createdAt": "2025-12-20T04:37:41Z",
+      "qualityScore": 65,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:互联网\\+"
+      ],
+      "isWhitelist": true,
+      "level": "National"
+    },
+    {
+      "id": "638a4ed034a99bf0",
+      "title": "Codeforces Round (Div. 3)",
+      "deadline": "2025-12-23",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "Codeforces",
+        "国际级"
+      ],
+      "sourceName": "Codeforces",
+      "sourceUrl": "https://codeforces.com/contests/2179",
+      "summary": "Codeforces contest",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 65,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:Codeforces Round",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "40aaf8bd5b5cc827",
+      "title": "Educational Codeforces Round 186 (Rated for Div. 2)",
+      "deadline": "2025-12-29",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "Codeforces",
+        "国际级"
+      ],
+      "sourceName": "Codeforces",
+      "sourceUrl": "https://codeforces.com/contests/2182",
+      "summary": "Codeforces contest",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 65,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:Codeforces Round",
+        "官方来源"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "adb8c7bb46146a87",
+      "title": "AIAI Challenge: Artificial Intelligence for Advancing Instruction",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-uva-aiai-challenge",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "6c714ebbcdd7532c",
+      "title": "Meta AI Video Similarity Challenge",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/meta-video-similarity",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "7782a76fcce883d2",
+      "title": "Pushback to the Future: Predict Pushback Time at US Airports",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-nasa-airport-pushback",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "657cab4635823a82",
+      "title": "Facebook AI Image Similarity Challenge",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/image-similarity-challenge",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "1e30ef79caf2f301",
+      "title": "Run-way Functions: Predict Reconfigurations at US Airports",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-nasa-airport-configuration",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "ef693177ad77a9f0",
+      "title": "NASA Airathon: Predict Air Quality",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-air-quality",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "abc239ffdb772724",
+      "title": "development",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?category=development",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "f7b6bf80b4fc3c5a",
+      "title": "#development",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?type=development",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "d508895c6bb9597e",
+      "title": "health",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?category=health",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "712ccb42e67e8157",
+      "title": "#health",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?type=health",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "38563dfef322d696",
+      "title": "disasters",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?category=disasters",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "72d17286f2614e32",
+      "title": "#disasters",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?type=disasters",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "90d40be092936d4e",
+      "title": "climate",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?category=climate",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "dce9e51795b521f5",
+      "title": "#climate",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?type=climate",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "86d5aaa9a14fdaa1",
+      "title": "science",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?category=science",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "cb8c96a5a9901286",
+      "title": "#science",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?type=science",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "020ed84582512224",
+      "title": "education",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?category=education",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "f5e839bbf8c917d1",
+      "title": "#education",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?type=education",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "951cbc528244c6f7",
+      "title": "PREPARE: Pioneering Research for Early Prediction of Alzheimer's and Related Dementias EUREKA Challenge",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/nih-nia-alzheimers-adrd-competition",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "e816024f78b6f1da",
+      "title": "Youth Mental Health Narratives",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/cdc-narratives",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "0841ab718b81a358",
+      "title": "Water Supply Forecast Rodeo",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/reclamation-water-supply-forecast",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "78ec621c09c24c38",
+      "title": "Pose Bowl: Spacecraft Detection and Pose Estimation Challenge",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-nasa-spacecraft",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "218ef784bc763bc4",
+      "title": "society",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?category=society",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "0d51002b4c838680",
+      "title": "#society",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?type=society",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "2e3c64d268216a3b",
+      "title": "civic",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?category=civic",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "bf83a2d3415f37b9",
+      "title": "#civic",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?type=civic",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "e539bfca19032587",
+      "title": "privacy",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?category=privacy",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "3231ce50ef1dc8a6",
+      "title": "U.K. PETs Prize Challenge",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/uk-federated-learning",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "2eb20c79e865af26",
+      "title": "#privacy",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?type=privacy",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "96f1a282f83928a2",
+      "title": "U.S. PETs Prize Challenge",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/nist-federated-learning",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "998f99eb7a19960e",
+      "title": "Snowcast Showdown",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-reclamation-snow-water",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "fe11aba6ffffd526",
+      "title": "Differential Privacy Temporal Map Challenge",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-differential-privacy-deid2",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "4acfd97fbaadb4ab",
+      "title": "energy",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?category=energy",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "e7a88a6e710bee3b",
+      "title": "#energy",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "cover": "",
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search?type=energy",
+      "summary": "DrivenData competition",
+      "createdAt": "2025-12-19T18:24:33Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "c3b292fd42dffdf2",
+      "title": "DengAI: Predicting Disease Spread",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "05798a11d6b81aba",
+      "title": "Research Rovers: AI Research Assistants for NASA",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/252/ai-research-assistants",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "2a8e97d1f57649c9",
+      "title": "Open Cities AI Challenge: Segmenting Buildings for Disaster Resilience",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "4b032a372097bcc5",
+      "title": "Hakuna Ma-data: Identify Wildlife on the Serengeti with AI for Earth",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/59/camera-trap-serengeti",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "cb27d36e9e81e75d",
+      "title": "Open AI Caribbean Challenge: Mapping Disaster Risk from Aerial Imagery",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/58/disaster-response-roof-type",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "00216aecabcd9c14",
+      "title": "Sustainable Industry: Rinse Over Run",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/56/predict-cleaning-time-series",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "676c008a4cda5f22",
+      "title": "Naive Bees Classifier",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/8/naive-bees-classifier",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "d86cfa5678da1480",
+      "title": "Join a competition",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "d68936185e6dbc4c",
+      "title": "Explore all competitions",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/search",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "f6c07b7c2bd218c8",
+      "title": "Poverty Prediction Challenge",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/305/competition-worldbank-poverty",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "cb6bd5f9bbbe86e1",
+      "title": "Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/66/flu-shot-learning",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "e6c9e5e1ce22c27f",
+      "title": "Pump it Up: Data Mining the Water Table",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "4e0e7da8b7f28ba8",
+      "title": "Richter's Predictor: Modeling Earthquake Damage",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/57/nepal-earthquake",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "a781fc2c0793fa48",
+      "title": "Conser-vision Practice Area: Image Classification",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "03191c9d2dde1594",
+      "title": "What's Up, Docs? Document Summarization with LLMs",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/297/whats-up-docs",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "bcead7e724078b24",
+      "title": "Hateful Memes",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/group/hateful-memes",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "19dc9c4a0ed807ab",
+      "title": "Goodnight Moon, Hello Early Literacy Screening",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/298/literacy-screening",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "979537e6450b82fd",
+      "title": "SNOMED CT Entity Linking Challenge",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/258/competition-snomed-ct",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "4f80ccb661afdda4",
+      "title": "Kelp Wanted: Segmenting Kelp Forests",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/255/kelp-forest-segmentation",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "8b27166ab324cf39",
+      "title": "Pale Blue Dot: Visualization Challenge",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/256/pale-blue-dot",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "e8c82707f41cf083",
+      "title": "Unsupervised Wisdom: Explore Medical Narratives on Older Adult Falls",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/217/cdc-fall-narratives",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "b2864b273839e8f1",
+      "title": "VisioMel Challenge: Predicting Melanoma Relapse",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/148/visiomel-melanoma",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "52552bd2961206f1",
+      "title": "Tick Tick Bloom: Harmful Algal Bloom Detection Challenge",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/143/tick-tick-bloom",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "54e056112237af80",
+      "title": "The BioMassters",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/99/biomass-estimation",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "9f1f5b6bf5978c8b",
+      "title": "Mars Spectrometry 2: Gas Chromatography",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/97/nasa-mars-gcms",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "c7c420bec9442966",
+      "title": "Where's Whale-do?",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/96/beluga-whales",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "33b3517ee7ea9593",
+      "title": "Mars Spectrometry: Detect Evidence for Past Habitability",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/93/nasa-mars-spectrometry",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "5d352ad232952d12",
+      "title": "On Cloud N: Cloud Cover Detection Challenge",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/83/cloud-cover",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "64308f5e8333ada3",
+      "title": "Deep Chimpact: Depth Estimation for Wildlife Conservation",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/82/competition-wildlife-video-depth-estimation",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "e305916f37f890b7",
+      "title": "STAC Overflow: Map Floodwater from Radar Imagery",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/81/detect-flood-water",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "b31000588412a71d",
+      "title": "Overhead Geopose Challenge",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/78/overhead-geopose-challenge",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "1c1773ca82e78ea3",
+      "title": "MagNet: Model the Geomagnetic Field",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/73/noaa-magnetic-forecasting",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "52d068c9f2c9fb52",
+      "title": "Wind-dependent Variables: Predict Wind Speeds of Tropical Storms",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/72/predict-wind-speeds",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "21854fe985103cd9",
+      "title": "TissueNet: Detect Lesions in Cervical Biopsies",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/67/competition-cervical-biopsy",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "6e8b4cb23ae1f2d2",
+      "title": "Genetic Engineering Attribution Challenge",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/63/genetic-engineering-attribution",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "dc46bd1cb934dd32",
+      "title": "Clog Loss: Advance Alzheimer’s Research with Stall Catchers",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/65/clog-loss-alzheimers-research",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "b46c705b0d1b6265",
+      "title": "Power Laws: Cold Start Energy Forecasting",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/55/schneider-cold-start",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "0fd2f47e79b636b3",
+      "title": "Power Laws: Optimizing Demand-side Strategies",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/53/optimize-photovoltaic-battery",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "f169ad0ad709d66c",
+      "title": "Power Laws: Detecting Anomalies in Usage",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/52/anomaly-detection-electricity",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "22181d7b85831693",
+      "title": "Power Laws: Forecasting Energy Consumption",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/51/electricity-prediction-machine-learning",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "35b4c04b0f9f1f2b",
+      "title": "Pover-T Tests: Predicting Poverty",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/50/worldbank-poverty-prediction",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "8934855aa9bc3826",
+      "title": "Pri-matrix Factorization",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/49/deep-learning-camera-trap-animals",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "e6f61cf02f35332a",
+      "title": "N+1 fish, N+2 fish",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/48/identify-fish-challenge",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "da18fa7c06bfb0c3",
+      "title": "Random Walk of the Penguins",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/47/penguins",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "cc553a311278a4bf",
+      "title": "America's Next Top (Statistical) Model",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/43/americas-next-top-statistical-model",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "a005d30740e4e5f9",
+      "title": "Senior Data Science: Safe Aging with SPHERE",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/42/senior-data-science-safe-aging-with-sphere",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "b0e89928bb2d4895",
+      "title": "From Fog Nets to Neural Nets",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/9/from-fog-nets-to-neural-nets",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "925f40280a16fd49",
+      "title": "Keeping it Fresh: Predict Restaurant Inspections",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/5/keeping-it-fresh-predict-restaurant-inspections",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "4a1f59905414f6e7",
+      "title": "Countable Care: Modeling Women's Health Care Decisions",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/6/countable-care-modeling-womens-health-care-decisions",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "2cc3449c0a7103f3",
+      "title": "Box-Plots for Education",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/4/box-plots-for-education",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "bb6fdd14f58375ae",
+      "title": "Reboot: Box-Plots for Education",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/46/box-plots-for-education-reboot",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "150c6dd1cfe9d222",
+      "title": "United Nations Millennium Development Goals",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/1/united-nations-millennium-development-goals",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "f094fef8ae0e1f5f",
+      "title": "America's Next Top (Statistical) Model - 2020",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/71/election-competition-2020",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "47d3dab722a96e60",
+      "title": "Warm Up: Machine Learning with a Heart",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/54/machine-learning-with-a-heart",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
+    },
+    {
+      "id": "d6e76844d837143d",
+      "title": "Warm Up: Predict Blood Donations",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "国际级",
+        "DrivenData"
+      ],
+      "sourceName": "DrivenData",
+      "sourceUrl": "https://www.drivendata.org/competitions/2/warm-up-predict-blood-donations",
+      "summary": "DrivenData competition",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "cover": "",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 45,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "白名单:DrivenData"
+      ],
+      "isWhitelist": true,
+      "level": "International"
     },
     {
       "id": "3cc56a0fadec091a",
@@ -61,2211 +3324,1037 @@
       "bonusText": "-",
       "cover": "",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 200,
-      "isHighQuality": false
+      "qualityScore": 25,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "官方来源"
+      ],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "43b4b8527b427fd1",
-      "title": "ICPC 2025 Online Winter Challenge powered by Huawei",
-      "deadline": "2025-12-26",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "Codeforces"
-      ],
-      "sourceName": "Codeforces",
-      "sourceUrl": "https://codeforces.com/contests/2177",
-      "summary": "Codeforces contest",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 200,
-      "isHighQuality": false
-    },
-    {
-      "id": "638a4ed034a99bf0",
-      "title": "Codeforces Round (Div. 3)",
-      "deadline": "2025-12-23",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "Codeforces"
-      ],
-      "sourceName": "Codeforces",
-      "sourceUrl": "https://codeforces.com/contests/2179",
-      "summary": "Codeforces contest",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 200,
-      "isHighQuality": false
-    },
-    {
-      "id": "c458e503e0d21f89",
-      "title": "【非英语专业笔译组】2025年第十一届中西部外语翻译大赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2026-01-18",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/53791",
-      "summary": "",
-      "createdAt": "2025-12-20T04:35:42Z",
-      "qualityScore": 180,
-      "isHighQuality": false
-    },
-    {
-      "id": "9b4a80fa98bbf6ad",
-      "title": "【论文发表+实践证明+中英文项目证书】26寒假桌面研究科研实践项目合集（线上）-大学生竞赛-赛氪",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2026-02-01",
+      "id": "327c3fda87ce2868",
+      "title": "全国大学生创新创业大赛（示例）",
+      "bonusAmount": 50000,
+      "bonusText": "总奖金 5 万元",
+      "deadline": "2026-01-10",
       "category": [
         "创新创业",
         "AI数据"
       ],
       "tags": [
-        "赛氪"
+        "高校",
+        "有奖金",
+        "本科生",
+        "团队赛"
       ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/2026/H",
-      "summary": "",
-      "createdAt": "2025-12-20T04:10:43Z",
-      "qualityScore": 140,
-      "isHighQuality": false
-    },
-    {
-      "id": "40aaf8bd5b5cc827",
-      "title": "Educational Codeforces Round 186 (Rated for Div. 2)",
-      "deadline": "2025-12-29",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "Codeforces"
-      ],
-      "sourceName": "Codeforces",
-      "sourceUrl": "https://codeforces.com/contests/2182",
-      "summary": "Codeforces contest",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "cover": "",
+      "cover": "https://picsum.photos/200/200",
+      "sourceName": "官方通知（示例）",
+      "sourceUrl": "https://example.com",
+      "summary": "这是示例数据：后面你会用真实抓取数据替换。",
       "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 140,
-      "isHighQuality": false
+      "qualityScore": 23,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [
+        "奖金丰厚"
+      ],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "06bc58f00b57aaba",
-      "title": "【重要】本科生保送研究生（保研）定位分析（适合大一、大二、大三提前准备规划保研的同学）-大学生竞赛-赛氪",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2026-07-31",
-      "category": [
-        "创新创业",
-        "AI数据"
-      ],
-      "tags": [
-        "赛氪"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/46250",
-      "summary": "",
-      "createdAt": "2025-12-20T04:10:42Z",
-      "qualityScore": 120,
-      "isHighQuality": false
-    },
-    {
-      "id": "376a320ce29729a1",
-      "title": "2026年全国大学生数学建模竞赛征题通知暨命题研讨会预通知",
+      "id": "327c3fda87ce2868",
+      "title": "高校数学建模竞赛（示例）",
+      "bonusAmount": 10000,
+      "bonusText": "一等奖 1 万元",
+      "deadline": "2026-01-05",
       "category": [
         "数学建模"
       ],
       "tags": [
-        "CUMCM"
+        "团队",
+        "高校",
+        "有奖金",
+        "数学建模"
       ],
-      "sourceName": "CUMCM 官网公告",
-      "sourceUrl": "https://www.mcm.edu.cn/html_cn/node/789429093c4291e28c7ccbbb4dd4f04b.html",
-      "summary": "CUMCM notice",
+      "cover": "https://picsum.photos/200/201",
+      "sourceName": "竞赛官网（示例）",
+      "sourceUrl": "https://example.com",
+      "summary": "示例数据：框架跑通后再接入自动捕捉。",
+      "createdAt": "2025-12-19T18:24:29Z",
+      "qualityScore": 17,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "a4faa75bc78ab243",
+      "title": "èµæ°ª",
       "bonusAmount": 0,
       "bonusText": "-",
       "deadline": "",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [],
       "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 120,
-      "isHighQuality": false
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/53721",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:39Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "da1277a32bd5d5ff",
-      "title": "2025年全国大学生数学建模竞赛赛题讲评与经验交流会通知",
+      "id": "5d715a8aa1bf6b49",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/53503",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:30Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "504ceebb9438607f",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/54680",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:30Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "63cbced8d7d5616d",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/54626",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:29Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "3096573e29db8aae",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/55841",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:29Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "b6c0d40abf698ad8",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/54630",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:28Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "c77d3169b5b93ed1",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2025WLB/BMKIC",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:28Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "fcb6f5c76f237023",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/54624",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:27Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "a60c74c387afc8d0",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/54627",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:27Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "0057de86ed220931",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/53738",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:24Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "26137240de2d35d4",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/55254",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:24Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "7699de228684df75",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/54629",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:23Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "f5ca13018436ed9f",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/53656",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:22Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "023bf280fb076b50",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/54605",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:22Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "b1f859b1dcaf07d0",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/53644",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:20Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "0292b0b1397751aa",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/54679",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:19Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "6261ee8500abc8aa",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/25WLBOFFICE",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:19Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "20dbe617f7ae0bab",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2025UAV",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:18Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "5262abf8fcfbb043",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2025WLB/ALGO",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:18Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "ea7059c403c028f8",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/53645",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:17Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "5eabc6a3ed909f93",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/53668",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:16Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "a95691dec92137c4",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2025WLB/computilit",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:16Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "fa0f4501d6368955",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2025TJKXSF",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:15Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "6812eca1f4a50e81",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
       "category": [
         "数学建模"
       ],
-      "tags": [
-        "CUMCM"
-      ],
-      "sourceName": "CUMCM 官网公告",
-      "sourceUrl": "https://www.mcm.edu.cn/html_cn/node/f0cd9759627fb5d775892c3ce9334737.html",
-      "summary": "CUMCM notice",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 120,
-      "isHighQuality": false
-    },
-    {
-      "id": "adb8c7bb46146a87",
-      "title": "AIAI Challenge: Artificial Intelligence for Advancing Instruction",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-uva-aiai-challenge",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 40,
-      "isHighQuality": false
-    },
-    {
-      "id": "6c714ebbcdd7532c",
-      "title": "Meta AI Video Similarity Challenge",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/meta-video-similarity",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 40,
-      "isHighQuality": false
-    },
-    {
-      "id": "7782a76fcce883d2",
-      "title": "Pushback to the Future: Predict Pushback Time at US Airports",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-nasa-airport-pushback",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 40,
-      "isHighQuality": false
-    },
-    {
-      "id": "657cab4635823a82",
-      "title": "Facebook AI Image Similarity Challenge",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/image-similarity-challenge",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 40,
-      "isHighQuality": false
-    },
-    {
-      "id": "1e30ef79caf2f301",
-      "title": "Run-way Functions: Predict Reconfigurations at US Airports",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-nasa-airport-configuration",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 40,
-      "isHighQuality": false
-    },
-    {
-      "id": "ef693177ad77a9f0",
-      "title": "NASA Airathon: Predict Air Quality",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-air-quality",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 40,
-      "isHighQuality": false
-    },
-    {
-      "id": "c3b292fd42dffdf2",
-      "title": "DengAI: Predicting Disease Spread",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 40,
-      "isHighQuality": false
-    },
-    {
-      "id": "05798a11d6b81aba",
-      "title": "Research Rovers: AI Research Assistants for NASA",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/252/ai-research-assistants",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 40,
-      "isHighQuality": false
-    },
-    {
-      "id": "2a8e97d1f57649c9",
-      "title": "Open Cities AI Challenge: Segmenting Buildings for Disaster Resilience",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 40,
-      "isHighQuality": false
-    },
-    {
-      "id": "4b032a372097bcc5",
-      "title": "Hakuna Ma-data: Identify Wildlife on the Serengeti with AI for Earth",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/59/camera-trap-serengeti",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 40,
-      "isHighQuality": false
-    },
-    {
-      "id": "cb27d36e9e81e75d",
-      "title": "Open AI Caribbean Challenge: Mapping Disaster Risk from Aerial Imagery",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/58/disaster-response-roof-type",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 40,
-      "isHighQuality": false
-    },
-    {
-      "id": "00216aecabcd9c14",
-      "title": "Sustainable Industry: Rinse Over Run",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/56/predict-cleaning-time-series",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 40,
-      "isHighQuality": false
-    },
-    {
-      "id": "676c008a4cda5f22",
-      "title": "Naive Bees Classifier",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/8/naive-bees-classifier",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 40,
-      "isHighQuality": false
-    },
-    {
-      "id": "abc239ffdb772724",
-      "title": "development",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?category=development",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "f7b6bf80b4fc3c5a",
-      "title": "#development",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?type=development",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "d508895c6bb9597e",
-      "title": "health",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?category=health",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "712ccb42e67e8157",
-      "title": "#health",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?type=health",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "38563dfef322d696",
-      "title": "disasters",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?category=disasters",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "72d17286f2614e32",
-      "title": "#disasters",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?type=disasters",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "90d40be092936d4e",
-      "title": "climate",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?category=climate",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "dce9e51795b521f5",
-      "title": "#climate",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?type=climate",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "86d5aaa9a14fdaa1",
-      "title": "science",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?category=science",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "cb8c96a5a9901286",
-      "title": "#science",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?type=science",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "020ed84582512224",
-      "title": "education",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?category=education",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "f5e839bbf8c917d1",
-      "title": "#education",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?type=education",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "951cbc528244c6f7",
-      "title": "PREPARE: Pioneering Research for Early Prediction of Alzheimer's and Related Dementias EUREKA Challenge",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/nih-nia-alzheimers-adrd-competition",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "e816024f78b6f1da",
-      "title": "Youth Mental Health Narratives",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/cdc-narratives",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "0841ab718b81a358",
-      "title": "Water Supply Forecast Rodeo",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/reclamation-water-supply-forecast",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "78ec621c09c24c38",
-      "title": "Pose Bowl: Spacecraft Detection and Pose Estimation Challenge",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-nasa-spacecraft",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "218ef784bc763bc4",
-      "title": "society",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?category=society",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "0d51002b4c838680",
-      "title": "#society",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?type=society",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "2e3c64d268216a3b",
-      "title": "civic",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?category=civic",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "bf83a2d3415f37b9",
-      "title": "#civic",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?type=civic",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "e539bfca19032587",
-      "title": "privacy",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?category=privacy",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "3231ce50ef1dc8a6",
-      "title": "U.K. PETs Prize Challenge",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/uk-federated-learning",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "2eb20c79e865af26",
-      "title": "#privacy",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?type=privacy",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "96f1a282f83928a2",
-      "title": "U.S. PETs Prize Challenge",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/nist-federated-learning",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "998f99eb7a19960e",
-      "title": "Snowcast Showdown",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-reclamation-snow-water",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "fe11aba6ffffd526",
-      "title": "Differential Privacy Temporal Map Challenge",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/competition-differential-privacy-deid2",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "4acfd97fbaadb4ab",
-      "title": "energy",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?category=energy",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "e7a88a6e710bee3b",
-      "title": "#energy",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "cover": "",
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search?type=energy",
-      "summary": "DrivenData competition",
-      "createdAt": "2025-12-19T18:24:33Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "d86cfa5678da1480",
-      "title": "Join a competition",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "d68936185e6dbc4c",
-      "title": "Explore all competitions",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/search",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "f6c07b7c2bd218c8",
-      "title": "Poverty Prediction Challenge",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/305/competition-worldbank-poverty",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "cb6bd5f9bbbe86e1",
-      "title": "Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/66/flu-shot-learning",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "e6c9e5e1ce22c27f",
-      "title": "Pump it Up: Data Mining the Water Table",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "4e0e7da8b7f28ba8",
-      "title": "Richter's Predictor: Modeling Earthquake Damage",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/57/nepal-earthquake",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "a781fc2c0793fa48",
-      "title": "Conser-vision Practice Area: Image Classification",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "03191c9d2dde1594",
-      "title": "What's Up, Docs? Document Summarization with LLMs",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/297/whats-up-docs",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "bcead7e724078b24",
-      "title": "Hateful Memes",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/group/hateful-memes",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "19dc9c4a0ed807ab",
-      "title": "Goodnight Moon, Hello Early Literacy Screening",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/298/literacy-screening",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "979537e6450b82fd",
-      "title": "SNOMED CT Entity Linking Challenge",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/258/competition-snomed-ct",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "4f80ccb661afdda4",
-      "title": "Kelp Wanted: Segmenting Kelp Forests",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/255/kelp-forest-segmentation",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "8b27166ab324cf39",
-      "title": "Pale Blue Dot: Visualization Challenge",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/256/pale-blue-dot",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "e8c82707f41cf083",
-      "title": "Unsupervised Wisdom: Explore Medical Narratives on Older Adult Falls",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/217/cdc-fall-narratives",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "b2864b273839e8f1",
-      "title": "VisioMel Challenge: Predicting Melanoma Relapse",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/148/visiomel-melanoma",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "52552bd2961206f1",
-      "title": "Tick Tick Bloom: Harmful Algal Bloom Detection Challenge",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/143/tick-tick-bloom",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "54e056112237af80",
-      "title": "The BioMassters",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/99/biomass-estimation",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "9f1f5b6bf5978c8b",
-      "title": "Mars Spectrometry 2: Gas Chromatography",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/97/nasa-mars-gcms",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "c7c420bec9442966",
-      "title": "Where's Whale-do?",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/96/beluga-whales",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "33b3517ee7ea9593",
-      "title": "Mars Spectrometry: Detect Evidence for Past Habitability",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/93/nasa-mars-spectrometry",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "5d352ad232952d12",
-      "title": "On Cloud N: Cloud Cover Detection Challenge",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/83/cloud-cover",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "64308f5e8333ada3",
-      "title": "Deep Chimpact: Depth Estimation for Wildlife Conservation",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/82/competition-wildlife-video-depth-estimation",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "e305916f37f890b7",
-      "title": "STAC Overflow: Map Floodwater from Radar Imagery",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/81/detect-flood-water",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "b31000588412a71d",
-      "title": "Overhead Geopose Challenge",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/78/overhead-geopose-challenge",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "1c1773ca82e78ea3",
-      "title": "MagNet: Model the Geomagnetic Field",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/73/noaa-magnetic-forecasting",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "52d068c9f2c9fb52",
-      "title": "Wind-dependent Variables: Predict Wind Speeds of Tropical Storms",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/72/predict-wind-speeds",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "21854fe985103cd9",
-      "title": "TissueNet: Detect Lesions in Cervical Biopsies",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/67/competition-cervical-biopsy",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "6e8b4cb23ae1f2d2",
-      "title": "Genetic Engineering Attribution Challenge",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/63/genetic-engineering-attribution",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "dc46bd1cb934dd32",
-      "title": "Clog Loss: Advance Alzheimer’s Research with Stall Catchers",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/65/clog-loss-alzheimers-research",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "b46c705b0d1b6265",
-      "title": "Power Laws: Cold Start Energy Forecasting",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/55/schneider-cold-start",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "0fd2f47e79b636b3",
-      "title": "Power Laws: Optimizing Demand-side Strategies",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/53/optimize-photovoltaic-battery",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "f169ad0ad709d66c",
-      "title": "Power Laws: Detecting Anomalies in Usage",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/52/anomaly-detection-electricity",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "22181d7b85831693",
-      "title": "Power Laws: Forecasting Energy Consumption",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/51/electricity-prediction-machine-learning",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "35b4c04b0f9f1f2b",
-      "title": "Pover-T Tests: Predicting Poverty",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/50/worldbank-poverty-prediction",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "8934855aa9bc3826",
-      "title": "Pri-matrix Factorization",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/49/deep-learning-camera-trap-animals",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "e6f61cf02f35332a",
-      "title": "N+1 fish, N+2 fish",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/48/identify-fish-challenge",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "da18fa7c06bfb0c3",
-      "title": "Random Walk of the Penguins",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/47/penguins",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "cc553a311278a4bf",
-      "title": "America's Next Top (Statistical) Model",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/43/americas-next-top-statistical-model",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "a005d30740e4e5f9",
-      "title": "Senior Data Science: Safe Aging with SPHERE",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/42/senior-data-science-safe-aging-with-sphere",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "b0e89928bb2d4895",
-      "title": "From Fog Nets to Neural Nets",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/9/from-fog-nets-to-neural-nets",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "925f40280a16fd49",
-      "title": "Keeping it Fresh: Predict Restaurant Inspections",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/5/keeping-it-fresh-predict-restaurant-inspections",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "4a1f59905414f6e7",
-      "title": "Countable Care: Modeling Women's Health Care Decisions",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/6/countable-care-modeling-womens-health-care-decisions",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "2cc3449c0a7103f3",
-      "title": "Box-Plots for Education",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/4/box-plots-for-education",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "bb6fdd14f58375ae",
-      "title": "Reboot: Box-Plots for Education",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/46/box-plots-for-education-reboot",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "150c6dd1cfe9d222",
-      "title": "United Nations Millennium Development Goals",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/1/united-nations-millennium-development-goals",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "f094fef8ae0e1f5f",
-      "title": "America's Next Top (Statistical) Model - 2020",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/71/election-competition-2020",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "47d3dab722a96e60",
-      "title": "Warm Up: Machine Learning with a Heart",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/54/machine-learning-with-a-heart",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "d6e76844d837143d",
-      "title": "Warm Up: Predict Blood Donations",
-      "category": [
-        "AI数据"
-      ],
-      "tags": [
-        "DrivenData"
-      ],
-      "sourceName": "DrivenData",
-      "sourceUrl": "https://www.drivendata.org/competitions/2/warm-up-predict-blood-donations",
-      "summary": "DrivenData competition",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "bc82a312e37b0f85",
-      "title": "通知公告",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "挑战杯"
-      ],
-      "sourceName": "挑战杯通知",
-      "sourceUrl": "https://2025.tiaozhanbei.net/d49/competion_notice",
-      "summary": "挑战杯通知公告",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "",
-      "cover": "",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 0,
-      "isHighQuality": false
-    },
-    {
-      "id": "c5645ada52f11863",
-      "title": "2020全国高校新能源汽车大数据创新创业大赛",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2020-12-31",
-      "category": [
-        "创新创业"
-      ],
-      "tags": [
-        "赛氪"
-      ],
+      "tags": [],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/38036",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:48Z",
-      "qualityScore": -60,
-      "isHighQuality": false
+      "sourceUrl": "https://www.saikr.com/vse/57361",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:08Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "050e058614311c58",
-      "title": "第十一届全国大学生电子商务“创新、创意及创业”挑战赛",
+      "id": "a5a4cac7907d3f2d",
+      "title": "èµæ°ª",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "2021-07-22",
+      "deadline": "",
       "category": [
-        "创新创业"
+        "数学建模"
       ],
-      "tags": [
-        "赛氪"
-      ],
+      "tags": [],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/3chuang/2020",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:46Z",
-      "qualityScore": -60,
-      "isHighQuality": false
+      "sourceUrl": "https://www.saikr.com/vse/54718",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:08Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "036a0fb8cad8e194",
-      "title": "2021全国高校新能源汽车大数据创新创业大赛（“数字汽车”大赛）",
+      "id": "e386d97d5be460ad",
+      "title": "èµæ°ª",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "2021-12-31",
+      "deadline": "",
       "category": [
-        "创新创业"
+        "数学建模"
       ],
-      "tags": [
-        "赛氪"
-      ],
+      "tags": [],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/44287",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:39Z",
-      "qualityScore": -60,
-      "isHighQuality": false
+      "sourceUrl": "https://www.saikr.com/vse/55321",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:07Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "22bff2d390286516",
-      "title": "2024年全国大数据金融分析与应用技能竞赛",
+      "id": "a507d4e872850512",
+      "title": "èµæ°ª",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "2024-03-31",
+      "deadline": "",
       "category": [
-        "AI数据"
+        "数学建模"
       ],
-      "tags": [
-        "赛氪"
-      ],
+      "tags": [],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/48736",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:16Z",
-      "qualityScore": -60,
-      "isHighQuality": false
+      "sourceUrl": "https://www.saikr.com/vse/55849",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:07Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "9b3e40606a06d348",
-      "title": "第九届全国大学生集成电路创新创业大赛——职业技能赛项",
+      "id": "7f2ffa091254ab66",
+      "title": "èµæ°ª",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "2025-06-15",
+      "deadline": "",
       "category": [
         "编程"
       ],
-      "tags": [
-        "赛氪"
-      ],
+      "tags": [],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/54625",
-      "summary": "",
-      "createdAt": "2025-12-20T04:36:13Z",
-      "qualityScore": -60,
-      "isHighQuality": false
+      "sourceUrl": "https://www.saikr.com/vse/53797",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:06Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "23472a0566a65af1",
-      "title": "全国大学生模拟交易大赛",
+      "id": "85194c78dcd73dfd",
+      "title": "èµæ°ª",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "2022-03-25",
+      "deadline": "",
+      "category": [
+        "数学建模"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/55629",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:06Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "4d2f7dd850b733e2",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "数学建模"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/202505",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:05Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "3e1db9fb2401f054",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "数学建模"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/55735",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:05Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "ed61fcc2c9c009b1",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "数学建模"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/53518",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:04Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "9400ee1005315402",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "数学建模"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2025MCIM",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:04Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "d461809e9b278526",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "数学建模"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/54709",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:03Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "48780272d949110d",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "数学建模"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/54768",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:03Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "d789416445c6c536",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
       "category": [
         "创新创业"
       ],
-      "tags": [
-        "赛氪"
-      ],
+      "tags": [],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/45313",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:43Z",
-      "qualityScore": -100,
-      "isHighQuality": false
+      "sourceUrl": "https://www.saikr.com/vse/55726",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:03Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "f3d87269cb4a6ee5",
-      "title": "【明日开考】第二届“中国故事大赛·双语中国”全国大学生英语语法大赛-大学生竞赛-赛氪",
+      "id": "34c43d51cafb48ac",
+      "title": "èµæ°ª",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "2025-12-20",
+      "deadline": "",
       "category": [
-        "创新创业",
-        "AI数据"
+        "数学建模"
       ],
-      "tags": [
-        "赛氪"
-      ],
+      "tags": [],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/2025/SYZGYF",
-      "summary": "",
-      "createdAt": "2025-12-20T04:10:45Z",
-      "qualityScore": -100,
-      "isHighQuality": false
+      "sourceUrl": "https://www.saikr.com/vse/55667",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:02Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "785f6a10eec0b2d9",
-      "title": "兰科院第二届数学建模“新晨杯”",
+      "id": "e325a28f274fd470",
+      "title": "èµæ°ª",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "2023-04-10",
+      "deadline": "",
       "category": [
-        "AI数据"
+        "数学建模"
       ],
-      "tags": [
-        "赛氪"
-      ],
+      "tags": [],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/46300",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:21Z",
-      "qualityScore": -140,
-      "isHighQuality": false
+      "sourceUrl": "https://www.saikr.com/vse/55766",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:01Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "735aeb23640fe49c",
-      "title": "2018年中国矿业大学数学建模博学杯",
+      "id": "22447113b28cd4d5",
+      "title": "èµæ°ª",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "2018-12-16",
+      "deadline": "",
       "category": [
-        "AI数据"
+        "数学建模"
       ],
-      "tags": [
-        "赛氪"
-      ],
+      "tags": [],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/36511",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:14Z",
-      "qualityScore": -140,
-      "isHighQuality": false
+      "sourceUrl": "https://www.saikr.com/vse/2025LingHangCup1",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:01Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "bcb3ac20123de0db",
-      "title": "中国矿业大学2019年第六届&amp;quot;行健杯&amp;quot;数学建模竞赛",
+      "id": "40c950accfe08e4a",
+      "title": "èµæ°ª",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "2019-04-08",
+      "deadline": "",
       "category": [
-        "AI数据"
+        "数学建模"
       ],
-      "tags": [
-        "赛氪"
-      ],
+      "tags": [],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/36923",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:13Z",
-      "qualityScore": -140,
-      "isHighQuality": false
+      "sourceUrl": "https://www.saikr.com/vse/2025MengQingCup",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:00Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "be3b52915b66d712",
-      "title": "聊城大学东昌学院第一届大学生机械创新设计大赛暨第十一届大学生机械创新设计竞赛校赛初赛",
+      "id": "14493a56be0efb5e",
+      "title": "èµæ°ª",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "2023-11-12",
+      "deadline": "",
       "category": [
-        "AI数据"
+        "数学建模"
       ],
-      "tags": [
-        "赛氪"
-      ],
+      "tags": [],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/47980",
-      "summary": "",
-      "createdAt": "2025-12-20T04:37:10Z",
-      "qualityScore": -140,
-      "isHighQuality": false
+      "sourceUrl": "https://www.saikr.com/vse/55834",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:18:00Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "b8a7dff98df10804",
-      "title": "2025年高校学生数学建模能力测评考试【4月场次】",
+      "id": "674d68f77e790768",
+      "title": "èµæ°ª",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "2025-04-27",
+      "deadline": "",
       "category": [
         "编程"
       ],
-      "tags": [
-        "赛氪"
-      ],
+      "tags": [],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/53740",
-      "summary": "",
-      "createdAt": "2025-12-20T04:35:55Z",
-      "qualityScore": -140,
-      "isHighQuality": false
+      "sourceUrl": "https://www.saikr.com/vse/54661",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:17:59Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "4cda2f3a515b1eef",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2025/autumn",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:17:59Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "0352cac0734378d0",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2501/CCFCAT",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:17:58Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "3c1cda8b8203575a",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "数学建模"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/53760",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:17:58Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "f589aaa6c5248285",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "category": [
+        "编程"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/54967",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:17:57Z",
+      "status": "active",
+      "qualityScore": 5,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "55e95ebf78d5eda6",
@@ -2284,8 +4373,38 @@
       "sourceUrl": "https://www.saikr.com/vse/39743",
       "summary": "",
       "createdAt": "2025-12-20T04:37:51Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "c5645ada52f11863",
+      "title": "2020全国高校新能源汽车大数据创新创业大赛",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2020-12-31",
+      "category": [
+        "创新创业",
+        "AI数据"
+      ],
+      "tags": [
+        "高校",
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/38036",
+      "summary": "",
+      "createdAt": "2025-12-20T04:37:48Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "a9c200dd7d084e31",
@@ -2304,8 +4423,37 @@
       "sourceUrl": "https://www.saikr.com/vse/50082",
       "summary": "",
       "createdAt": "2025-12-20T04:37:47Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "050e058614311c58",
+      "title": "第十一届全国大学生电子商务“创新、创意及创业”挑战赛",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2021-07-22",
+      "category": [
+        "创新创业"
+      ],
+      "tags": [
+        "高校",
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/3chuang/2020",
+      "summary": "",
+      "createdAt": "2025-12-20T04:37:46Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "d9b7c1b6d219d1cc",
@@ -2324,28 +4472,37 @@
       "sourceUrl": "https://www.saikr.com/vse/47069",
       "summary": "",
       "createdAt": "2025-12-20T04:37:44Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
-      "id": "79f20ee3d8f70360",
-      "title": "2021阿里巴巴诸神之战&宝马“互联网+汽车”赛道全球挑战赛线上观众",
+      "id": "23472a0566a65af1",
+      "title": "全国大学生模拟交易大赛",
       "bonusAmount": 0,
       "bonusText": "-",
-      "deadline": "2021-05-20",
+      "deadline": "2022-03-25",
       "category": [
         "创新创业"
       ],
       "tags": [
+        "高校",
         "赛氪"
       ],
       "cover": "",
       "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/43865",
+      "sourceUrl": "https://www.saikr.com/vse/45313",
       "summary": "",
-      "createdAt": "2025-12-20T04:37:41Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "createdAt": "2025-12-20T04:37:43Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "84958bb13087403c",
@@ -2364,8 +4521,38 @@
       "sourceUrl": "https://www.saikr.com/vse/43834",
       "summary": "",
       "createdAt": "2025-12-20T04:37:40Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "036a0fb8cad8e194",
+      "title": "2021全国高校新能源汽车大数据创新创业大赛（“数字汽车”大赛）",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2021-12-31",
+      "category": [
+        "创新创业",
+        "AI数据"
+      ],
+      "tags": [
+        "高校",
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/44287",
+      "summary": "",
+      "createdAt": "2025-12-20T04:37:39Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "ca5e208395e41fc4",
@@ -2384,8 +4571,12 @@
       "sourceUrl": "https://www.saikr.com/vse/45629",
       "summary": "",
       "createdAt": "2025-12-20T04:37:37Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "9ef9c0adb990c9c9",
@@ -2404,8 +4595,12 @@
       "sourceUrl": "https://www.saikr.com/vse/47108",
       "summary": "",
       "createdAt": "2025-12-20T04:37:36Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "b11d7cf4aeea64eb",
@@ -2424,8 +4619,12 @@
       "sourceUrl": "https://www.saikr.com/vse/45490",
       "summary": "",
       "createdAt": "2025-12-20T04:37:35Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "b6e78c1b034db776",
@@ -2444,8 +4643,138 @@
       "sourceUrl": "https://www.saikr.com/vse/47039",
       "summary": "",
       "createdAt": "2025-12-20T04:37:33Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "785f6a10eec0b2d9",
+      "title": "兰科院第二届数学建模“新晨杯”",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2023-04-10",
+      "category": [
+        "AI数据",
+        "数学建模"
+      ],
+      "tags": [
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/46300",
+      "summary": "",
+      "createdAt": "2025-12-20T04:37:21Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "22bff2d390286516",
+      "title": "2024年全国大数据金融分析与应用技能竞赛",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2024-03-31",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/48736",
+      "summary": "",
+      "createdAt": "2025-12-20T04:37:16Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "735aeb23640fe49c",
+      "title": "2018年中国矿业大学数学建模博学杯",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2018-12-16",
+      "category": [
+        "AI数据",
+        "数学建模"
+      ],
+      "tags": [
+        "高校",
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/36511",
+      "summary": "",
+      "createdAt": "2025-12-20T04:37:14Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "bcb3ac20123de0db",
+      "title": "中国矿业大学2019年第六届&amp;quot;行健杯&amp;quot;数学建模竞赛",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2019-04-08",
+      "category": [
+        "AI数据",
+        "数学建模"
+      ],
+      "tags": [
+        "高校",
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/36923",
+      "summary": "",
+      "createdAt": "2025-12-20T04:37:13Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "be3b52915b66d712",
+      "title": "聊城大学东昌学院第一届大学生机械创新设计大赛暨第十一届大学生机械创新设计竞赛校赛初赛",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2023-11-12",
+      "category": [
+        "AI数据"
+      ],
+      "tags": [
+        "高校",
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/47980",
+      "summary": "",
+      "createdAt": "2025-12-20T04:37:10Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "f0e914c6c75d2f4f",
@@ -2457,6 +4786,7 @@
         "AI数据"
       ],
       "tags": [
+        "高校",
         "赛氪"
       ],
       "cover": "",
@@ -2464,8 +4794,12 @@
       "sourceUrl": "https://www.saikr.com/vse/2020pinganbei",
       "summary": "",
       "createdAt": "2025-12-20T04:37:09Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "b161b06189c6b9fd",
@@ -2484,8 +4818,12 @@
       "sourceUrl": "https://www.saikr.com/vse/24it-wljs",
       "summary": "",
       "createdAt": "2025-12-20T04:36:40Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "4190c36da03d7275",
@@ -2504,8 +4842,12 @@
       "sourceUrl": "https://www.saikr.com/vse/24it-rgznsf",
       "summary": "",
       "createdAt": "2025-12-20T04:36:39Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "8094664cd42d6aaa",
@@ -2524,8 +4866,38 @@
       "sourceUrl": "https://www.saikr.com/vse/23it-zonghe",
       "summary": "",
       "createdAt": "2025-12-20T04:36:37Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "9b3e40606a06d348",
+      "title": "第九届全国大学生集成电路创新创业大赛——职业技能赛项",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-06-15",
+      "category": [
+        "创新创业",
+        "编程"
+      ],
+      "tags": [
+        "高校",
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/54625",
+      "summary": "",
+      "createdAt": "2025-12-20T04:36:13Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "14d6b3436ce172e5",
@@ -2544,8 +4916,12 @@
       "sourceUrl": "https://www.saikr.com/vse/23it-sheji",
       "summary": "",
       "createdAt": "2025-12-20T04:36:12Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "4703c001c494036d",
@@ -2564,8 +4940,37 @@
       "sourceUrl": "https://www.saikr.com/vse/50227",
       "summary": "",
       "createdAt": "2025-12-20T04:36:10Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "b8a7dff98df10804",
+      "title": "2025年高校学生数学建模能力测评考试【4月场次】",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-04-27",
+      "category": [
+        "数学建模",
+        "编程"
+      ],
+      "tags": [
+        "高校"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/53740",
+      "summary": "",
+      "createdAt": "2025-12-20T04:35:55Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "7f34b7daad1b72be",
@@ -2584,8 +4989,36 @@
       "sourceUrl": "https://www.saikr.com/vse/24it-wlaq",
       "summary": "",
       "createdAt": "2025-12-20T04:35:47Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "c458e503e0d21f89",
+      "title": "【非英语专业笔译组】2025年第十一届中西部外语翻译大赛",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2026-01-18",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/53791",
+      "summary": "",
+      "createdAt": "2025-12-20T04:35:42Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "6b6f2390cc4e4e63",
@@ -2604,8 +5037,12 @@
       "sourceUrl": "https://www.saikr.com/vse/23it-yingyong",
       "summary": "",
       "createdAt": "2025-12-20T04:35:41Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     },
     {
       "id": "f786b0f23d163388",
@@ -2624,8 +5061,90 @@
       "sourceUrl": "https://www.saikr.com/vse/24it-rgzn",
       "summary": "",
       "createdAt": "2025-12-20T04:35:39Z",
-      "qualityScore": -180,
-      "isHighQuality": false
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "f3d87269cb4a6ee5",
+      "title": "【明日开考】第二届“中国故事大赛·双语中国”全国大学生英语语法大赛-大学生竞赛-赛氪",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2025-12-20",
+      "category": [
+        "创新创业",
+        "AI数据"
+      ],
+      "tags": [
+        "高校",
+        "赛氪"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2025/SYZGYF",
+      "summary": "",
+      "createdAt": "2025-12-20T04:10:45Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "9b4a80fa98bbf6ad",
+      "title": "【论文发表+实践证明+中英文项目证书】26寒假桌面研究科研实践项目合集（线上）",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2026-02-01",
+      "category": [
+        "编程"
+      ],
+      "tags": [
+        "证书"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2026/H",
+      "summary": "",
+      "createdAt": "2025-12-20T04:10:43Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "06bc58f00b57aaba",
+      "title": "【重要】本科生保送研究生（保研）定位分析（适合大一、大二、大三提前准备规划保研的同学）-大学生竞赛-赛氪",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "2026-07-31",
+      "category": [
+        "创新创业",
+        "AI数据"
+      ],
+      "tags": [
+        "研究生",
+        "高校",
+        "赛氪",
+        "本科生"
+      ],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/46250",
+      "summary": "",
+      "createdAt": "2025-12-20T04:10:42Z",
+      "qualityScore": 5,
+      "isHighQuality": false,
+      "status": "active",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
     }
   ]
 }
