@@ -74,30 +74,40 @@ sources:
     url: https://www.saikr.com/vs/mcm
     category_fixed: 数学建模
     pages: 8
+    detail: true
+    detail_limit: 10
   - name: saikr_acm
     enabled: true
     type: saikr
     url: https://www.saikr.com/vs/acm/0/0
     category_fixed: 编程
     pages: 8
+    detail: true
+    detail_limit: 10
   - name: saikr_ai
     enabled: true
     type: saikr
     url: https://www.saikr.com/vs/ai/6/0?univs=0
     category_fixed: AI数据
     pages: 8
+    detail: true
+    detail_limit: 10
   - name: saikr_bigdata
     enabled: true
     type: saikr
     url: https://www.saikr.com/vs/big_data/1/1
     category_fixed: AI数据
     pages: 8
+    detail: true
+    detail_limit: 10
   - name: saikr_startup
     enabled: true
     type: saikr
     url: https://www.saikr.com/vs/chuangye/5/0
     category_fixed: 创新创业
     pages: 8
+    detail: true
+    detail_limit: 10
   # 52jingsai sources
   - name: 52jingsai_tech
     enabled: true
@@ -105,15 +115,21 @@ sources:
     url: https://m.52jingsai.com/list-15-1.html
     category_fixed: AI数据
     pages: 6
+    detail: true
+    detail_limit: 10
   - name: 52jingsai_innovation
     enabled: true
     type: 52jingsai
     url: https://m.52jingsai.com/list-14-1.html
     category_fixed: AI数据
     pages: 6
+    detail: true
+    detail_limit: 10
   - name: 52jingsai_startup
     enabled: true
     type: 52jingsai
     url: https://m.52jingsai.com/list-3-1.html
     category_fixed: 创新创业
     pages: 6
+    detail: true
+    detail_limit: 10

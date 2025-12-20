@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2025-12-20T05:50:54Z",
+  "updatedAt": "2025-12-20T05:54:49Z",
   "items": [
     {
       "id": "43b4b8527b427fd1",
@@ -10,9 +10,9 @@
         "编程"
       ],
       "tags": [
+        "国家级",
         "Codeforces",
-        "报名中",
-        "国家级"
+        "报名中"
       ],
       "sourceName": "Codeforces",
       "sourceUrl": "https://codeforces.com/contests/2177",
@@ -243,8 +243,8 @@
         "编程"
       ],
       "tags": [
-        "高校",
-        "国家级"
+        "国家级",
+        "高校"
       ],
       "cover": "",
       "sourceName": "NSCSCC 系统能力大赛",
@@ -300,8 +300,8 @@
         "编程"
       ],
       "tags": [
-        "高校",
-        "国家级"
+        "国家级",
+        "高校"
       ],
       "cover": "",
       "sourceName": "NSCSCC 系统能力大赛",
@@ -385,8 +385,8 @@
         "编程"
       ],
       "tags": [
-        "高校",
-        "国家级"
+        "国家级",
+        "高校"
       ],
       "cover": "",
       "sourceName": "NSCSCC 系统能力大赛",
@@ -467,8 +467,8 @@
         "编程"
       ],
       "tags": [
-        "高校",
-        "国家级"
+        "国家级",
+        "高校"
       ],
       "cover": "",
       "sourceName": "NSCSCC 系统能力大赛",
@@ -600,9 +600,9 @@
         "数学建模"
       ],
       "tags": [
-        "高校",
+        "国家级",
         "CUMCM",
-        "国家级"
+        "高校"
       ],
       "sourceName": "CUMCM 官网公告",
       "sourceUrl": "https://www.mcm.edu.cn/html_cn/node/789429093c4291e28c7ccbbb4dd4f04b.html",
@@ -3211,11 +3211,11 @@
         "AI数据"
       ],
       "tags": [
-        "研究生",
-        "高校",
         "报名中",
-        "本科生",
-        "赛氪"
+        "高校",
+        "赛氪",
+        "研究生",
+        "本科生"
       ],
       "cover": "",
       "sourceName": "赛氪",
@@ -3253,6 +3253,28 @@
       "qualityScore": 120,
       "isHighQuality": false,
       "status": "unknown",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "cef2248148d9aa49",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "text": "èµæ°ª - å¨å½å¤§å­¦çç«èµæ´»å¨å¹³å°ï¼æ±èé«å«ééæ¯èµä¿¡æ¯ï¼æä¾ä¸ä¸æ¥åç³»ç»åèµäºæå¡-èµæ°ª",
+      "category": [
+        "创新创业"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2025yxchmax",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:54:05Z",
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
