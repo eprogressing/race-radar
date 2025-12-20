@@ -24,31 +24,48 @@ sources:
     type: cumcm
     url: https://www.mcm.edu.cn/html_cn/block/20ead73cbcf5a1c24b91947f98d7aac2.html
     category_fixed: 数学建模
+    detail: true
+    detail_limit: 20
+    detail_selectors:
+      content: ".content, .detail"
   - name: COMAP MCM/ICM
     enabled: true
     type: comap
     url: https://www.comap.com/contests/mcm-icm
     category_fixed: 数学建模
+    detail: true
   - name: NSCSCC 系统能力大赛
     enabled: true
     type: nscscc
     url: https://www.nscscc.com/
     category_fixed: 编程
+    detail: true
+    detail_limit: 20
+    detail_selectors:
+      content: ".news-detail, .content"
   - name: 蓝桥杯
     enabled: true
     type: lanqiao
     url: https://dasai.lanqiao.cn/
     category_fixed: 编程
+    detail: true
+    detail_limit: 20
   - name: 阿里云天池
     enabled: true
     type: tianchi
     url: https://tianchi.aliyun.com/competition/
     category_fixed: AI数据
+    detail: true
+    detail_limit: 20
   - name: 挑战杯
     enabled: true
     type: challengecup
     url: https://www.tiaozhanbei.net/tzb/notice
     category_fixed: 创新创业
+    detail: true
+    detail_limit: 20
+    detail_selectors:
+      content: ".notice-content, .article"
 
   # === 聚合平台 (Saikr/52) ===
   - name: saikr_mcm

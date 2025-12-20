@@ -94,72 +94,185 @@ def _parse_number(text):
     except:
         return None
 
-def extract_bonus(text):
+def extract_bonus_max(text):
     if not text:
-        return 0, "-"
+        return 0, "-", 0, "-"
+    
     t = text
-    # Enhanced patterns
-    patterns = [
-        # Explicit total bonus
-        r"(总奖金|奖池|奖金总额|总奖金池|Total Prize|Prize Pool)[^\\n\\d]{0,10}?([\\d,\\.]+|[一二三四五六七八九十百千万]+)\\s*(万元|万|w|W)",
-        r"(总奖金|奖池|奖金总额|总奖金池|Total Prize|Prize Pool)[^\\n\\d]{0,10}?([\\d,\\.]+|[一二三四五六七八九十百千万]+)\\s*(元|RMB|¥)",
-        # Top prize
-        r"(最高奖|一等奖|金奖|冠军|最高可得|First Prize|Winner|Champion)[^\\n\\d]{0,10}?([\\d,\\.]+|[一二三四五六七八九十百千万]+)\\s*(万元|万|w|W)",
-        r"(最高奖|一等奖|金奖|冠军|最高可得|First Prize|Winner|Champion)[^\\n\\d]{0,10}?([\\d,\\.]+|[一二三四五六七八九十百千万]+)\\s*(元|RMB|¥)",
-        # Value
-        r"(奖品价值|价值)[^\\n\\d]{0,10}?([\\d,\\.]+|[一二三四五六七八九十百千万]+)\\s*(元|RMB|¥)",
-        # Simple list: "一等奖：10000元"
-        r"(一等奖|二等奖|三等奖)[^\\n\\d：:]*?[：:]\\s*([\\d,\\.]+)\\s*(元|RMB|¥)",
-        # USD
-        r"(Prize Pool|Total Prize)[^\\n\\d]{0,20}?\\$\\s*([\\d,\\.]+)",
-        r"(\$|USD)\\s*([\\d,\\.]+)"
-    ]
+    # 1. Regex Patterns
+    # Matches: (Context) ... (Number) ... (Unit) or (Number) ... (Unit) ... (Context)
+    # Context keywords distinguish Max vs Pool
     
-    amount_rmb = 0
-    match_text = "-"
+    # Money patterns (Value + Unit)
+    # Support: 100, 100.5, 10,000, 10k, 10w, 5-10万, $100
+    # We capture the *largest* number in a range like "5-10万" -> 10
     
-    for p in patterns:
-        m = re.search(p, t, flags=re.IGNORECASE)
-        if m:
-            # Group index logic varies by pattern
-            # General strategy: find the number group and unit group
-            groups = m.groups()
-            val_str = ""
-            unit = ""
+    # Pre-process: normalize Chinese numbers in potential money strings? 
+    # Hard to do globally. We'll handle inside regex processing.
+    
+    # Pattern strategy: Scan for all money-like substrings, then check context window.
+    
+    # Unit regex: (万元|万|w|W|元|RMB|¥|美金|美元|USD|\$)
+    # Number regex: ([0-9]+(?:\.[0-9]+)?|[一二三四五六七八九十百千万]+)
+    
+    # We will use a simpler approach: Find all "Money Phrases", then look at context.
+    
+    money_pattern = r"(?:([一二三四五六七八九十百千万\d\.,]+)\s*[-至~]\s*)?([一二三四五六七八九十百千万\d\.,]+)\s*(万元|万|w|W|元|RMB|¥|美金|美元|USD|\$)"
+    # Also handle "$ 5000" prefix style
+    money_pattern_prefix = r"(\$|USD|¥|￥)\s*([一二三四五六七八九十百千万\d\.,]+)"
+    
+    matches = []
+    
+    # Helper to parse value
+    def parse_val(num_str, unit_str):
+        try:
+            # Handle prefix unit case where unit_str might be the prefix
+            if unit_str in ["$", "USD", "¥", "￥"]:
+                # It's a prefix match
+                is_usd = unit_str in ["$", "USD"]
+                val = _parse_number(num_str)
+                if val is None: return 0
+                if is_usd:
+                    return int(val * EXCHANGE_USD_TO_RMB)
+                else:
+                    return int(val)
             
-            # Identify number and unit based on pattern structure
-            # Most patterns have: (keyword) ... (number) ... (unit)
-            if "$" in p or "USD" in p:
-                val_str = groups[-1]
-                unit = "USD"
-            else:
-                # Find the group that looks like a number
-                for g in groups:
-                    if not g: continue
-                    if re.match(r"^[\\d,\\.]+$", g) or re.match(r"^[一二三四五六七八九十百千万]+$", g):
-                        val_str = g
-                    elif g in ["万元", "万", "w", "W", "元", "RMB", "¥", "USD"]:
-                        unit = g
+            # Suffix unit case
+            val = _parse_number(num_str)
+            if val is None: return 0
             
-            num = _parse_number(val_str)
-            if num is None:
-                continue
+            u = unit_str.lower()
+            if u in ["万元", "万", "w"]:
+                return int(val * 10000)
+            elif u in ["美金", "美元", "usd", "$"]:
+                return int(val * EXCHANGE_USD_TO_RMB)
+            else: # 元, rmb, ¥
+                return int(val)
+        except:
+            return 0
+
+    # 1. Find all suffix matches: "100万元", "5-10万"
+    for m in re.finditer(money_pattern, t, re.IGNORECASE):
+        # group 1: start of range (optional)
+        # group 2: end of range (the number we want)
+        # group 3: unit
+        val_str = m.group(2)
+        unit_str = m.group(3)
+        amount = parse_val(val_str, unit_str)
+        if amount > 0:
+            matches.append({
+                "amount": amount,
+                "start": m.start(),
+                "end": m.end(),
+                "text": m.group(0)
+            })
+            
+    # 2. Find prefix matches: "$5000"
+    for m in re.finditer(money_pattern_prefix, t, re.IGNORECASE):
+        unit_str = m.group(1)
+        val_str = m.group(2)
+        amount = parse_val(val_str, unit_str)
+        if amount > 0:
+            matches.append({
+                "amount": amount,
+                "start": m.start(),
+                "end": m.end(),
+                "text": m.group(0)
+            })
+
+    if not matches:
+        return 0, "-", 0, "-"
+        
+    # 2. Context Classification
+    # Define keywords
+    max_keywords = ["冠军", "一等奖", "金奖", "最高奖", "最高可得", "单项", "First Prize", "Winner", "Champion", "Top Prize", "每队", "各"]
+    pool_keywords = ["总奖金", "奖池", "总额", "Total Prize", "Prize Pool", "总奖池"]
+    
+    # Look at window around match (e.g. 20 chars before)
+    WINDOW = 20
+    
+    max_candidates = []
+    pool_candidates = []
+    other_candidates = []
+    
+    for m in matches:
+        start = max(0, m["start"] - WINDOW)
+        end = min(len(t), m["end"] + WINDOW)
+        context = t[start:end]
+        
+        # Check pool first (usually explicit)
+        is_pool = False
+        for k in pool_keywords:
+            if k in context:
+                is_pool = True
+                break
+        
+        if is_pool:
+            pool_candidates.append(m)
+            continue
+            
+        # Check max
+        is_max = False
+        for k in max_keywords:
+            if k in context:
+                is_max = True
+                break
                 
-            if unit == "USD":
-                amount_rmb = int(round(num * EXCHANGE_USD_TO_RMB))
-                match_text = f"${num:g} ≈ ¥{amount_rmb/10000:.1f}万" if amount_rmb >= 10000 else f"${num:g} ≈ ¥{amount_rmb}"
-            elif unit in ["万元", "万", "w", "W"]:
-                amount_rmb = int(round(num * 10000))
-                match_text = f"¥{num:g}万"
-            else:
-                amount_rmb = int(round(num))
-                match_text = f"¥{amount_rmb/10000:.1f}万" if amount_rmb >= 10000 else f"¥{amount_rmb}"
+        if is_max:
+            max_candidates.append(m)
+        else:
+            other_candidates.append(m)
             
-            # Prefer higher amounts if multiple matches found (greedy check?)
-            # For now, break on first high-priority match
-            break
+    # 3. Selection Strategy
+    
+    # Bonus Amount (Max Single)
+    bonus_amount = 0
+    bonus_match = None
+    
+    if max_candidates:
+        # Pick largest from max candidates
+        best = max(max_candidates, key=lambda x: x["amount"])
+        bonus_amount = best["amount"]
+        bonus_match = best
+    elif other_candidates:
+        # Fallback: pick largest from others (risky but better than 0)
+        # But exclude if it looks like a year "2025" -> handled by parse_number?
+        # _parse_number handles pure digits, but usually money regex enforces unit.
+        best = max(other_candidates, key=lambda x: x["amount"])
+        # Heuristic: if amount is exactly year, ignore? 2025元 is possible though.
+        # Ignore small amounts? < 100?
+        if best["amount"] >= 100:
+            bonus_amount = best["amount"]
+            bonus_match = best
             
-    return amount_rmb, match_text
+    # Pool Amount
+    pool_amount = 0
+    pool_match = None
+    if pool_candidates:
+        best = max(pool_candidates, key=lambda x: x["amount"])
+        pool_amount = best["amount"]
+        pool_match = best
+        
+    # 4. Generate Text Snippets
+    def get_snippet(match_obj):
+        if not match_obj: return "-"
+        s = max(0, match_obj["start"] - 15)
+        e = min(len(t), match_obj["end"] + 15)
+        snippet = t[s:e].replace("\n", " ").strip()
+        return snippet
+        
+    bonus_text = get_snippet(bonus_match)
+    pool_text = get_snippet(pool_match)
+    
+    # Final format check: if bonus > pool (unlikely), swap? 
+    # No, sometimes max prize is distinct from pool.
+    
+    return bonus_amount, bonus_text, pool_amount, pool_text
+
+def extract_bonus(text):
+    # Legacy wrapper
+    b_amt, b_txt, _, _ = extract_bonus_max(text)
+    return b_amt, b_txt
 
 def parse_deadline(text):
     if not text:

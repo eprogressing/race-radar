@@ -20,12 +20,14 @@ from tools.normalize import (
     canonicalize_url,
     id_from_url,
     extract_bonus,
+    extract_bonus_max,
     ensure_item_schema,
     parse_deadline,
     is_recent,
     normalize_title,
     determine_status
 )
+from tools.classify import rank_item
 
 FEED_PATH = ROOT / "feed.json"
 SOURCES_PATH = ROOT / "tools" / "sources.yaml"
@@ -416,6 +418,118 @@ def merge_items(old_items, new_items):
             by_url[cu] = i
     return merged, added
 
+def enrich_items_with_details(items, sources_cfg):
+    src_map = {s["name"]: s for s in sources_cfg}
+    candidates = []
+    
+    # Identify candidates
+    for it in items:
+        if it.get("bonusAmount", 0) > 0:
+            continue
+            
+        sname = it.get("sourceName")
+        if not sname or sname not in src_map:
+            continue
+            
+        cfg = src_map[sname]
+        if not cfg.get("detail"):
+            continue
+            
+        # Optimization: prioritize active contests
+        if it.get("status") == "ended":
+            continue
+            
+        candidates.append((it, cfg))
+        
+    by_source = {}
+    for it, cfg in candidates:
+        sn = cfg["name"]
+        if sn not in by_source: by_source[sn] = []
+        by_source[sn].append(it)
+        
+    total_enriched = 0
+    total_bonus_found = 0
+    
+    for sn, its in by_source.items():
+        cfg = src_map[sn]
+        limit = cfg.get("detail_limit", 30)
+        
+        # Sort by recency (createdAt)
+        its.sort(key=lambda x: x.get("createdAt", ""), reverse=True)
+        
+        to_fetch = its[:limit]
+        print(f"Detail fetching for {sn}: {len(to_fetch)} items (limit {limit})...")
+        
+        fetched_count = 0
+        bonus_count = 0
+        
+        for item in to_fetch:
+            url = item.get("sourceUrl")
+            if not url: continue
+            
+            try:
+                r = requests.get(url, timeout=10)
+                r.encoding = r.apparent_encoding
+                soup = BeautifulSoup(r.text, "lxml")
+                
+                # Cleanup
+                for tag in soup(["script", "style", "nav", "footer", "header", "aside", "iframe", "noscript"]):
+                    tag.decompose()
+                    
+                # Select content
+                selectors = cfg.get("detail_selectors", {})
+                content_sel = selectors.get("content")
+                
+                text = ""
+                if content_sel:
+                    # Support comma separated selectors
+                    for sel in content_sel.split(","):
+                        el = soup.select_one(sel.strip())
+                        if el:
+                            text = el.get_text(separator="\n", strip=True)
+                            break
+                
+                if not text:
+                    # Fallback
+                    el = soup.select_one("main, article, .content, .detail, .post, #content, #main, .article")
+                    if el:
+                        text = el.get_text(separator="\n", strip=True)
+                    else:
+                        text = soup.body.get_text(separator="\n", strip=True) if soup.body else ""
+                        
+                text = text[:10000]
+                
+                b_amt, b_txt, p_amt, p_txt = extract_bonus_max(text)
+                
+                updated = False
+                if b_amt > 0:
+                    item["bonusAmount"] = b_amt
+                    item["bonusText"] = b_txt
+                    bonus_count += 1
+                    updated = True
+                    
+                if p_amt > 0:
+                    item["bonusPoolAmount"] = p_amt
+                    item["bonusPoolText"] = p_txt
+                    updated = True
+                
+                if updated:
+                    # Refresh rank
+                    item.update(rank_item(item))
+                    
+                fetched_count += 1
+                time.sleep(0.5)
+                
+            except Exception:
+                pass
+        
+        if fetched_count > 0:
+            print(f"  {sn}: Fetched {fetched_count}, Found Bonus {bonus_count}")
+            total_enriched += fetched_count
+            total_bonus_found += bonus_count
+            
+    return total_enriched, total_bonus_found
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="Print stats and JSON without saving")
@@ -531,6 +645,13 @@ def main():
         
     print(f"Dropped {dropped_history_count} items from history due to expiration/bad_title")
     
+    # Enrich with details (Bonus)
+    enrich_stats = enrich_items_with_details(final_items, cfg.get("sources", []))
+    print(f"Enrichment: Fetched {enrich_stats[0]} details, Found {enrich_stats[1]} new bonuses")
+    
+    if args.ci and enrich_stats[1] == 0:
+        print("WARNING: No new bonuses found during enrichment. Check selectors or site changes.")
+
     # Sort by qualityScore desc, then deadline asc (urgent first), then createdAt desc
     def sort_key(x):
         qs = x.get("qualityScore", 0)
@@ -592,6 +713,12 @@ def main():
         print("Top 20 items preview:")
         for x in final_items[:20]:
             print(f"  [{x.get('qualityScore')}] {x['title']} ({x.get('status')}|{x.get('deadline')}) - {x.get('rankReasons')}")
+            
+        print("\nTop 20 by Bonus Amount:")
+        top_bonus = sorted(final_items, key=lambda x: x.get("bonusAmount", 0), reverse=True)[:20]
+        for x in top_bonus:
+            if x.get("bonusAmount", 0) > 0:
+                 print(f"  [¥{x['bonusAmount']}] {x['title']} - {x['bonusText']} ({x['sourceName']})")
     
     if args.dry_run:
         print("Dry-run mode: skipping save.")
