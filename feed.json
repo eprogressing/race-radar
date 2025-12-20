@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2025-12-20T05:32:37Z",
+  "updatedAt": "2025-12-20T05:50:54Z",
   "items": [
     {
       "id": "43b4b8527b427fd1",
@@ -10,8 +10,8 @@
         "编程"
       ],
       "tags": [
-        "报名中",
         "Codeforces",
+        "报名中",
         "国家级"
       ],
       "sourceName": "Codeforces",
@@ -41,8 +41,8 @@
       ],
       "tags": [
         "国际级",
-        "报名中",
-        "Codeforces"
+        "Codeforces",
+        "报名中"
       ],
       "sourceName": "Codeforces",
       "sourceUrl": "https://codeforces.com/contests/2179",
@@ -71,8 +71,8 @@
       ],
       "tags": [
         "国际级",
-        "报名中",
-        "Codeforces"
+        "Codeforces",
+        "报名中"
       ],
       "sourceName": "Codeforces",
       "sourceUrl": "https://codeforces.com/contests/2182",
@@ -600,8 +600,8 @@
         "数学建模"
       ],
       "tags": [
-        "CUMCM",
         "高校",
+        "CUMCM",
         "国家级"
       ],
       "sourceName": "CUMCM 官网公告",
@@ -631,8 +631,8 @@
         "编程"
       ],
       "tags": [
-        "报名中",
-        "Codeforces"
+        "Codeforces",
+        "报名中"
       ],
       "sourceName": "Codeforces",
       "sourceUrl": "https://codeforces.com/contests/2178",
@@ -653,36 +653,33 @@
       "level": "Unknown"
     },
     {
-      "id": "327c3fda87ce2868",
-      "title": "全国大学生创新创业大赛（示例）",
-      "bonusAmount": 50000,
-      "bonusText": "总奖金 5 万元",
-      "deadline": "2026-01-10",
+      "id": "9b4a80fa98bbf6ad",
+      "title": "【论文发表+实践证明+中英文项目证书】26寒假桌面研究科研实践项目合集（线上）",
+      "bonusAmount": 10000,
+      "bonusText": "方式公开售卖，价格从数千元至数万元不等，形成“回收项目—包装定制",
+      "deadline": "2026-02-01",
       "category": [
-        "AI数据",
-        "创新创业"
+        "编程"
       ],
       "tags": [
-        "本科生",
-        "团队赛",
-        "报名中",
-        "高校",
-        "有奖金"
+        "证书",
+        "有奖金",
+        "进行中"
       ],
-      "cover": "https://picsum.photos/200/200",
-      "sourceName": "官方通知（示例）",
-      "sourceUrl": "https://example.com",
-      "summary": "这是示例数据：后面你会用真实抓取数据替换。",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 400,
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2026/H",
+      "summary": "",
+      "createdAt": "2025-12-20T04:10:43Z",
+      "qualityScore": 410,
       "isHighQuality": false,
-      "status": "open",
+      "status": "ongoing",
       "rankReasons": [
-        "进行中/报名中",
-        "高奖金"
+        "进行中/报名中"
       ],
       "isWhitelist": false,
-      "level": "Unknown"
+      "level": "Unknown",
+      "startDate": "2025-12-08"
     },
     {
       "id": "c458e503e0d21f89",
@@ -694,8 +691,8 @@
         "编程"
       ],
       "tags": [
-        "报名中",
-        "赛氪"
+        "赛氪",
+        "报名中"
       ],
       "cover": "",
       "sourceName": "赛氪",
@@ -703,36 +700,6 @@
       "summary": "",
       "createdAt": "2025-12-20T04:35:42Z",
       "qualityScore": 400,
-      "isHighQuality": false,
-      "status": "open",
-      "rankReasons": [
-        "进行中/报名中"
-      ],
-      "isWhitelist": false,
-      "level": "Unknown"
-    },
-    {
-      "id": "327c3fda87ce2868",
-      "title": "高校数学建模竞赛（示例）",
-      "bonusAmount": 10000,
-      "bonusText": "一等奖 1 万元",
-      "deadline": "2026-01-05",
-      "category": [
-        "数学建模"
-      ],
-      "tags": [
-        "报名中",
-        "团队",
-        "高校",
-        "数学建模",
-        "有奖金"
-      ],
-      "cover": "https://picsum.photos/200/201",
-      "sourceName": "竞赛官网（示例）",
-      "sourceUrl": "https://example.com",
-      "summary": "示例数据：框架跑通后再接入自动捕捉。",
-      "createdAt": "2025-12-19T18:24:29Z",
-      "qualityScore": 380,
       "isHighQuality": false,
       "status": "open",
       "rankReasons": [
@@ -3234,48 +3201,20 @@
       "level": "International"
     },
     {
-      "id": "9b4a80fa98bbf6ad",
-      "title": "【论文发表+实践证明+中英文项目证书】26寒假桌面研究科研实践项目合集（线上）",
-      "bonusAmount": 0,
-      "bonusText": "-",
-      "deadline": "2026-02-01",
-      "category": [
-        "编程"
-      ],
-      "tags": [
-        "证书",
-        "进行中"
-      ],
-      "cover": "",
-      "sourceName": "赛氪",
-      "sourceUrl": "https://www.saikr.com/vse/2026/H",
-      "summary": "",
-      "createdAt": "2025-12-20T04:10:43Z",
-      "qualityScore": 370,
-      "isHighQuality": false,
-      "status": "ongoing",
-      "rankReasons": [
-        "进行中/报名中"
-      ],
-      "isWhitelist": false,
-      "level": "Unknown",
-      "startDate": "2025-12-08"
-    },
-    {
       "id": "06bc58f00b57aaba",
       "title": "【重要】本科生保送研究生（保研）定位分析（适合大一、大二、大三提前准备规划保研的同学）-大学生竞赛-赛氪",
       "bonusAmount": 0,
       "bonusText": "-",
       "deadline": "2026-07-31",
       "category": [
-        "AI数据",
-        "创新创业"
+        "创新创业",
+        "AI数据"
       ],
       "tags": [
-        "本科生",
         "研究生",
-        "报名中",
         "高校",
+        "报名中",
+        "本科生",
         "赛氪"
       ],
       "cover": "",
@@ -3299,12 +3238,12 @@
       "bonusText": "-",
       "deadline": "2025-12-20",
       "category": [
-        "AI数据",
-        "创新创业"
+        "创新创业",
+        "AI数据"
       ],
       "tags": [
-        "高校",
-        "赛氪"
+        "赛氪",
+        "高校"
       ],
       "cover": "",
       "sourceName": "赛氪",
@@ -3314,6 +3253,50 @@
       "qualityScore": 120,
       "isHighQuality": false,
       "status": "unknown",
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "7f6babc152a0bce3",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "text": "èµæ°ª - å¨å½å¤§å­¦çç«èµæ´»å¨å¹³å°ï¼æ±èé«å«ééæ¯èµä¿¡æ¯ï¼æä¾ä¸ä¸æ¥åç³»ç»åèµäºæå¡-èµæ°ª",
+      "category": [
+        "创新创业"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/55327",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:49:40Z",
+      "status": "unknown",
+      "qualityScore": 120,
+      "rankReasons": [],
+      "isWhitelist": false,
+      "level": "Unknown"
+    },
+    {
+      "id": "50f36d482d44ff4d",
+      "title": "èµæ°ª",
+      "bonusAmount": 0,
+      "bonusText": "-",
+      "deadline": "",
+      "text": "èµæ°ª - å¨å½å¤§å­¦çç«èµæ´»å¨å¹³å°ï¼æ±èé«å«ééæ¯èµä¿¡æ¯ï¼æä¾ä¸ä¸æ¥åç³»ç»åèµäºæå¡-èµæ°ª",
+      "category": [
+        "创新创业"
+      ],
+      "tags": [],
+      "cover": "",
+      "sourceName": "赛氪",
+      "sourceUrl": "https://www.saikr.com/vse/2025/YJDS",
+      "summary": "èµæ°ª",
+      "createdAt": "2025-12-20T05:49:39Z",
+      "status": "unknown",
+      "qualityScore": 120,
       "rankReasons": [],
       "isWhitelist": false,
       "level": "Unknown"
